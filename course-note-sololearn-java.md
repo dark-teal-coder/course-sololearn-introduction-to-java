@@ -38,6 +38,75 @@ Java is one of the most popular programming languages.
 
 In this course you'll learn Java to build real-life projects while practicing.
 
+#### Write once, run anywhere
+
+Java's slogan is "Write once, run anywhere".
+
+This means that the same Java code can run on different platforms, including mobile, desktop and other portable systems.
+
+#### Output
+
+Let's start coding. The code below sends the Java slogan to the screen.
+
+Press the code block to open the Code Playground, then press run to see the message or output.
+
+```java
+class MyClass {
+    public static void main(String[ ] args) {
+        System.out.println("Write once, run anywhere!");
+    }
+}
+```
+
+Quotation marks are needed to output text.
+
+> :warning: When you open the code in the Playground, you'll see some extra lines of code that are needed for the code to work. You’ll learn about these extra lines in the coming lessons.
+
+#### Statements
+
+In programming, a statement is a single line of code that performs a specific task.
+
+So, the example code that outputs the slogan is a statement.
+
+```java
+class MyClass {
+    public static void main(String[ ] args) {
+        System.out.println("Write once, run anywhere!");
+    }
+}
+```
+
+:warning: Each statement needs to end with a semicolon ;).
+
+#### Numerical Output
+
+You don't need the quotes to output numbers.
+
+```java
+class Demo {
+    public static void main(String[] args) {
+        System.out.println(60); 
+    }
+}
+```
+
+<p align="center">
+    <img src="./images/1068-01-01-p05-a.png" alt="./images/1068-01-01-p05-a.png" width="50%" height="50%">
+</p>
+
+:warning: Remember, you still need to enclose the message you want to output in parentheses.
+
+#### Lesson Takeaways
+
+Awesome! Now you know how to output text and numbers with Java!
+
+Remember the following important points:
+
+- Java is one of the most popular programming languages in the world
+- Java is platform-independent, which means that you only need to write the program once to be able to run it on a number of different platforms and devices
+- You can use System.out.println() to send a message or output to the screen.
+- In Java, each code statement must end with a semicolon.
+
 &nbsp;
 
 ---
