@@ -10,7 +10,3 @@ This repository contains the code for the online course "Java" provided by [Solo
 - <ins>Course Platform</ins>: SoloLearn
 - <ins>Course Title</ins>: Java
 - <ins>Course URL</ins>: https://www.sololearn.com/learning/1068
-
-<br />
-
-*Last modified date: Sep 04, 2022*
