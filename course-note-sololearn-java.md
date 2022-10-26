@@ -27,11 +27,11 @@ With our interactive Java course, you’ll learn object-oriented Java programmin
 ## Table of Contents
 
 - [Basic Concepts](https://github.com/dark-teal-coder/course-sololearn-java/blob/main/course-note-sololearn-java.md#basic-concepts)
-- [Conditionals and Loops]()
-- [Arrays]()
-- [Classes and Objects]()
-- [More on Classes]()
-- [Exceptions, Lists, Threads & Files]()
+- [Conditionals and Loops](https://github.com/dark-teal-coder/course-sololearn-java/blob/main/course-note-sololearn-java.md#conditionals-and-loops)
+- [Arrays](https://github.com/dark-teal-coder/course-sololearn-java/blob/main/course-note-sololearn-java.md#arrays)
+- [Classes and Objects](https://github.com/dark-teal-coder/course-sololearn-java/blob/main/course-note-sololearn-java.md#classes-and-objects)
+- [More on Classes](https://github.com/dark-teal-coder/course-sololearn-java/blob/main/course-note-sololearn-java.md#more-on-classes)
+- [Exceptions, Lists, Threads & Files](https://github.com/dark-teal-coder/course-sololearn-java/blob/main/course-note-sololearn-java.md#exceptions-lists-threads--files)
 
 &nbsp;
 
