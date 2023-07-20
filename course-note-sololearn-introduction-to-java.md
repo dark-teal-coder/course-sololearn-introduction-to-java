@@ -55,6 +55,16 @@ Humans use computer programs to communicate with machines. Without computer prog
 
 Learning some coding can help you innovate and create different solutions to problems, giving you a competitive edge in this technology-driven world. 
 
+#### Quiz 01.01
+
+**Question**
+
+What's a programming language?
+
+**Answer**
+
+A language used by humans to communicate with machines
+
 &nbsp;
 
 ### Lesson: 
