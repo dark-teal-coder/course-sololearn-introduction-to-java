@@ -41,112 +41,39 @@ This simple, beginner-friendly Java course requires no previous coding knowledge
 
 &nbsp;
 
-### 1.1 Lesson: Your First Lesson
+### Lesson: Getting Started with Java
 
 #### Welcome to Java!
 
-Java is one of the most popular programming languages.
 
-> :warning: You can use Java to build Android apps, games, banking applications, web apps, and much more!
-
-In this course you'll learn Java to build real-life projects while practicing.
 
 #### Write once, run anywhere
 
-Java's slogan is "Write once, run anywhere".
 
-This means that the same Java code can run on different platforms, including mobile, desktop and other portable systems.
 
 #### Output
 
-Let's start coding. The code below sends the Java slogan to the screen.
 
-Press the code block to open the Code Playground, then press run to see the message or output.
-
-```java
-class MyClass {
-    public static void main(String[ ] args) {
-        System.out.println("Write once, run anywhere!");
-    }
-}
-```
-
-Quotation marks are needed to output text.
-
-> :warning: When you open the code in the Playground, you'll see some extra lines of code that are needed for the code to work. You’ll learn about these extra lines in the coming lessons.
 
 #### Statements
 
-In programming, a statement is a single line of code that performs a specific task.
 
-So, the example code that outputs the slogan is a statement.
-
-```java
-class MyClass {
-    public static void main(String[ ] args) {
-        System.out.println("Write once, run anywhere!");
-    }
-}
-```
-
-:warning: Each statement needs to end with a semicolon ;).
 
 #### Numerical Output
 
-You don't need the quotes to output numbers.
 
-```java
-class Demo {
-    public static void main(String[] args) {
-        System.out.println(60); 
-    }
-}
-```
-
-<p align="center">
-    <img src="./images/1068-01-01-p05-a.png" alt="./images/1068-01-01-p05-a.png" width="50%" height="50%">
-</p>
-
-:warning: Remember, you still need to enclose the message you want to output in parentheses.
 
 #### Lesson Takeaways
 
-Awesome! Now you know how to output text and numbers with Java!
 
-Remember the following important points:
-
-- Java is one of the most popular programming languages in the world
-- Java is platform-independent, which means that you only need to write the program once to be able to run it on a number of different platforms and devices
-- You can use System.out.println() to send a message or output to the screen.
-- In Java, each code statement must end with a semicolon.
 
 &nbsp;
 
-### 2.1 Lesson: Variables
+### Lesson: 
 
-#### Variables
+#### 
 
-Variables store data for processing.
 
-A variable is given a name (or identifier), such as area, age, height, and the like. The name uniquely identifies each variable, assigning a value to the variable and retrieving the value stored.
-
-Variables have types. Some examples:
-
-- `int`: for integers (whole numbers) such as 123 and -456
-- `double`: for floating-point or real numbers with optional decimal points and fractional parts in fixed or scientific notations, such as 3.1416, -55.66.
-- `String`: for texts such as "Hello" or "Good Morning!". Text strings are enclosed within double quotes.
-
-You can declare a variable of a type and assign it a value.
-
-Example:
-
-```java
-String name = "David";
-```
-
-This creates a variable called name of type String, and assigns it the value "David".
-
-> :warning: It is important to note that a variable is associated with a type, and is only capable of storing values of that particular type. For example, an int variable can store integer values, such as 123; but it cannot store real numbers, such as 12.34, or texts, such as "Hello".
 
 &nbsp;
 
@@ -154,7 +81,7 @@ This creates a variable called name of type String, and assigns it the value "Da
 
 &nbsp;
 
-## Conditionals and Loops
+## Control Flow
 
 &nbsp;
 
@@ -178,7 +105,7 @@ xxx
 
 &nbsp;
 
-## Classes and Objects
+## Methods
 
 &nbsp;
 
@@ -189,21 +116,3 @@ xxx
 ---
 
 &nbsp;
-
-## More on Classes
-
-&nbsp;
-
-xxx
-
-&nbsp;
-
----
-
-&nbsp;
-
-## Exceptions, Lists, Threads & Files
-
-&nbsp;
-
-xxx
