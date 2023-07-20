@@ -5,7 +5,7 @@
     <br />
     First Published Date: 2022-08-26
     <br />
-    Last Modified Date: 2022-08-26
+    Last Modified Date: 2023-07-19
 </p>
 
 &nbsp;
@@ -14,9 +14,9 @@
 
 &nbsp;
 
-# Java
+# Introduction to Java
 
-With our interactive Java course, you’ll learn object-oriented Java programming and have the ability to write clear and valid code in almost no time at all.
+This simple, beginner-friendly Java course requires no previous coding knowledge. All you need is a mobile phone or desktop computer and 5 minutes a day! You’ll learn all about the key concepts of Java, and will be writing clear, working code right from your first lesson.
 
 &nbsp;
 
