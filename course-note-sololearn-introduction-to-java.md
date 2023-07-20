@@ -16,7 +16,7 @@
 
 # Introduction to Java
 
-This simple, beginner-friendly Java course requires no previous coding knowledge. All you need is a mobile phone or desktop computer and 5 minutes a day! You’ll learn all about the key concepts of Java, and will be writing clear, working code right from your first lesson.
+This simple, beginner-friendly Java course requires no previous coding knowledge. All you need is a mobile phone or desktop computer and 5 minutes a day! You’ll learn all about the key concepts of Java and will be writing clear, working code right from your first lesson.
 
 &nbsp;
 
@@ -27,11 +27,9 @@ This simple, beginner-friendly Java course requires no previous coding knowledge
 ## Table of Contents
 
 - [Basic Concepts](https://github.com/dark-teal-coder/course-sololearn-java/blob/main/course-note-sololearn-java.md#basic-concepts)
-- [Conditionals and Loops](https://github.com/dark-teal-coder/course-sololearn-java/blob/main/course-note-sololearn-java.md#conditionals-and-loops)
+- [Control Flow](https://github.com/dark-teal-coder/course-sololearn-java/blob/main/course-note-sololearn-java.md#conditionals-and-loops)
 - [Arrays](https://github.com/dark-teal-coder/course-sololearn-java/blob/main/course-note-sololearn-java.md#arrays)
-- [Classes and Objects](https://github.com/dark-teal-coder/course-sololearn-java/blob/main/course-note-sololearn-java.md#classes-and-objects)
-- [More on Classes](https://github.com/dark-teal-coder/course-sololearn-java/blob/main/course-note-sololearn-java.md#more-on-classes)
-- [Exceptions, Lists, Threads & Files](https://github.com/dark-teal-coder/course-sololearn-java/blob/main/course-note-sololearn-java.md#exceptions-lists-threads--files)
+- [Methods](https://github.com/dark-teal-coder/course-sololearn-java/blob/main/course-note-sololearn-java.md#classes-and-objects)
 
 &nbsp;
 
