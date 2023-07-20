@@ -51,6 +51,10 @@ Java's slogan is "Write once, run anywhere". Java programs can run on different 
 
 #### Coding
 
+Humans use computer programs to communicate with machines. Without computer programs, we wouldn't have smartphones, websites, or even exploration in outer space.
+
+Learning some coding can help you innovate and create different solutions to problems, giving you a competitive edge in this technology-driven world. 
+
 &nbsp;
 
 ### Lesson: 
