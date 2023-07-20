@@ -47,25 +47,7 @@ This simple, beginner-friendly Java course requires no previous coding knowledge
 
 
 
-#### Write once, run anywhere
-
-
-
-#### Output
-
-
-
-#### Statements
-
-
-
-#### Numerical Output
-
-
-
-#### Lesson Takeaways
-
-
+#### Coding
 
 &nbsp;
 
