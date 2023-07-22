@@ -219,6 +219,16 @@ public class Program
 
 > :warning: Remember your code will result in an error if you forget the semicolons `;` at the end of the statements.
 
+#### Quiz 02.02
+
+**Question**
+
+Drag and drop to complete code that runs without errors
+
+**Answer**
+
+`(`, `;` and `)`
+
 &nbsp;
 
 ---
