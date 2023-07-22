@@ -65,6 +65,16 @@ What's a programming language?
 
 A language used by humans to communicate with machines
 
+#### Output
+
+Most computer programs are designed to produce outputs. Here are some examples:
+
+ - "You've got a new message" notifications
+ - "Game Over" displayed on the screen when playing video games
+ - Your account balance when checking your online banking app.
+
+The simplest output consists of displaying a message on the screen.
+
 &nbsp;
 
 ### Lesson: 
