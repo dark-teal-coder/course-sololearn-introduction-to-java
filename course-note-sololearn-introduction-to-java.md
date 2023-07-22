@@ -201,6 +201,24 @@ Each statement needs to end with a
 
 Semicolon `;`
 
+#### Multiple Statements
+
+You can add as many statements (or lines of code) as you need.
+
+The following piece of code consists of 2 statements. It outputs two messages in different lines.
+
+```java
+public class Program
+{
+    public static void main(String[] args) {
+        System.out.println("Name:");
+        System.out.println("Surname:");
+	}
+}
+```
+
+> :warning: Remember your code will result in an error if you forget the semicolons `;` at the end of the statements.
+
 &nbsp;
 
 ---
