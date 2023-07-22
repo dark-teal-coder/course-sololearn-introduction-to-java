@@ -126,6 +126,16 @@ public class Program
 
 You'll see other lines of code when you open the Code Playground. They are needed for the code to run without errors. You will learn everything about these lines in the upcoming lessons.
 
+#### Quiz 01.04
+
+**Question**
+
+Drag and drop to complete a line of code that outputs "Game Over".
+
+**Answer**
+
+`println`
+
 &nbsp;
 
 ### Lesson: Multiple Statements
