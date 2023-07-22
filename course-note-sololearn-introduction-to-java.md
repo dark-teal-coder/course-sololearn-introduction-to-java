@@ -95,6 +95,16 @@ The following line of code displays Java's slogan on the screen as an output:
 System.out.println("Write once, run anywhere!");
 ```
 
+#### Quiz 01.03
+
+**Question**
+
+Drag and drop to write a line of code that outputs "New message".
+
+**Answer**
+
+"New message"
+
 &nbsp;
 
 ### Lesson: 
