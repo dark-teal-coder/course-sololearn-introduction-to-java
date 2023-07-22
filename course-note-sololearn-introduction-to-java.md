@@ -136,6 +136,18 @@ Drag and drop to complete a line of code that outputs "Game Over".
 
 `println`
 
+#### Quiz 01.05
+
+**Question**
+
+The `println` instruction needs to be followed by parentheses.
+
+Drag and drop to create a line of code that runs without errors.
+
+**Answer**
+
+`(` and `)`
+
 &nbsp;
 
 ### Lesson: Multiple Statements
