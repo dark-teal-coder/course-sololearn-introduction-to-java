@@ -109,9 +109,13 @@ Drag and drop to write a line of code that outputs "New message".
 
 ### Lesson: Multiple Statements
 
+#### More Complex Programs
+
+Real computer programs can include thousands of lines of code.
+
+In this lesson, you’ll start building more complex programs.
+
 #### 
-
-
 
 &nbsp;
 
