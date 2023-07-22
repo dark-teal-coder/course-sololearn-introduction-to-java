@@ -293,6 +293,16 @@ Drag and drop to write code that runs without errors:
 
 `System`
 
+#### Quiz 02.07
+
+**Question**
+
+Java is a
+
+**Answer**
+
+case-sensitive language
+
 &nbsp;
 
 ---
