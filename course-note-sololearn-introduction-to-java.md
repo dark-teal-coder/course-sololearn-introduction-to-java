@@ -158,6 +158,17 @@ Drag and drop to create a line of code that runs without errors.
 
 `out` and `println`
 
+#### Lesson Takeaways
+
+Awesome! You completed your first lesson 🚀. Remember the following important points:
+
+- You can write code that generates outputs with the `System.out.println()` statement
+- The `println` instruction needs to be followed by parentheses
+
+What's next?
+
+In the next lesson, you will create code with multiple lines and different types of data.
+
 &nbsp;
 
 ### Lesson: Multiple Statements
