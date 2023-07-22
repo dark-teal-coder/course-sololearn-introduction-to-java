@@ -75,6 +75,16 @@ Most computer programs are designed to produce outputs. Here are some examples:
 
 The simplest output consists of displaying a message on the screen.
 
+#### Quiz 01.02
+
+**Question**
+
+Notifications and text displayed on a screen are examples of outputs from computer programs
+
+**Answer**
+
+True
+
 &nbsp;
 
 ### Lesson: 
