@@ -245,6 +245,22 @@ Drag and drop to reorder the statements and output the following lines in the co
 
 `System.out.println("Head east");`, `System.out.println("Turn left");` and `System.out.println("Cross the road");` 
 
+#### Text vs Numbers
+
+Computers treat text and numbers differently. When printing text outputs, you need to enclose the text in double quotes. You don't need quotes when outputting numbers.
+
+```java
+public class Program
+{
+    public static void main(String[] args) {
+        System.out.println("Points:");
+        System.out.println(500);
+	}
+}
+```
+
+> :warning: Your code will result in an error if you forget the quotes around the text.
+
 &nbsp;
 
 ---
