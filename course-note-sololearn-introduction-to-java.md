@@ -229,6 +229,22 @@ Drag and drop to complete code that runs without errors
 
 `(`, `;` and `)`
 
+#### Quiz 02.03
+
+**Question**
+
+When you give the computer many statements, the instructions will be executed line by line, from top to bottom.
+
+Drag and drop to reorder the statements and output the following lines in the correct order:
+
+*Head east*
+*Turn left*
+*Cross the road*
+
+**Answer**
+
+`System.out.println("Head east");`, `System.out.println("Turn left");` and `System.out.println("Cross the road");` 
+
 &nbsp;
 
 ---
