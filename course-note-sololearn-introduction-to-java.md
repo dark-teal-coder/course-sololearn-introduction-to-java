@@ -281,6 +281,18 @@ Drag and drop to write code that runs without errors
 
 `println`, `;` and `out`
 
+#### Quiz 02.06
+
+**Question**
+
+Java is a case-sensitive language. This means that you need to pay attention to the correct input of uppercase and lowercase letters.
+
+Drag and drop to write code that runs without errors:
+
+**Answer**
+
+`System`
+
 &nbsp;
 
 ---
