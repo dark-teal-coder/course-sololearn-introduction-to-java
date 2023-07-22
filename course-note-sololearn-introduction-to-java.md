@@ -303,6 +303,16 @@ Java is a
 
 case-sensitive language
 
+#### Lesson Takeaways
+
+Great work 🎯! You completed the lesson. You learned that:
+
+- You can add multiple statements to your programs
+- Text needs to be enclosed in quotes
+- Java is a case-sensitive language.
+
+In the next lesson, you’ll learn about the structure of programs in Java.
+
 &nbsp;
 
 ---
