@@ -109,6 +109,23 @@ Drag and drop to write a line of code that outputs "New message".
 
 "New message"
 
+#### The Code Playground
+
+Ready to write, run and test real code?
+
+Open the Code Playground below. Then hit "run" to see the output on the screen.
+
+```java
+public class Program
+{
+    public static void main(String[] args) {
+		System.out.println("Welcome to the Code Playground");
+	}
+}
+```
+
+You'll see other lines of code when you open the Code Playground. They are needed for the code to run without errors. You will learn everything about these lines in the upcoming lessons.
+
 &nbsp;
 
 ### Lesson: Multiple Statements
