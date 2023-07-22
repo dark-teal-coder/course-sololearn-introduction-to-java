@@ -85,6 +85,16 @@ Notifications and text displayed on a screen are examples of outputs from comput
 
 True
 
+#### Output
+
+Coders use outputs all the time to check that the computer is following the given instructions and fix problems with code.
+
+The following line of code displays Java's slogan on the screen as an output:
+
+```java
+System.out.println("Write once, run anywhere!");
+```
+
 &nbsp;
 
 ### Lesson: 
