@@ -125,7 +125,7 @@ The output command is an example of a statement.
 System.out.println("Write once, run anywhere!");
 ```
 
-Each statement needs to end with a semicolon `;`.
+> :warning: Each statement needs to end with a semicolon `;`.
 
 &nbsp;
 
