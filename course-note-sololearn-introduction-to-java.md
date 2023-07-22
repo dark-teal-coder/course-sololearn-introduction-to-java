@@ -261,6 +261,16 @@ public class Program
 
 > :warning: Your code will result in an error if you forget the quotes around the text.
 
+#### Quiz 02.04
+
+**Question**
+
+Drag and drop to write code that runs without errors
+
+**Answer**
+
+`"` and `(`
+
 &nbsp;
 
 ---
