@@ -115,7 +115,17 @@ Real computer programs can include thousands of lines of code.
 
 In this lesson, you’ll start building more complex programs.
 
-#### 
+#### Statement
+
+A line of code is called a statement. A statement performs a specific task.
+
+The output command is an example of a statement.
+
+```java
+System.out.println("Write once, run anywhere!");
+```
+
+Each statement needs to end with a semicolon `;`.
 
 &nbsp;
 
