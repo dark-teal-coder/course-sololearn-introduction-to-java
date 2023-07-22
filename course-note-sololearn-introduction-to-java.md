@@ -148,6 +148,16 @@ Drag and drop to create a line of code that runs without errors.
 
 `(` and `)`
 
+#### Quiz 01.06
+
+**Question**
+
+Drag and drop to create a line of code that runs without errors.
+
+**Answer**
+
+`out` and `println`
+
 &nbsp;
 
 ### Lesson: Multiple Statements
