@@ -313,6 +313,35 @@ Great work 🎯! You completed the lesson. You learned that:
 
 In the next lesson, you’ll learn about the structure of programs in Java.
 
+#### Practice makes perfect!
+
+Put your knowledge into practice and write real code to solve the exercise below.
+
+##### My First Code Coach!
+
+###### Your First Java Program
+
+Let's code for real!
+
+The given program should output the text: "My first Java Code Coach!".
+
+But something is wrong.
+
+**Task**
+
+Complete the code to generate the required output.
+
+###### Solution
+
+```java
+public class Program
+{
+    public static void main(String[] args) {
+        System.out.println("My first Java Code Coach!");
+	}
+}
+```
+
 &nbsp;
 
 ---
