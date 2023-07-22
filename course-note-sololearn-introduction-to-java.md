@@ -271,6 +271,16 @@ Drag and drop to write code that runs without errors
 
 `"` and `(`
 
+#### Quiz 02.05
+
+**Question**
+
+Drag and drop to write code that runs without errors
+
+**Answer**
+
+`println`, `;` and `out`
+
 &nbsp;
 
 ---
