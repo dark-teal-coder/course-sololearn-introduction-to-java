@@ -191,6 +191,16 @@ System.out.println("Write once, run anywhere!");
 
 > :warning: Each statement needs to end with a semicolon `;`.
 
+#### Quiz 02.01
+
+**Question**
+
+Each statement needs to end with a
+
+**Answer**
+
+Semicolon `;`
+
 &nbsp;
 
 ---
