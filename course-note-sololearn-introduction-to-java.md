@@ -344,6 +344,26 @@ public class Program
 
 &nbsp;
 
+### Lesson: Program Structure
+
+#### Java Program
+
+In this lesson we will break down the structure of Java programs and understand how they work.
+
+The whole code to create a valid Java program that outputs a simple text is the following:
+
+```java
+class Demo {
+  public static void main(String[] args) {
+    System.out.println("Hi there");
+  }
+}
+```
+
+> :warning: We are already familiar with the println method and the statement used to create output, so let's learn what the other parts of the code are.
+
+&nbsp;
+
 ---
 
 &nbsp;
