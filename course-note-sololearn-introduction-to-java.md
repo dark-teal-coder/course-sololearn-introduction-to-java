@@ -446,6 +446,16 @@ The main method contains the code that executes when we run our program.
 
 In this case, the `println` method will be executed, when we run our program.
 
+#### Quiz 03.03
+
+**Question**
+
+Fill in the blanks to create a valid main method that outputs a text.
+
+**Answer**
+
+`main`
+
 &nbsp;
 
 ---
