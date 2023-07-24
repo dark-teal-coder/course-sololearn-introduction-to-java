@@ -400,6 +400,28 @@ Fill in the blanks to create an empty class called Bot.
 
 `class` and `Bot`
 
+#### Java Program
+
+Our program includes one more thing that we need to cover:
+
+```java
+class Demo {
+  public static void main(String[] args) {
+    System.out.println("Hi there");
+  }
+}
+```
+
+As you can see, the Demo class includes the following line:
+
+```java
+public static void main(String[] args) {
+```
+
+In Java, each application has an entry point, or a starting point, which is a method called main.
+
+> :warning: We will cover public, static and void keywords definition in later lessons, when learning about methods. For now, remember that the main method needs to be declared identically to the code above.
+
 &nbsp;
 
 ---
