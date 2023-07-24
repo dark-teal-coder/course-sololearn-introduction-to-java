@@ -472,6 +472,16 @@ class Demo {
 
 > :warning: This is now a fully functioning Java program.
 
+#### Quiz 03.04
+
+**Question**
+
+Fill in the blanks to create a valid Java program.
+
+**Answer**
+
+`class`, `main` and `out`
+
 &nbsp;
 
 ---
