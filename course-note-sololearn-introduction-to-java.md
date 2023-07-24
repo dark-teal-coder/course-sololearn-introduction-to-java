@@ -432,6 +432,20 @@ The starting point of every Java program is:
 
 the main method
 
+#### Java Program
+
+Notice that the main method, similar to the class, opens and closes with curly brackets.
+
+```java
+public static void main(String[] args) {
+  System.out.println("Hi there");
+}
+```
+
+The main method contains the code that executes when we run our program.
+
+In this case, the `println` method will be executed, when we run our program.
+
 &nbsp;
 
 ---
