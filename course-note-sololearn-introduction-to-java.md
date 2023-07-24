@@ -456,6 +456,22 @@ Fill in the blanks to create a valid main method that outputs a text.
 
 `main`
 
+#### Java Program
+
+The main method can contain multiple statements, for example:
+
+```java
+class Demo {
+  public static void main(String[] args) {
+    System.out.println("Welcome");
+    System.out.println("This is a demo"); 
+    System.out.println("Bye");
+  }
+} 
+```
+
+> :warning: This is now a fully functioning Java program.
+
 &nbsp;
 
 ---
