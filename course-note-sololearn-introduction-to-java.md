@@ -422,6 +422,16 @@ In Java, each application has an entry point, or a starting point, which is a me
 
 > :warning: We will cover public, static and void keywords definition in later lessons, when learning about methods. For now, remember that the main method needs to be declared identically to the code above.
 
+#### Quiz 03.02
+
+**Question**
+
+The starting point of every Java program is:
+
+**Answer**
+
+the main method
+
 &nbsp;
 
 ---
