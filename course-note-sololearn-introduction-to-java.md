@@ -362,6 +362,20 @@ class Demo {
 
 > :warning: We are already familiar with the println method and the statement used to create output, so let's learn what the other parts of the code are.
 
+#### Java Program
+
+The first line of the code defines a class called Demo.
+
+```java
+class Demo {
+```
+
+In Java, every line of code that can actually run needs to be inside a class.
+
+You can call the class anything you want.
+
+> :warning: We will learn more about classes in more advanced modules. For now, just remember, that any Java program needs to be inside a class.
+
 &nbsp;
 
 ---
