@@ -390,6 +390,16 @@ Any code that we want to include in the class needs to go inside the brackets.
 
 > :warning: The opening bracket can also be written below the class name, but it's generally common to write it on the same line to save space.
 
+#### Quiz 03.01
+
+**Question**
+
+Fill in the blanks to create an empty class called Bot.
+
+**Answer**
+
+`class` and `Bot`
+
 &nbsp;
 
 ---
