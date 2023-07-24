@@ -482,6 +482,43 @@ Fill in the blanks to create a valid Java program.
 
 `class`, `main` and `out`
 
+#### Lesson Takeaways
+
+Great job 🎯! You now know how to create a valid Java program structure!
+
+Remember the following important points:
+
+- You need to start your program by creating a class.
+- The class needs to include a main method, which is the starting point of the program.
+- The main method includes the statements that need to be executed when the program runs.
+- The class, as well as the main method opens and closes using opening and closing curly brackets.
+
+##### Coding is fun!
+
+###### Your First Code Coach 
+
+Let's code for real!
+
+The given program outputs “Coding is boring”.
+
+But that’s not true, is it? Let’s change the message.
+
+**Task**
+
+Modify the code to output "Coding is fun" to the screen.
+
+> :warning: After fixing the code, tap the RUN button to see the result.
+
+###### Solution
+
+```java
+class Demo{
+    public static void main(String[] args) {
+        System.out.println("Coding is fun");
+    }
+}
+```
+
 &nbsp;
 
 ---
