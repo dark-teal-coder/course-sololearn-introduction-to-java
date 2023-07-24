@@ -376,6 +376,20 @@ You can call the class anything you want.
 
 > :warning: We will learn more about classes in more advanced modules. For now, just remember, that any Java program needs to be inside a class.
 
+#### Java Program
+
+The class opens and closes using curly brackets, like this:
+
+```java
+class Demo {
+
+}
+```
+
+Any code that we want to include in the class needs to go inside the brackets.
+
+> :warning: The opening bracket can also be written below the class name, but it's generally common to write it on the same line to save space.
+
 &nbsp;
 
 ---
