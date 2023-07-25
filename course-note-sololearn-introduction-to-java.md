@@ -543,6 +543,16 @@ We are already familiar with text values - they are created using quotes:
 
 Text in quotes is called a String.
 
+#### Quiz 04.01
+
+**Question**
+
+Which of the following is a String?
+
+**Answer**
+
+`Welcome`
+
 &nbsp;
 
 ---
