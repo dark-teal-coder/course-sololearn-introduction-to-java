@@ -717,6 +717,16 @@ public class Program {
 }
 ```
 
+#### Quiz 04.06
+
+**Question**
+
+Drag & drop to create a valid Java program that declares a variable, assigns it to a value and outputs it.
+
+**Answer**
+
+`class`, `main`, `String`, `println` and `color`
+
 &nbsp;
 
 ---
