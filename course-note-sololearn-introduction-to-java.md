@@ -600,6 +600,22 @@ Fill in the blanks to declare a variable called 'city' and assign the value "New
 
 `city`, `=` and `;`
 
+#### Variables
+
+We can use our variable in our program.
+
+For example, let's output its value using `println()`:
+
+```java
+class Demo {
+    public static void main(String[] args) {
+        String name;
+        name = "James";
+        System.out.println(name); 
+    }
+}
+```
+
 &nbsp;
 
 ---
