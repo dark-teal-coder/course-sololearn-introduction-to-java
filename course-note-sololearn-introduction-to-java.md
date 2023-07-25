@@ -531,6 +531,18 @@ A variable lets you store a value by assigning it to a name. The name can be use
 
 > :warning: For example, in game development, you would use a variable to store how many points the player has scored.
 
+#### Variables
+
+Every variable has a type, which defines the type of the value it holds. A variable can hold a text value, a number, a decimal, etc.
+
+We are already familiar with text values - they are created using quotes:
+
+```java
+"this is some text"
+```
+
+Text in quotes is called a String.
+
 &nbsp;
 
 ---
