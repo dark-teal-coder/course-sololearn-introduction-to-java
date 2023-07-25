@@ -521,6 +521,18 @@ class Demo{
 
 &nbsp;
 
+### Lesson: Variables
+
+#### Variables
+
+Every program works with values.
+
+A variable lets you store a value by assigning it to a name. The name can be used to refer to the value later in the program.
+
+> :warning: For example, in game development, you would use a variable to store how many points the player has scored.
+
+&nbsp;
+
 ---
 
 &nbsp;
