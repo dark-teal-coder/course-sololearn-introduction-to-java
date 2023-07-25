@@ -669,6 +669,22 @@ class Demo {
 }
 ```
 
+#### Quiz 04.06
+
+**Question**
+
+What is the output of this code?
+
+```java
+String x = "hey";
+x = "hoy";
+System.out.println(x);
+```
+
+**Answer**
+
+`hoy`
+
 &nbsp;
 
 ---
