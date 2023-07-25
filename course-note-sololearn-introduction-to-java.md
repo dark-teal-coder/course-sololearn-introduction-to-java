@@ -685,6 +685,38 @@ System.out.println(x);
 
 `hoy`
 
+#### Lesson Takeaways 
+
+Awesome! Here are some key takeaways:
+
+- A variable has a name and a type of the value it holds.
+- To declare a variable use the type followed by the name of the variable.
+- You can assign a value to the declared variable using the = operator.
+- A variable can change its value during the program, by being assigned to a new value.
+
+We will learn about more variable types in the next lesson!
+
+##### Storing Characters
+
+###### Storing Characters
+
+The given program declares a variable that holds all the letters of the English alphabet.
+
+**Task**
+
+Complete the program to output the value of the variable.
+
+###### Solution 
+
+```java
+public class Program {
+    public static void main(String[] args) {
+        String alphabet = "abcdefghijklmnopqrstuvwxyz";
+        System.out.println(alphabet);
+    }
+}
+```
+
 &nbsp;
 
 ---
