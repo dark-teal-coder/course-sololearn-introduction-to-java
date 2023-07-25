@@ -590,6 +590,16 @@ Now, name holds the value "James".
 
 > :warning: Note, that the type String should start with a capital letter S. A lowercase version will cause an error.
 
+#### Quiz 04.03
+
+**Question**
+
+Fill in the blanks to declare a variable called 'city' and assign the value "New York" to it.
+
+**Answer**
+
+`city`, `=` and `;`
+
 &nbsp;
 
 ---
