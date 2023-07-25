@@ -626,6 +626,22 @@ Rearrange the code to create a program that declares a variable called "country"
 
 `String country;`, `country = "UK";` and `System.out.println(country);`
 
+#### Variables
+
+We can combine the declaration and assignment into one statement, like this:
+
+```java
+class Demo {
+    public static void main(String[] args) {
+        String name = "James";
+
+        System.out.println(name);
+    }
+}
+```
+
+This is handy when we already know the value for our variable and makes the code shorter and more readable.
+
 &nbsp;
 
 ---
