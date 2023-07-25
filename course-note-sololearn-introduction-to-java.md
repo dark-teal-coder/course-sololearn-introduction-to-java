@@ -616,6 +616,16 @@ class Demo {
 }
 ```
 
+#### Quiz 04.04
+
+**Question**
+
+Rearrange the code to create a program that declares a variable called "country", assign the value "UK" to it and output it to the screen.
+
+**Answer**
+
+`String country;`, `country = "UK";` and `System.out.println(country);`
+
 &nbsp;
 
 ---
