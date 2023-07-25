@@ -652,6 +652,23 @@ Drag & drop to declare the variable and assign it to the given value.
 
 `String` and `=`
 
+#### Variables
+
+A variable can change its value during the program multiple times.
+
+For example, the player of a game can change his name:
+
+```java
+class Demo {
+    public static void main(String[] args) {
+        String name = "James";
+        name = "David";
+
+        System.out.println(name);
+    }
+}
+```
+
 &nbsp;
 
 ---
