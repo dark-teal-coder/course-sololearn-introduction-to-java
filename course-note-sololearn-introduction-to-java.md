@@ -577,6 +577,19 @@ Drag & drop to declare a String variable called "message".
 
 `String` and `message`
 
+#### Variables
+
+After declaring our variable, we can assign it a value using the assignment = operator:
+
+```java
+String name;
+name = "James";
+```
+
+Now, name holds the value "James".
+
+> :warning: Note, that the type String should start with a capital letter S. A lowercase version will cause an error.
+
 &nbsp;
 
 ---
