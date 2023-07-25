@@ -642,6 +642,16 @@ class Demo {
 
 This is handy when we already know the value for our variable and makes the code shorter and more readable.
 
+#### Quiz 04.05
+
+**Question**
+
+Drag & drop to declare the variable and assign it to the given value.
+
+**Answer**
+
+`String` and `=`
+
 &nbsp;
 
 ---
