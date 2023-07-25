@@ -553,6 +553,20 @@ Which of the following is a String?
 
 `Welcome`
 
+#### Variables
+
+Let's create a variable of type String:
+
+```java
+String name;
+```
+
+This creates a variable called name of type String.
+
+Now, our variable name can hold String values.
+
+> :warning: In programming terms, the process of creating a variable is called declaration.
+
 &nbsp;
 
 ---
