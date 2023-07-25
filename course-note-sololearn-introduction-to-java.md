@@ -567,6 +567,16 @@ Now, our variable name can hold String values.
 
 > :warning: In programming terms, the process of creating a variable is called declaration.
 
+#### Quiz 04.02
+
+**Question**
+
+Drag & drop to declare a String variable called "message".
+
+**Answer**
+
+`String` and `message`
+
 &nbsp;
 
 ---
