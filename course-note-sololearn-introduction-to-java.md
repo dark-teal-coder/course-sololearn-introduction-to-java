@@ -783,6 +783,26 @@ Drag and drop from the options below to have a valid Java program.
 
 `String`, `int` and `double`
 
+#### Decimals
+
+Java has another type for decimals called float.
+
+When using the float type, you need to use an f postfix after the value:
+
+```java
+class Demo {
+    public static void main(String[] args) {
+        float height = 1.94f; 
+
+        System.out.println(height);
+    }
+}
+```
+
+This tells Java to use the value as a float, instead of double.
+
+> :warning: Wondering what's the difference between float and double? Tap Continue to learn more!
+
 &nbsp;
 
 ---
