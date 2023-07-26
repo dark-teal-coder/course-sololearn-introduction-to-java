@@ -759,6 +759,20 @@ Fill in the blanks to declare a variable that holds the value 14.
 
 `int` and `=`
 
+#### Decimals
+
+To work with decimal numbers, use the type double:
+
+```java
+class Demo {
+    public static void main(String[] args) {
+        double weight = 12.5; 
+
+        System.out.println(weight);
+    }
+}
+```
+
 &nbsp;
 
 ---
