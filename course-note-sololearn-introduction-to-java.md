@@ -823,6 +823,22 @@ This means that the calculations that use floats are faster than the ones that u
 
 > :warning: As a general rule: use float instead of double when memory usage is critical. If you need more precise computations, for example, when dealing with currency, use double.
 
+#### Characters
+
+The char type is used to hold a single character.
+
+It is created similar to Strings, however it uses single quotes for the value:
+
+```java
+class Demo {
+    public static void main(String[] args) {
+        char letter = 'B'; 
+
+        System.out.println(letter);
+    }
+}
+```
+
 &nbsp;
 
 ---
