@@ -869,6 +869,19 @@ class Demo {
 
 For example, the boolean above can show whether a shop is open or closed.
 
+#### Quiz 05.05
+
+**Question**
+
+Select the two values that a boolean can hold.
+
+Select all correct answers.
+
+**Answer**
+
+- [x] `true`
+- [x] `false`
+
 &nbsp;
 
 ---
