@@ -839,6 +839,16 @@ class Demo {
 }
 ```
 
+#### Quiz 05.04
+
+**Question**
+
+A char value must be enclosed in:
+
+**Answer**
+
+single quotes 
+
 &nbsp;
 
 ---
