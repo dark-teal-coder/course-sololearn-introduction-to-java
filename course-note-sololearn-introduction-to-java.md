@@ -813,6 +813,16 @@ Fill in the missing symbol to correctly declare a float.
 
 `f`
 
+#### float vs dobule
+
+By default, decimal values are of type double.
+
+float is using less storage in the memory, but is not as precise as the double type.
+
+This means that the calculations that use floats are faster than the ones that use double, however, the result is less accurate in terms of the decimal digits.
+
+> :warning: As a general rule: use float instead of double when memory usage is critical. If you need more precise computations, for example, when dealing with currency, use double.
+
 &nbsp;
 
 ---
