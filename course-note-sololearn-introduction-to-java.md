@@ -731,6 +731,24 @@ Drag & drop to create a valid Java program that declares a variable, assigns it 
 
 ### Lesson: Variable Types
 
+#### Types
+
+There are other types that you can use for variables.
+
+The int type is used to store whole numbers (or integers, as we call them in programming).
+
+```java
+class Demo {
+    public static void main(String[] args) {
+        int age = 42; 
+
+        System.out.println(age);
+    }
+}
+```
+
+> :warning: Now, the age variable of type int holds the value 42.
+
 &nbsp;
 
 ---
