@@ -803,6 +803,16 @@ This tells Java to use the value as a float, instead of double.
 
 > :warning: Wondering what's the difference between float and double? Tap Continue to learn more!
 
+#### Quiz 05.03
+
+**Question**
+
+Fill in the missing symbol to correctly declare a float.
+
+**Answer**
+
+`f`
+
 &nbsp;
 
 ---
