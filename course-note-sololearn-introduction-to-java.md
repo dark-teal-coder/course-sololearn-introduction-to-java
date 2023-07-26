@@ -773,6 +773,16 @@ class Demo {
 }
 ```
 
+#### Quiz 05.02
+
+**Question**
+
+Drag and drop from the options below to have a valid Java program.
+
+**Answer**
+
+`String`, `int` and `double`
+
 &nbsp;
 
 ---
