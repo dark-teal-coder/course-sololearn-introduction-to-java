@@ -749,6 +749,16 @@ class Demo {
 
 > :warning: Now, the age variable of type int holds the value 42.
 
+#### Quiz 05.01
+
+**Question**
+
+Fill in the blanks to declare a variable that holds the value 14.
+
+**Answer**
+
+`int` and `=`
+
 &nbsp;
 
 ---
