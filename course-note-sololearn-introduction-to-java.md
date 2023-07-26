@@ -882,6 +882,47 @@ Select all correct answers.
 - [x] `true`
 - [x] `false`
 
+#### Lesson Takeaways  
+
+Great job! Here are some key takeaways:
+
+- int holds integers (whole numbers).
+- double holds decimal numbers.
+- float is similar to double, but has less precision and requires less memory.
+- You need to use an f postfix after the value to make it a float (for example: 3.14f)
+- char holds a single character.
+- boolean can have one of the following values: true or false.
+
+We will learn how to make calculations in the next lesson.
+
+##### Displaying Account Balance
+
+###### Displaying Account Balance
+
+The given program declares a label and a balance variable, and assigns it to their values.
+
+Then, it outputs the label and the balance values.
+
+However, the code is missing the required types of the variables
+
+**Task**
+
+Add the required types to make the program work as expected.
+
+###### Solution 
+
+```java
+public class Program {
+    public static void main(String[] args) {
+        String label = "Balance";
+        double balance = 599.84;
+
+        System.out.println(label);
+        System.out.println(balance);
+    }
+}
+```
+
 &nbsp;
 
 ---
