@@ -729,6 +729,10 @@ Drag & drop to create a valid Java program that declares a variable, assigns it 
 
 &nbsp;
 
+### Lesson: Variable Types
+
+&nbsp;
+
 ---
 
 &nbsp;
