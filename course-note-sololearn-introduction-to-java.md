@@ -923,6 +923,16 @@ public class Program {
 }
 ```
 
+#### Quiz 05.06
+
+**Question**
+
+Drag & drop to fill in the correct data types for the given variables.
+
+**Answer**
+
+`int`, `boolean`, `double` and `String`
+
 &nbsp;
 
 ---
