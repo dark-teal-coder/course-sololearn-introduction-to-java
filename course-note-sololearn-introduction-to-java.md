@@ -849,6 +849,26 @@ A char value must be enclosed in:
 
 single quotes 
 
+#### Boolean
+
+Another important type is boolean.
+
+It can hold only the values true or false.
+
+This is handy when we work with states or conditions, for example:
+
+```java
+class Demo {
+    public static void main(String[] args) {
+        boolean isOpen = false; 
+
+        System.out.println(isOpen);
+    }
+}
+```
+
+For example, the boolean above can show whether a shop is open or closed.
+
 &nbsp;
 
 ---
