@@ -939,6 +939,8 @@ Drag & drop to fill in the correct data types for the given variables.
 
 ### Lesson: Java Comments
 
+### Quiz: Module 1 Quiz
+
 &nbsp;
 
 ---
