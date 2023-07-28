@@ -953,6 +953,8 @@ Drag & drop to fill in the correct data types for the given variables.
 
 ### Lesson: Conditionals
 
+### Lesson: The switch Statement
+
 &nbsp;
 
 xxx
