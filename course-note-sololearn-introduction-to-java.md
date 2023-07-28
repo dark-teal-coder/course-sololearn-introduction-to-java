@@ -955,6 +955,8 @@ Drag & drop to fill in the correct data types for the given variables.
 
 ### Lesson: The switch Statement
 
+### Lesson: Multiple Conditions
+
 &nbsp;
 
 xxx
