@@ -961,6 +961,8 @@ Drag & drop to fill in the correct data types for the given variables.
 
 ### Lesson: For Loops
 
+### Quiz: Java for Beginners Module 2 Quiz
+
 &nbsp;
 
 xxx
