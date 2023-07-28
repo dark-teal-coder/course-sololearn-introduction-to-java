@@ -957,6 +957,8 @@ Drag & drop to fill in the correct data types for the given variables.
 
 ### Lesson: Multiple Conditions
 
+### Lesson: While Loops
+
 &nbsp;
 
 xxx
