@@ -951,6 +951,8 @@ Drag & drop to fill in the correct data types for the given variables.
 
 ### Lesson: Taking User Input
 
+### Lesson: Conditionals
+
 &nbsp;
 
 xxx
