@@ -949,6 +949,8 @@ Drag & drop to fill in the correct data types for the given variables.
 
 ## Control Flow
 
+### Lesson: Taking User Input
+
 &nbsp;
 
 xxx
