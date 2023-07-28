@@ -959,6 +959,8 @@ Drag & drop to fill in the correct data types for the given variables.
 
 ### Lesson: While Loops
 
+### Lesson: For Loops
+
 &nbsp;
 
 xxx
