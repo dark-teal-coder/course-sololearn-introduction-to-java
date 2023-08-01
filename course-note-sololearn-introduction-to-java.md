@@ -975,6 +975,14 @@ xxx
 
 ## Arrays
 
+### Lesson: Arrays
+
+### Lesson: Looping Over Arrays
+
+### Lesson: Multidimensional Arrays
+
+### Quiz: Java for Beginners Module 3 Quiz
+
 &nbsp;
 
 xxx
