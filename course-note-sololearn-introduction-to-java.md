@@ -995,6 +995,14 @@ xxx
 
 ## Methods
 
+### Lesson: Methods
+
+### Lesson: Method Parameters
+
+### Lesson: Returning From Methods
+
+### Quiz: Java for Beginners Module 4 Quiz
+
 &nbsp;
 
 xxx
