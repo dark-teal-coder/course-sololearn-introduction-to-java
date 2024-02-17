@@ -937,6 +937,19 @@ Drag & drop to fill in the correct data types for the given variables.
 
 ### Lesson: Doing Math
 
+You can use common math operators to perform calculations.
+
+For example:
+
+```java
+int x = 6;
+int y = 3;
+
+System.out.println(x+y);
+```
+
+This will output the sum of the two variables.
+
 ### Lesson: Java Comments
 
 ### Quiz: Module 1 Quiz
