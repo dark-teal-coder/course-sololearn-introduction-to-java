@@ -952,6 +952,17 @@ System.out.println(x+y);
 
 This will output the sum of the two variables.
 
+#### Doing Math
+
+The result can be assigned to another variable, like this:
+
+```java
+double price1 = 24.99;
+double price2 = 19.45;
+
+double sum = price1 + price2;
+```
+
 ### Lesson: Java Comments
 
 ### Quiz: Module 1 Quiz
