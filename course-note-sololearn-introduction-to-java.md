@@ -937,6 +937,8 @@ Drag & drop to fill in the correct data types for the given variables.
 
 ### Lesson: Doing Math
 
+#### Doing Math
+
 You can use common math operators to perform calculations.
 
 For example:
