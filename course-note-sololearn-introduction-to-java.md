@@ -963,6 +963,18 @@ double price2 = 19.45;
 double sum = price1 + price2;
 ```
 
+What is the output of this code?
+
+```java
+int a = 3;
+int b = 2;
+int z = a+b;
+System.out.println(z+a);
+```
+
+Answer: 
+`8`
+
 ### Lesson: Java Comments
 
 ### Quiz: Module 1 Quiz
