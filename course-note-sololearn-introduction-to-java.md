@@ -1071,6 +1071,16 @@ class Demo {
 }
 ```
 
+#### Quiz 06.04
+
+**Question**
+
+The result of dividing two doubles is:
+
+**Answer**
+
+a double
+
 ### Lesson: Java Comments
 
 ### Quiz: Module 1 Quiz
