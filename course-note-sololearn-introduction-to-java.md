@@ -991,6 +991,24 @@ class Demo {
 }
 ```
 
+#### Multiplication
+
+The `*` operator multiplies two values.
+
+Let's use it to find how much is 20% of the given value:
+
+```java
+class Demo {
+    public static void main(String[] args) {
+        int price = 1200;
+
+        System.out.println(price*0.2);
+    }
+}
+```
+
+> :warning: 0.2 represents 20%
+
 ### Lesson: Java Comments
 
 ### Quiz: Module 1 Quiz
