@@ -1309,6 +1309,17 @@ Make this text a multi-line comment.
 
 `/*` and `*/`
 
+#### Lesson Takeaways
+
+Now you know how to add comments to your code! Here are some key takeaways:
+
+Comments are explanatory statements that explain what the code is doing.
+
+They can contain notes, todos as well as code that is work-in-progress.
+
+- `//` starts a single line comment.
+- `/* */` is used for multi-line comments.
+
 
 
 ### Quiz: Module 1 Quiz
