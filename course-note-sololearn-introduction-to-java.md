@@ -1299,6 +1299,16 @@ Anything between the `/*` and `*/` symbols becomes a comment.
 
 > :warning: You can also use multi-line comments to comment out multiple lines of code.
 
+#### Quiz 07.03
+
+**Question**
+
+Make this text a multi-line comment.
+
+**Answer**
+
+`/*` and `*/`
+
 
 
 ### Quiz: Module 1 Quiz
