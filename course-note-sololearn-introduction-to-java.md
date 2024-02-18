@@ -140,9 +140,7 @@ Drag and drop to complete a line of code that outputs "Game Over".
 
 **Question**
 
-The `println` instruction needs to be followed by parentheses.
-
-Drag and drop to create a line of code that runs without errors.
+The `println` instruction needs to be followed by parentheses. Drag and drop to create a line of code that runs without errors.
 
 **Answer**
 
@@ -370,9 +368,7 @@ The first line of the code defines a class called Demo.
 class Demo {
 ```
 
-In Java, every line of code that can actually run needs to be inside a class.
-
-You can call the class anything you want.
+In Java, every line of code that can actually run needs to be inside a class. You can call the class anything you want.
 
 > :warning: We will learn more about classes in more advanced modules. For now, just remember, that any Java program needs to be inside a class.
 
@@ -442,9 +438,7 @@ public static void main(String[] args) {
 }
 ```
 
-The main method contains the code that executes when we run our program.
-
-In this case, the `println` method will be executed, when we run our program.
+The main method contains the code that executes when we run our program. In this case, the `println` method will be executed, when we run our program.
 
 #### Quiz 03.03
 
@@ -499,9 +493,7 @@ Remember the following important points:
 
 Let's code for real!
 
-The given program outputs “Coding is boring”.
-
-But that’s not true, is it? Let’s change the message.
+The given program outputs “Coding is boring”. But that's not true, is it? Let’s change the message.
 
 **Task**
 
@@ -551,7 +543,7 @@ Which of the following is a String?
 
 **Answer**
 
-`Welcome`
+`welcome`
 
 #### Variables
 
@@ -634,7 +626,6 @@ We can combine the declaration and assignment into one statement, like this:
 class Demo {
     public static void main(String[] args) {
         String name = "James";
-
         System.out.println(name);
     }
 }
@@ -741,13 +732,12 @@ The int type is used to store whole numbers (or integers, as we call them in pro
 class Demo {
     public static void main(String[] args) {
         int age = 42; 
-
         System.out.println(age);
     }
 }
 ```
 
-> :warning: Now, the age variable of type int holds the value 42.
+> :warning: Now, the `age` variable of type `int` holds the value `42`.
 
 #### Quiz 05.01
 
@@ -767,7 +757,6 @@ To work with decimal numbers, use the type double:
 class Demo {
     public static void main(String[] args) {
         double weight = 12.5; 
-
         System.out.println(weight);
     }
 }
@@ -793,7 +782,6 @@ When using the float type, you need to use an f postfix after the value:
 class Demo {
     public static void main(String[] args) {
         float height = 1.94f; 
-
         System.out.println(height);
     }
 }
@@ -833,7 +821,6 @@ It is created similar to Strings, however it uses single quotes for the value:
 class Demo {
     public static void main(String[] args) {
         char letter = 'B'; 
-
         System.out.println(letter);
     }
 }
@@ -861,7 +848,6 @@ This is handy when we work with states or conditions, for example:
 class Demo {
     public static void main(String[] args) {
         boolean isOpen = false; 
-
         System.out.println(isOpen);
     }
 }
@@ -944,10 +930,14 @@ You can use common math operators to perform calculations.
 For example:
 
 ```java
-int x = 6;
-int y = 3;
+class Demo {
+    public static void main(String[] args) {
+        int x = 6;
+        int y = 3;
 
-System.out.println(x+y);
+        System.out.println(x+y);
+    }
+}
 ```
 
 This will output the sum of the two variables.
@@ -957,11 +947,20 @@ This will output the sum of the two variables.
 The result can be assigned to another variable, like this:
 
 ```java
-double price1 = 24.99;
-double price2 = 19.45;
+class Demo {
+    public static void main(String[] args) {
+        double price1 = 24.99;
+        double price2 = 19.45;
+        double sum = price1 + price2;
 
-double sum = price1 + price2;
+        System.out.println(sum);
+    }
+}
 ```
+
+#### Quiz 06.01
+
+**Question**
 
 What is the output of this code?
 
@@ -972,15 +971,24 @@ int z = a+b;
 System.out.println(z+a);
 ```
 
-Answer: 
+**Answer**
+
 `8`
+
+#### Doing Math
 
 Similarly, you can use - for subtraction:
 
 ```java
-int salary = 90000;
-int tax = 15000;
-int result = salary - tax;
+class Demo {
+    public static void main(String[] args) {
+        int salary = 90000;
+        int tax = 15000;
+        int result = salary - tax;  
+
+        System.out.println(result);
+    }
+}
 ```
 
 ### Lesson: Java Comments
