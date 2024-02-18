@@ -1148,6 +1148,18 @@ class Demo {
 
 > :warning: The process of adding strings together is called concatenation. You can also concatenate strings with other types, such as integers and doubles.
 
+#### Quiz 06.06
+
+**Question**
+
+Which of the following statements concatenates the Strings a and b?
+
+**Answer**
+
+`a + b;`
+
+
+
 ### Lesson: Java Comments
 
 ### Quiz: Module 1 Quiz
