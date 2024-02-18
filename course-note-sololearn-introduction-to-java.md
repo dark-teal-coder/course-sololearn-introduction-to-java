@@ -1234,7 +1234,15 @@ class Demo {
 
 > :warning: Adding comments as you write code is a good practice, because they provide clarification and understanding when you need to refer back to it, as well as for others who might need to read it.
 
+#### Quiz 07.01
 
+**Question**
+
+Fill in the required symbols to make a comment.
+
+**Answer**
+
+`//`
 
 ### Quiz: Module 1 Quiz
 
