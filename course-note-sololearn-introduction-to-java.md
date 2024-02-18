@@ -1098,7 +1098,21 @@ class Demo {
 }
 ```
 
+#### Quiz 06.05
 
+**Question**
+
+What value is stored in the result variable?
+
+```java
+int x = 8;
+int y = 3;
+int result = x % y;
+```
+
+**Answer**
+
+`2`
 
 ### Lesson: Java Comments
 
