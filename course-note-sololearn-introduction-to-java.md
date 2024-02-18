@@ -1158,6 +1158,19 @@ Which of the following statements concatenates the Strings a and b?
 
 `a + b;`
 
+#### Lesson Takeaways
+
+Math is fun! Here are some key takeaways:
+
+You can use basic math operators to perform calculations with values and variables.
+
+- `+` is addition
+- `-` is subtraction
+- `/` is division
+- `%` finds the remainder of a division.
+
+You can add Strings using the + operator, in a process called concatenation.
+
 
 
 ### Lesson: Java Comments
