@@ -1278,6 +1278,27 @@ System.out.println(x+1);
 
 `4`
 
+#### Multi-Line Comments
+
+If you need to comment out multiple lines, or write a multi-line comment, you can use the `/* */` symbols, like this:
+
+```java
+class Demo {
+    public static void main(String[] args) {
+        /*  This is just a
+        demo program
+        that outputs a number */
+        int age = 23;
+        
+        System.out.println(age);
+    }
+}
+```
+
+Anything between the `/*` and `*/` symbols becomes a comment.
+
+> :warning: You can also use multi-line comments to comment out multiple lines of code.
+
 
 
 ### Quiz: Module 1 Quiz
