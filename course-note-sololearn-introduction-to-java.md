@@ -1195,7 +1195,17 @@ public class Program {
 }
 ```
 
+#### Quiz 06.06
 
+**Question**
+
+You are packing eggs in baskets, each holding 8 eggs. All packed baskets need to be full.
+
+Fill in the blanks to create a program that calculates how many of the given eggs will be leftover.
+
+**Answer**
+
+`eggs`, `%` and `result`
 
 ### Lesson: Java Comments
 
