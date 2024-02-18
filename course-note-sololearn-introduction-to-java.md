@@ -1039,6 +1039,22 @@ class Demo {
 
 > :warning: In the example above, the result of the division equation will be a whole number, as int is used as the data type. 
 
+#### Quiz 06.03
+
+**Question**
+
+What is the result of the following code?
+
+```java
+int x = 15; int y = 4;
+int result = x / y;
+System.out.println(result);
+```
+
+**Answer**
+
+`3`
+
 ### Lesson: Java Comments
 
 ### Quiz: Module 1 Quiz
