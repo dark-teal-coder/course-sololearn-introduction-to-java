@@ -1019,6 +1019,26 @@ Fill in the blanks to calculate and output the height of a 9-story building. Eac
 
 `*`, `out` and `total`
 
+#### Division
+
+The `/` operator divides one value by another.
+
+The following program calculates how many products with the given price you can buy with the given amount:
+
+```java
+class Demo {
+    public static void main(String[] args) {
+        int amount = 9000;
+        int price = 49;
+        int result = amount/price;
+
+        System.out.print(result);
+    }
+}
+```
+
+> :warning: In the example above, the result of the division equation will be a whole number, as int is used as the data type. 
+
 ### Lesson: Java Comments
 
 ### Quiz: Module 1 Quiz
