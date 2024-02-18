@@ -1244,6 +1244,25 @@ Fill in the required symbols to make a comment.
 
 `//`
 
+#### Comments
+
+You can also comment out lines of code, in case they are work-in-progress or you don't want to delete it yet:
+
+```java
+class Demo {
+    public static void main(String[] args) {
+        int age = 23;
+        //int height = 122;
+        System.out.println(age);
+        //System.out.println(height);
+    }
+}
+```
+
+> :warning: The commented lines of code will get ignored when you run the program.
+
+
+
 ### Quiz: Module 1 Quiz
 
 &nbsp;
