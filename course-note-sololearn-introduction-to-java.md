@@ -1209,6 +1209,12 @@ Fill in the blanks to create a program that calculates how many of the given egg
 
 ### Lesson: Java Comments
 
+#### Comments
+
+One more thing to learn before wrapping up the first module!
+
+Comments are annotations in the code that explain what the code is doing. Code is for computers, while comments are for humans who read and work with the code.
+
 ### Quiz: Module 1 Quiz
 
 &nbsp;
