@@ -1114,6 +1114,40 @@ int result = x % y;
 
 `2`
 
+#### Strings
+
+Java allows to add together strings, using the + operator. The result is the combination of the strings.
+
+For example, let's combine the first and last names to result in the full name of a user:
+
+```java
+class Demo {
+    public static void main(String[] args) {
+        String firstname = "James";
+        String lastname = "Smith";
+        String fullname = firstname+lastname;
+
+        System.out.print(fullname);
+    }
+}
+```
+
+Note, that the result will combine the given strings without any separator. We can add a space " " between them:
+
+```java
+class Demo {
+    public static void main(String[] args) {
+        String firstname = "James";
+        String lastname = "Smith";
+        String fullname = firstname+" "+lastname; 
+
+        System.out.print(fullname);
+    }
+}
+```
+
+> :warning: The process of adding strings together is called concatenation. You can also concatenate strings with other types, such as integers and doubles.
+
 ### Lesson: Java Comments
 
 ### Quiz: Module 1 Quiz
