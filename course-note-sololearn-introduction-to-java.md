@@ -1261,6 +1261,23 @@ class Demo {
 
 > :warning: The commented lines of code will get ignored when you run the program.
 
+#### Quiz 07.02
+
+**Question**
+
+What is the output of this code?
+
+```java
+int x = 8;
+//x = 2;
+x = 3;
+System.out.println(x+1);
+```
+
+**Answer**
+
+`4`
+
 
 
 ### Quiz: Module 1 Quiz
