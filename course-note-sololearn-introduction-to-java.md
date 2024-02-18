@@ -1009,6 +1009,16 @@ class Demo {
 
 > :warning: 0.2 represents 20%
 
+#### Quiz 06.02
+
+**Question**
+
+Fill in the blanks to calculate and output the height of a 9-story building. Each floor has a height of 3 meters.
+
+**Answer**
+
+`*`, `out` and `total`
+
 ### Lesson: Java Comments
 
 ### Quiz: Module 1 Quiz
