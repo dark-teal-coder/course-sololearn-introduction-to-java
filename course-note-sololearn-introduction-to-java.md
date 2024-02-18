@@ -975,6 +975,14 @@ System.out.println(z+a);
 Answer: 
 `8`
 
+Similarly, you can use - for subtraction:
+
+```java
+int salary = 90000;
+int tax = 15000;
+int result = salary - tax;
+```
+
 ### Lesson: Java Comments
 
 ### Quiz: Module 1 Quiz
