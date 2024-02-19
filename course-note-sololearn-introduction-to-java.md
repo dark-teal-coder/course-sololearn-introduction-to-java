@@ -1361,17 +1361,9 @@ _____ Program {
 }
 ```
 
-**Answer 01.01**
-
-`class`, `main`, `out` and `+`
-
 **Question 01.02**
 
 Which of the following is a valid comment?
-
-**Answer 01.02**
-
-`/* some text */`
 
 **Question 01.03**
 
@@ -1383,10 +1375,6 @@ String msg = "_____"+_____;
 System.out.println(_____);
 ```
 
-**Answer 01.03**
-
-`Hello, `, `name` and `msg`
-
 **Question 01.04**
 
 What is the output of this code?
@@ -1397,10 +1385,6 @@ int y = 3;
 int z = x%y;
 System.out.println(x-z);
 ```
-
-**Answer 01.04**
-
-`3`
 
 **Question 01.05**
 
@@ -1415,9 +1399,7 @@ int result = hours _____ minutes;
 System.out.println(_____);
 ```
 
-**Answer 01.05**
-
-`*` and `result`
+[Check Module 01 Quiz Solutions]()
 
 &nbsp;
 
