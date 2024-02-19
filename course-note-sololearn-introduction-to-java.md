@@ -1399,7 +1399,7 @@ int result = hours _____ minutes;
 System.out.println(_____);
 ```
 
-[Check Module 01 Quiz Solutions]()
+[Check Module 01 Quiz Solutions](./module-quiz-solutions/module-01-quiz-solutions.md)
 
 &nbsp;
 
