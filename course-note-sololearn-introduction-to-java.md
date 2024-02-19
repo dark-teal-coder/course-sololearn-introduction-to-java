@@ -26,10 +26,10 @@ This simple, beginner-friendly Java course requires no previous coding knowledge
 
 ## Table of Contents
 
-- [Basic Concepts](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#basic-concepts)
-- [Control Flow](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#control-flow)
-- [Arrays](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#arrays)
-- [Methods](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#methods)
+- [01 Basic Concepts](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#basic-concepts)
+- [02 Control Flow](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#control-flow)
+- [03 Arrays](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#arrays)
+- [04 Methods](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#methods)
 
 &nbsp;
 
@@ -37,7 +37,7 @@ This simple, beginner-friendly Java course requires no previous coding knowledge
 
 &nbsp;
 
-## Basic Concepts
+## 01 Basic Concepts
 
 &nbsp;
 
@@ -1345,7 +1345,10 @@ public class Program {
 }
 ```
 
-### Quiz: Module 1 Quiz
+### Module 1 Quiz
+
+
+
 
 &nbsp;
 
@@ -1353,7 +1356,7 @@ public class Program {
 
 &nbsp;
 
-## Control Flow
+## 02 Control Flow
 
 ### Lesson: Taking User Input
 
@@ -1379,7 +1382,7 @@ xxx
 
 &nbsp;
 
-## Arrays
+## 03 Arrays
 
 ### Lesson: Arrays
 
@@ -1399,7 +1402,7 @@ xxx
 
 &nbsp;
 
-## Methods
+## 04 Methods
 
 ### Lesson: Methods
 
