@@ -1347,8 +1347,77 @@ public class Program {
 
 ### Module 1 Quiz
 
+**Question 01.01**
 
+Fill in the blanks to create a valid program that declares two variables and outputs their sum.
 
+```java
+_____ Program {
+	public static void _____ (String[] args) {
+		int a = 8;
+		int b = 4;
+		System._____.println(a _____ b);    
+	}
+}
+```
+
+**Answer 01.01**
+
+`class`, `main`, `out` and `+`
+
+**Question 01.02**
+
+Which of the following is a valid comment?
+
+**Answer 01.02**
+
+`/* some text */`
+
+**Question 01.03**
+
+Fill in the blanks to output "Hello, " followed by the value stored in the name variable.
+
+```java
+String name = "James";
+String msg = "_____"+_____;
+System.out.println(_____);
+```
+
+**Answer 01.03**
+
+`Hello, `, `name` and `msg`
+
+**Question 01.04**
+
+What is the output of this code?
+
+```java
+int x = 5;
+int y = 3;
+int z = x%y;
+System.out.println(x-z);
+```
+
+**Answer 01.04**
+
+`3`
+
+**Question 01.05**
+
+You need to find how many minutes there are in a day. A day has 24 hours, each hour has 60 minutes. These values are stored in variables.
+
+Fill in the blanks to calculate and output the required value.
+
+```java
+int hours = 24;
+int minutes = 60;
+int result = hours _____ minutes;
+System.out.println(_____);
+```
+
+**Answer 01.05**
+
+`*` and `result`
 
 &nbsp;
 
