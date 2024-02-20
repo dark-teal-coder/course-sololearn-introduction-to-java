@@ -1411,6 +1411,193 @@ System.out.println(_____);
 
 ### Lesson: Taking User Input
 
+#### Input
+
+Some programs need user input. For example, a game may ask the user for a nickname and show it in the game, or a converter can ask for a value that you want to convert.
+
+> :warning: There are a number of ways to take input in Java. Tap Continue to learn how.
+
+#### Input
+
+To take input from the user, we first must import the corresponding class.
+
+That is done using the following line:
+
+```java
+import java.util.Scanner;
+```
+
+This line should be written at the very top of your code, before the class declaration.
+
+> :warning: This imports the `Scanner` class, which we will use for taking input.
+
+#### Input
+
+After importing the Scanner class, we need to create a Scanner object:
+
+```java
+Scanner sc = new Scanner(System.in);
+```
+
+Confused about the new terminology? Classes, objects, import... Don't worry, you will learn about these in more advanced lessons. For now, just remember the syntax for creating the Scanner object.
+
+#### Quiz 08.01
+
+**Question**
+
+Fill in the blanks to create a valid Scanner object.
+
+**Answer**
+
+`Scanner`, `new` and `System`
+
+#### Input
+
+Now we are ready to take input from the user and assign it to a variable.
+
+For example, to take a String input, we need to use the following:
+
+```java
+import java.util.Scanner;
+
+class Demo {
+    public static void main(String[ ] args) {
+        Scanner sc = new Scanner(System.in);
+        String name = sc.nextLine(); 
+        System.out.println("Name: "+name);        
+    }
+}
+```
+
+> :warning: Run the code to see how it works.
+
+#### Quiz 08.02
+
+**Question**
+
+Fill in the blanks to create a valid program that takes a String input.
+
+**Answer**
+
+`import`, `Scanner`, `String` and `nextLine`
+
+#### Input
+
+Similarly, we can take an integer as input using `nextInt()`:
+
+```java
+import java.util.Scanner;
+
+class Demo {
+    public static void main(String[ ] args) {
+        Scanner sc = new Scanner(System.in);
+        int age = sc.nextInt();
+        System.out.println("Age: "+age);        
+    }
+}
+```
+
+This will accept an integer input from the user and assign it to the age variable.
+
+> :warning: There are similar methods available to take other types as input: `nextDouble()`, `nextFloat()`, `nextBoolean()`.
+
+#### Quiz 08.03
+
+**Question**
+
+Rearrange to create a valid program that takes an integer input and outputs its double.
+
+**Answer**
+
+`Scanner sc = new Scanner(System.in);`, `int x = sc.nextInt();` and `System.out.println(x*2);`
+
+#### Multiple Inputs
+
+You can use the same Scanner to take multiple inputs.
+
+For example, let's take the name and age as input and output them.
+
+```java
+import java.util.Scanner;
+
+public class Program {
+    public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+        String name = sc.nextLine();
+        int age = sc.nextInt();
+        System.out.println(name+": "+age);
+    }
+}
+```
+
+> :warning: Note, that when you run it in our Playground, you need to provide all the inputs in the popup, separated by new lines.
+
+#### Lesson Takeaways 
+
+That's how you take input from the user in Java!
+
+Here are the steps:
+
+1. import the java.util.Scanner class.
+
+2. create a `Scanner` object:
+
+```java
+Scanner sc = new Scanner(System.in);
+```
+
+3. Use the corresponding method of the Scanner to take input, for example:
+
+```java
+import java.util.Scanner;
+
+class Demo {
+    public static void main(String[ ] args) {
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        System.out.println(num);        
+    }
+}
+```
+
+##### Tip Calculator 
+
+###### Tip Calculator 
+
+You always tip 15% of the bill amount. To make the calculation easier, you decide to write a program that will do that for you.
+
+**Task** 
+
+Take the bill amount as input and output the corresponding tip amount, which should be 15% of the amount.
+
+To calculate 15% of a number, multiply it by 15, then divide by 100.
+
+> :warning: The input amount can be a decimal, so take a double from the input.
+
+###### Solution
+
+```java
+import  java.util.Scanner;
+
+public class Program {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double amount = sc.nextDouble(); 
+        System.out.println(amount * 0.15); 
+    }
+}
+```
+
+#### Quiz 08.04
+
+**Question**
+
+Fill in the blanks to create a valid program that takes a String and an integer as input, then outputs a welcome message.
+
+**Answer**
+
+`import`, `main`, `new`, `sc`, `.` and `out`
+
 ### Lesson: Conditionals
 
 ### Lesson: The switch Statement
