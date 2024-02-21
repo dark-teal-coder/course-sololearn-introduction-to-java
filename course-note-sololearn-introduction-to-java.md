@@ -1600,6 +1600,320 @@ Fill in the blanks to create a valid program that takes a String and an integer 
 
 ### Lesson: Conditionals
 
+#### Decision Making
+
+Conditional statements are used to perform different actions based on different conditions. 
+
+For example, a billing program can apply a discount to the total only if the amount is greater than a threshold. 
+
+Let's learn how to create such programs.
+
+#### Decision Making
+
+The `if` statement is one of the most frequently used conditional statements.
+
+If the `if` statement's condition is true, the block of code inside the `if` statement is executed. 
+
+Syntax:
+
+```java
+if (condition) {
+  //some code 
+}
+```
+
+#### if Statement
+
+Any of the following comparison operators may be used to form the condition:
+
+- `<` less than
+- `>` greater than
+- `!=` not equal to
+- `==` equal to
+- `<=` less than or equal to
+- `>=` greater than or equal to
+
+For example:
+
+```java
+class Demo {
+    public static void main(String[ ] args) {
+        int age = 24;
+        if(age >= 18) {
+            System.out.println("Welcome");
+        }     
+    }
+}
+```
+
+> :warning: This code will output the message only if the age value is greater or equal to 18.
+
+#### Quiz 09.01
+
+**Question**
+
+Drag & drop to output "Open" if the time value is less than 20.
+
+```java
+_____ ( _____ < 20) {
+System.out._____("Open");
+}
+```
+
+**Answer**
+
+`if`, `time` and `println`
+
+#### if Statement
+
+Remember that you need to use two equal signs (`==`) to test for equality, since a single equal sign is the assignment operator.
+
+For example:
+
+```java
+class Demo {
+    public static void main(String[ ] args) {
+        int number = 8;
+        if(number == 8) {
+            System.out.println("Bingo");
+        }
+    }
+}
+```
+
+#### Quiz 09.02
+
+**Question**
+
+Which of the following operators is used to test for equality?
+
+- [] `=`
+- [] `!`
+- [] `==`
+- [] `--`
+
+**Answer**
+
+`==`
+
+#### else Statement
+
+An if statement can be followed by an optional else statement, which executes when the condition evaluates to false.
+
+For example:
+
+```java
+class Demo {
+    public static void main(String[ ] args) {
+        int age = 30;
+
+        if (age < 16) {
+            System.out.println("Too Young");
+        } else { 
+           System.out.println("Welcome!");
+        }
+    }
+}
+```
+
+> :warning: As age equals 30, the condition in the if statement evaluates to false and the else statement is executed.
+
+#### Quiz 09.03
+
+**Question**
+
+Fill in the blanks to output the greater of the two variables.
+
+```java
+int x = 10;  
+int y = 5;
+_____ (x > y) {
+  System.out.println(_____);
+}
+_____ {
+  System.out.println(y);
+}
+```
+
+**Answer**
+
+`if`, `x` and `else`
+
+#### Nested if Statements
+
+You can use one if-else statement inside another if-or-else statement.
+
+For example:
+
+```java
+class Demo {
+	public static void main(String[ ] args) {
+		int age = 25;
+		if(age > 0) {
+			if(age > 16) {
+				System.out.println("Welcome!");
+			} else {
+				System.out.println("Too Young");
+			}
+		} else {
+			System.out.println("Error");
+		}
+	}
+}
+```
+
+> :warning: You can nest as many if-else statements as you want, however the code will become harder to read and understand.
+
+#### Quiz 09.04
+
+**Question**
+
+What is the value of x after this code is run?
+
+```java
+int x = 3;
+if(x > 2) {
+    if(x >= 5) {
+        x = 4;
+    }else{
+        x = 6;
+    }
+} else {
+    x = 8;
+}
+```
+
+**Answer**
+
+`6`
+
+#### else if Statements
+
+Instead of using nested if-else statements, you can use the else if statement to check multiple conditions.
+
+For example:
+
+```java
+class Demo {
+    public static void main(String[ ] args) {
+        int age = 25;
+
+        if(age <= 0) {
+           System.out.println("Error");
+        } else if(age <= 16) {
+           System.out.println("Too Young");
+        } else if(age < 100) {
+           System.out.println("Welcome!");
+        } else {
+           System.out.println("Really?");
+        }
+    }
+}
+```
+
+> :warning: You can include as many else-if statements as you need.
+
+#### Quiz 09.05
+
+**Question**
+
+Fill in the blanks to output the letter from the English alphabet that corresponds to the number.
+
+```java
+int num = 2;
+_____ (num == 1) {
+	System.out.println("A");
+} 
+_____ if (_____ == 2) {
+	System.out.println("B");
+}
+else {
+	System.out.println("something else");
+}
+```
+
+**Answer**
+
+`if`, `else` and `num`
+
+#### Lesson Takeaways
+
+Now you know how to make decisions in your code! Here are some key takeaways:
+
+You can check for a condition using the if statement.
+
+In case the condition is false, the code in an else statement can be executed.
+
+Here is a generic structure of if-else statements:
+
+```java
+if(condition) {
+  //some code
+} else if(condition) {
+//some other code
+} else {
+  //some other code
+}
+```
+
+We will learn about another decision making statement in the next lesson.
+
+##### Boiling Water
+
+###### Boiling Water
+
+You are making a program for a water sensor that should check if the water is boiling.
+
+Take the integer temperature in Celsius as input and output "Boiling" if the temperature is above or equal to 100. Output "Not boiling" if it's not.
+
+Sample Input
+105
+
+Sample Output
+Boiling
+
+> :warning: Make sure to output the text exactly as defined in the text.
+
+###### Solution
+
+```java
+import java.util.Scanner;
+
+public class Program {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int celsius = input.nextInt(); 
+        if (celsius >= 100){
+            System.out.println("Boiling"); 
+        }
+        else {
+            System.out.println("Not boiling"); 
+        }
+    }
+}
+```
+
+#### Quiz 09.06
+
+**Question**
+
+Fill in the blanks to create a program that checks the `temp` value and outputs "Alert", in case it's over 38. Also, output "Error" in case the value is lower than 34.
+
+**Answer**
+
+```java
+double temp = 36.6;
+_____ (temp > 38) _____
+   System.out.println("Alert");
+}  
+_____ (temp < 34) {
+  System.out.println("Error");
+}
+_____ {
+  System.out.println("OK").
+}
+```
+
 ### Lesson: The switch Statement
 
 ### Lesson: Multiple Conditions
