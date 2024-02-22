@@ -41,7 +41,7 @@ This simple, beginner-friendly Java course requires no previous coding knowledge
 
 &nbsp;
 
-### Lesson: Getting Started with Java
+### Lesson 01: Getting Started with Java
 
 #### Welcome to Java!
 
@@ -169,7 +169,7 @@ In the next lesson, you will create code with multiple lines and different types
 
 &nbsp;
 
-### Lesson: Multiple Statements
+### Lesson 02: Multiple Statements
 
 #### More Complex Programs
 
@@ -342,7 +342,7 @@ public class Program
 
 &nbsp;
 
-### Lesson: Program Structure
+### Lesson 03: Program Structure
 
 #### Java Program
 
@@ -513,7 +513,7 @@ class Demo{
 
 &nbsp;
 
-### Lesson: Variables
+### Lesson 04: Variables
 
 #### Variables
 
@@ -720,7 +720,7 @@ Drag & drop to create a valid Java program that declares a variable, assigns it 
 
 &nbsp;
 
-### Lesson: Variable Types
+### Lesson 05: Variable Types
 
 #### Types
 
@@ -921,7 +921,7 @@ Drag & drop to fill in the correct data types for the given variables.
 
 &nbsp; 
 
-### Lesson: Doing Math
+### Lesson 06: Doing Math
 
 #### Doing Math
 
@@ -1207,7 +1207,7 @@ Fill in the blanks to create a program that calculates how many of the given egg
 
 `eggs`, `%` and `result`
 
-### Lesson: Java Comments
+### Lesson 07: Java Comments
 
 #### Comments
 
@@ -1345,7 +1345,7 @@ public class Program {
 }
 ```
 
-### Module 1 Quiz
+### Quiz: Module 1 Quiz
 
 **Question 01.01**
 
@@ -1409,7 +1409,7 @@ System.out.println(_____);
 
 ## 02 Control Flow
 
-### Lesson: Taking User Input
+### Lesson 08: Taking User Input
 
 #### Input
 
@@ -1598,7 +1598,7 @@ Fill in the blanks to create a valid program that takes a String and an integer 
 
 `import`, `main`, `new`, `sc`, `.` and `out`
 
-### Lesson: Conditionals
+### Lesson 09: Conditionals
 
 #### Decision Making
 
@@ -1914,7 +1914,7 @@ _____ {
 }
 ```
 
-### Lesson: The switch Statement
+### Lesson 10: The switch Statement
 
 #### Conditionals
 
@@ -2196,13 +2196,13 @@ default_____
 
 `:`, `break`, `case` and `:`
 
-### Lesson: Multiple Conditions
+### Lesson 11: Multiple Conditions
 
-### Lesson: While Loops
+### Lesson 12: While Loops
 
-### Lesson: For Loops
+### Lesson 13: For Loops
 
-### Quiz: Java for Beginners Module 2 Quiz
+### Quiz: Module 2 Quiz
 
 &nbsp;
 
@@ -2216,13 +2216,13 @@ xxx
 
 ## 03 Arrays
 
-### Lesson: Arrays
+### Lesson 14: Arrays
 
-### Lesson: Looping Over Arrays
+### Lesson 15: Looping Over Arrays
 
-### Lesson: Multidimensional Arrays
+### Lesson 16: Multidimensional Arrays
 
-### Quiz: Java for Beginners Module 3 Quiz
+### Quiz: Module 3 Quiz
 
 &nbsp;
 
@@ -2236,13 +2236,13 @@ xxx
 
 ## 04 Methods
 
-### Lesson: Methods
+### Lesson 17: Methods
 
-### Lesson: Method Parameters
+### Lesson 18: Method Parameters
 
-### Lesson: Returning From Methods
+### Lesson 19: Returning From Methods
 
-### Quiz: Java for Beginners Module 4 Quiz
+### Quiz: Module 4 Quiz
 
 &nbsp;
 
