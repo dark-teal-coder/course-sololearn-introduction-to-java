@@ -2047,6 +2047,25 @@ class Demo {
 }
 ```
 
+#### Quiz 10.02
+
+**Question**
+
+What is the value of x after this code?
+
+```java
+int x = 2;
+switch(x) {
+   case 1: x = 2;
+   case 2: x = 3;
+   case 3: x = 4;
+}
+```
+
+**Answer**
+
+`4`
+
 
 
 ### Lesson: Multiple Conditions
