@@ -2171,6 +2171,31 @@ public class Program {
 }
 ```
 
+#### Quiz 10.04
+
+**Question**
+
+You are making a menu for a vending machine. The choice is stored in a variable called item.
+
+Fill in the blanks to output the selected beverage.
+
+```java
+switch(item) {
+case 1_____
+	System.out.println("Coffee");
+	break;
+_____ 2:
+	System.out.println("Tea");
+	break;
+default _____
+	System.out.println("Try again");
+}
+```
+
+**Answer**
+
+`:`, `case` and `{`
+
 ### Lesson: Multiple Conditions
 
 ### Lesson: While Loops
