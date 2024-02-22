@@ -2116,6 +2116,16 @@ switch (a) {
 
 `40`
 
+#### Lesson Takeaways
+
+The switch statement is a handy way to check for multiple values and run code.
+
+- Remember, that each case is followed by a value and a colon.
+- Each case needs a break statement, or the code of the other cases will continue to get executed.
+- The default case can be used to run code if none of the cases match.
+
+In the next lesson, we will learn how to check for multiple conditions.
+
 
 
 ### Lesson: Multiple Conditions
