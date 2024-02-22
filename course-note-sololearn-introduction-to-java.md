@@ -1997,6 +1997,31 @@ When the variable being switched on is equal to a case, the statements following
 
 > :warning: You can have any number of case statements within a switch. Each case is followed by the comparison value and a colon.
 
+#### Quiz 10.01
+
+**Question**
+
+Fill in the missing characters to create a valid switch statement.
+
+```java
+int num = 2;
+switch(num) {
+case 1_____
+	System.out.println("One");
+	break;
+ _____ 2:
+	System.out.println("Two");
+	break;
+case 3:
+	System.out.println("Three");
+	break_____
+}
+```
+
+**Answer**
+
+`:`, `case` and `;`
+
 
 
 ### Lesson: Multiple Conditions
