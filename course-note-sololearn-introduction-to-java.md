@@ -1922,22 +1922,52 @@ Consider a program that takes a day number as input and outputs the correspondin
 
 ```java
 class Demo {
-    public static void main(String[ ] args) {
-        int day = 2;
-        if(day == 1) {
-          System.out.println("Monday");
-        } else if(day == 2) {
-          System.out.println("Tuesday");
-        } else if(day == 3) {
-          System.out.println("Wednesday");
-        }
-    }
+	public static void main(String[ ] args) {
+		int day = 2;
+		if(day == 1) {
+			System.out.println("Monday");
+		}
+		else if(day == 2) {
+			System.out.println("Tuesday");
+		}
+		else if(day == 3) {
+			System.out.println("Wednesday");
+		}
+	}
 }
 ```
 
 For a shorter code in our demo, we have checked only for the first 3 values.
 
 You can continue the code and check for all 7-day numbers.
+
+#### switch
+
+Instead of many if else statements, which become hard to read, we can use a switch statement.
+
+A switch statement tests a variable for equality against a list of values.
+
+Here is the previous example using a switch statement:
+
+```java
+class Demo {
+	public static void main(String[ ] args) {
+		int day = 2;
+
+		switch(day) {
+			case 1:
+				System.out.println("Monday");
+				break;
+			case 2:
+				System.out.println("Tuesday");
+				break;
+			case 3:
+				System.out.println("Wednesday");
+				break;
+		}
+	}
+}
+```
 
 
 
