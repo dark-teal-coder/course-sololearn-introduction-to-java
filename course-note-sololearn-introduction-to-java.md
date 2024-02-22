@@ -2095,6 +2095,27 @@ class Demo {
 
 > :warning: No break is needed in the default case, as it is always the last statement in the switch.
 
+#### Quiz 10.03
+
+**Question**
+
+What is the output of the following code?
+
+```java
+int a = 11; int b = 12; int c = 40;
+switch (a) {
+ case 40:
+   System.out.println(b);
+   break;
+ default:
+   System.out.println(c);
+}
+```
+
+**Answer**
+
+`40`
+
 
 
 ### Lesson: Multiple Conditions
