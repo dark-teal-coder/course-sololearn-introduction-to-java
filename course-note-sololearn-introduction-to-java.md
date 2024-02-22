@@ -2066,6 +2066,35 @@ switch(x) {
 
 `4`
 
+#### The default Case
+
+A switch statement can have an optional default case.
+
+The default case can be used for performing a task when none of the cases is matched.
+
+For example:
+
+```java
+class Demo {
+    public static void main(String[ ] args) {
+        int day = 5;
+
+        switch(day) {
+        case 1:
+            System.out.println("Monday");
+        case 2:
+            System.out.println("Tuesday");
+        case 3:
+            System.out.println("Wednesday");
+        default: 
+            System.out.println("Another day");
+        }
+    }
+}
+```
+
+> :warning: No break is needed in the default case, as it is always the last statement in the switch.
+
 
 
 ### Lesson: Multiple Conditions
