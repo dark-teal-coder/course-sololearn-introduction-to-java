@@ -2022,6 +2022,31 @@ case 3:
 
 `:`, `case` and `;`
 
+#### switch
+
+It is important to have a break statement for each case.
+
+If no break appears, the program will continue to execute the next case in the switch, even if the value does not match the variable that is switched on.
+
+Run this example to see what happens when there is no break in the case:
+
+```java
+class Demo {
+	public static void main(String[ ] args) {
+		int day = 2;
+
+		switch(day) {
+			case 1:
+				System.out.println("Monday");
+			case 2:
+				System.out.println("Tuesday");
+			case 3:
+				System.out.println("Wednesday");
+		}
+	}
+}
+```
+
 
 
 ### Lesson: Multiple Conditions
