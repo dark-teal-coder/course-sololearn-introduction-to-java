@@ -2183,18 +2183,18 @@ Fill in the blanks to output the selected beverage.
 switch(item) {
 case 1_____
 	System.out.println("Coffee");
-	break;
+	_____;
 _____ 2:
 	System.out.println("Tea");
 	break;
-default _____
+default_____
 	System.out.println("Try again");
 }
 ```
 
 **Answer**
 
-`:`, `case` and `{`
+`:`, `break`, `case` and `:`
 
 ### Lesson: Multiple Conditions
 
