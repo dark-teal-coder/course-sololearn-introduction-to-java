@@ -1969,6 +1969,34 @@ class Demo {
 }
 ```
 
+#### switch
+
+Let's look at the code again:
+
+```java
+class Demo {
+	public static void main(String[ ] args) {
+		int day = 2;
+
+		switch(day) {
+			case 1:
+				System.out.println("Monday");
+				break;
+			case 2:
+				System.out.println("Tuesday");
+				break;
+			case 3:
+				System.out.println("Wednesday");
+				break;
+		}
+	}
+}
+```
+
+When the variable being switched on is equal to a case, the statements following that case will execute until a break statement is reached.
+
+> :warning: You can have any number of case statements within a switch. Each case is followed by the comparison value and a colon.
+
 
 
 ### Lesson: Multiple Conditions
