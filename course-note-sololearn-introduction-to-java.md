@@ -41,7 +41,7 @@ This simple, beginner-friendly Java course requires no previous coding knowledge
 
 &nbsp;
 
-### Lesson 01: Getting Started with Java
+### Lesson 01.01: Getting Started with Java
 
 #### Welcome to Java!
 
@@ -169,7 +169,7 @@ In the next lesson, you will create code with multiple lines and different types
 
 &nbsp;
 
-### Lesson 02: Multiple Statements
+### Lesson 01.02: Multiple Statements
 
 #### More Complex Programs
 
@@ -342,7 +342,7 @@ public class Program
 
 &nbsp;
 
-### Lesson 03: Program Structure
+### Lesson 01.03: Program Structure
 
 #### Java Program
 
@@ -513,7 +513,7 @@ class Demo{
 
 &nbsp;
 
-### Lesson 04: Variables
+### Lesson 01.04: Variables
 
 #### Variables
 
@@ -720,7 +720,7 @@ Drag & drop to create a valid Java program that declares a variable, assigns it 
 
 &nbsp;
 
-### Lesson 05: Variable Types
+### Lesson 01.05: Variable Types
 
 #### Types
 
@@ -921,7 +921,7 @@ Drag & drop to fill in the correct data types for the given variables.
 
 &nbsp; 
 
-### Lesson 06: Doing Math
+### Lesson 01.06: Doing Math
 
 #### Doing Math
 
@@ -1207,7 +1207,7 @@ Fill in the blanks to create a program that calculates how many of the given egg
 
 `eggs`, `%` and `result`
 
-### Lesson 07: Java Comments
+### Lesson 01.07: Java Comments
 
 #### Comments
 
@@ -1413,7 +1413,7 @@ ystem.out.println(_____);
 
 ## Module 02: Control Flow
 
-### Lesson 08: Taking User Input
+### Lesson 02.01: Taking User Input
 
 #### Input
 
@@ -1602,7 +1602,7 @@ Fill in the blanks to create a valid program that takes a String and an integer 
 
 `import`, `main`, `new`, `sc`, `.` and `out`
 
-### Lesson 09: Conditionals
+### Lesson 02.02: Conditionals
 
 #### Decision Making
 
@@ -1918,7 +1918,7 @@ _____ {
 }
 ```
 
-### Lesson 10: The switch Statement
+### Lesson 02.03: The switch Statement
 
 #### Conditionals
 
@@ -2200,11 +2200,11 @@ default_____
 
 `:`, `break`, `case` and `:`
 
-### Lesson 11: Multiple Conditions
+### Lesson 02.04: Multiple Conditions
 
-### Lesson 12: While Loops
+### Lesson 02.05: While Loops
 
-### Lesson 13: For Loops
+### Lesson 02.06: For Loops
 
 ### Quiz: Module 2 Quiz
 
@@ -2220,11 +2220,11 @@ xxx
 
 ## Module 03: Arrays
 
-### Lesson 14: Arrays
+### Lesson 03.01: Arrays
 
-### Lesson 15: Looping Over Arrays
+### Lesson 03.02: Looping Over Arrays
 
-### Lesson 16: Multidimensional Arrays
+### Lesson 03.03: Multidimensional Arrays
 
 ### Quiz: Module 3 Quiz
 
@@ -2240,11 +2240,11 @@ xxx
 
 ## Module 04: Methods
 
-### Lesson 17: Methods
+### Lesson 04.01: Methods
 
-### Lesson 18: Method Parameters
+### Lesson 04.02: Method Parameters
 
-### Lesson 19: Returning From Methods
+### Lesson 04.03: Returning From Methods
 
 ### Quiz: Module 4 Quiz
 
