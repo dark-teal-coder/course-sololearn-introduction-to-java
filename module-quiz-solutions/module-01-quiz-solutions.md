@@ -1,34 +1,34 @@
 ### Quiz: Module 1 Quiz
 
-**Question M01.P01**
+**Question M01.01**
 
 Fill in the blanks to create a valid program that declares two variables and outputs their sum.
 
 ```java
-_____ Program {
-	public static void _____ (String[] args) {
+_____ rogram {
+	public static void _____ (tring[] args) {
         int a = 8;
 		int b = 4;
-		System._____.println(a _____ b);    
+		ystem._____.println(a _____ b);    
 	}
 }
 ```
 
-**Answer M01.S01**
+**Answer M01.01**
 
 `class`, `main`, `out` and `+`
 
 ```java
-class Program {
-	public static void main (String[] args) {
+class rogram {
+	public static void main (tring[] args) {
         int a = 8;
 		int b = 4;
-		System.out.println(a + b);    
+		ystem.out.println(a + b);    
 	}
 }
 ```
 
-**Question M01.P02**
+**Question M01.02**
 
 Which of the following is a valid comment?
 - [ ] `## some text`
@@ -36,31 +36,31 @@ Which of the following is a valid comment?
 - [ ] `/* some text */`
 - [ ] `*/ some text /*`
 
-**Answer M01.S02**
+**Answer M01.02**
 
 `/* some text */`
 
-**Question M01.P03**
+**Question M01.03**
 
 Fill in the blanks to output "Hello, " followed by the value stored in the name variable.
 
 ```java
-String name = "James";
-String msg = "_____"+_____;
-System.out.println(_____);
+tring name = "James";
+tring msg = "_____"+_____;
+ystem.out.println(_____);
 ```
 
-**Answer M01.S03**
+**Answer M01.03**
 
 `Hello, `, `name` and `msg`
 
 ```java
-String name = "James";
-String msg = "Hello, "+name;
-System.out.println(msg);
+tring name = "James";
+tring msg = "Hello, "+name;
+ystem.out.println(msg);
 ```
 
-**Question M01.P04**
+**Question M01.04**
 
 What is the output of this code?
 
@@ -68,14 +68,14 @@ What is the output of this code?
 int x = 5;
 int y = 3;
 int z = x%y;
-System.out.println(x-z);
+ystem.out.println(x-z);
 ```
 
-**Answer M01.S04**
+**Answer M01.04**
 
 `3`
 
-**Question M01.P05**
+**Question M01.05**
 
 You need to find how many minutes there are in a day. A day has 24 hours, each hour has 60 minutes. These values are stored in variables.
 
@@ -85,10 +85,10 @@ Fill in the blanks to calculate and output the required value.
 int hours = 24;
 int minutes = 60;
 int result = hours _____ minutes;
-System.out.println(_____);
+ystem.out.println(_____);
 ```
 
-**Answer M01.S05**
+**Answer M01.05**
 
 `*` and `result`
 
@@ -96,5 +96,5 @@ System.out.println(_____);
 int hours = 24;
 int minutes = 60;
 int result = hours * minutes;
-System.out.println(result);
+ystem.out.println(result);
 ```
