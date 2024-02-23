@@ -1347,7 +1347,7 @@ public class Program {
 
 ### Quiz: Module 1 Quiz
 
-**Question 01.01**
+**Question M01.Q01**
 
 Fill in the blanks to create a valid program that declares two variables and outputs their sum.
 
@@ -1361,11 +1361,11 @@ _____ Program {
 }
 ```
 
-**Question 01.02**
+**Question M01.Q02**
 
 Which of the following is a valid comment?
 
-**Question 01.03**
+**Question M01.Q03**
 
 Fill in the blanks to output "Hello, " followed by the value stored in the name variable.
 
@@ -1375,7 +1375,7 @@ String msg = "_____"+_____;
 System.out.println(_____);
 ```
 
-**Question 01.04**
+**Question M01.Q04**
 
 What is the output of this code?
 
@@ -1386,7 +1386,7 @@ int z = x%y;
 System.out.println(x-z);
 ```
 
-**Question 01.05**
+**Question M01.Q05**
 
 You need to find how many minutes there are in a day. A day has 24 hours, each hour has 60 minutes. These values are stored in variables.
 
