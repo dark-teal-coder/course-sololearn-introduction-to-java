@@ -61,7 +61,7 @@ Learning some coding can help you innovate and create different solutions to pro
 
 #### Quiz 01.01
 
-**Question**
+**Problem**
 
 What's a programming language?
 
@@ -81,7 +81,7 @@ The simplest output consists of displaying a message on the screen.
 
 #### Quiz 01.02
 
-**Question**
+**Problem**
 
 Notifications and text displayed on a screen are examples of outputs from computer programs
 
@@ -101,7 +101,7 @@ System.out.println("Write once, run anywhere!");
 
 #### Quiz 01.03
 
-**Question**
+**Problem**
 
 Drag and drop to write a line of code that outputs "New message".
 
@@ -128,7 +128,7 @@ You'll see other lines of code when you open the Code Playground. They are neede
 
 #### Quiz 01.04
 
-**Question**
+**Problem**
 
 Drag and drop to complete a line of code that outputs "Game Over".
 
@@ -138,7 +138,7 @@ Drag and drop to complete a line of code that outputs "Game Over".
 
 #### Quiz 01.05
 
-**Question**
+**Problem**
 
 The `println` instruction needs to be followed by parentheses. Drag and drop to create a line of code that runs without errors.
 
@@ -148,7 +148,7 @@ The `println` instruction needs to be followed by parentheses. Drag and drop to 
 
 #### Quiz 01.06
 
-**Question**
+**Problem**
 
 Drag and drop to create a line of code that runs without errors.
 
@@ -191,7 +191,7 @@ System.out.println("Write once, run anywhere!");
 
 #### Quiz 02.01
 
-**Question**
+**Problem**
 
 Each statement needs to end with a
 
@@ -219,7 +219,7 @@ public class Program
 
 #### Quiz 02.02
 
-**Question**
+**Problem**
 
 Drag and drop to complete code that runs without errors
 
@@ -229,7 +229,7 @@ Drag and drop to complete code that runs without errors
 
 #### Quiz 02.03
 
-**Question**
+**Problem**
 
 When you give the computer many statements, the instructions will be executed line by line, from top to bottom.
 
@@ -261,7 +261,7 @@ public class Program
 
 #### Quiz 02.04
 
-**Question**
+**Problem**
 
 Drag and drop to write code that runs without errors
 
@@ -271,7 +271,7 @@ Drag and drop to write code that runs without errors
 
 #### Quiz 02.05
 
-**Question**
+**Problem**
 
 Drag and drop to write code that runs without errors
 
@@ -281,7 +281,7 @@ Drag and drop to write code that runs without errors
 
 #### Quiz 02.06
 
-**Question**
+**Problem**
 
 Java is a case-sensitive language. This means that you need to pay attention to the correct input of uppercase and lowercase letters.
 
@@ -293,7 +293,7 @@ Drag and drop to write code that runs without errors:
 
 #### Quiz 02.07
 
-**Question**
+**Problem**
 
 Java is a
 
@@ -388,7 +388,7 @@ Any code that we want to include in the class needs to go inside the brackets.
 
 #### Quiz 03.01
 
-**Question**
+**Problem**
 
 Fill in the blanks to create an empty class called Bot.
 
@@ -420,7 +420,7 @@ In Java, each application has an entry point, or a starting point, which is a me
 
 #### Quiz 03.02
 
-**Question**
+**Problem**
 
 The starting point of every Java program is:
 
@@ -442,7 +442,7 @@ The main method contains the code that executes when we run our program. In this
 
 #### Quiz 03.03
 
-**Question**
+**Problem**
 
 Fill in the blanks to create a valid main method that outputs a text.
 
@@ -468,7 +468,7 @@ class Demo {
 
 #### Quiz 03.04
 
-**Question**
+**Problem**
 
 Fill in the blanks to create a valid Java program.
 
@@ -537,7 +537,7 @@ Text in quotes is called a String.
 
 #### Quiz 04.01
 
-**Question**
+**Problem**
 
 Which of the following is a String?
 
@@ -561,7 +561,7 @@ Now, our variable name can hold String values.
 
 #### Quiz 04.02
 
-**Question**
+**Problem**
 
 Drag & drop to declare a String variable called "message".
 
@@ -584,7 +584,7 @@ Now, name holds the value "James".
 
 #### Quiz 04.03
 
-**Question**
+**Problem**
 
 Fill in the blanks to declare a variable called 'city' and assign the value "New York" to it.
 
@@ -610,7 +610,7 @@ class Demo {
 
 #### Quiz 04.04
 
-**Question**
+**Problem**
 
 Rearrange the code to create a program that declares a variable called "country", assign the value "UK" to it and output it to the screen.
 
@@ -635,7 +635,7 @@ This is handy when we already know the value for our variable and makes the code
 
 #### Quiz 04.05
 
-**Question**
+**Problem**
 
 Drag & drop to declare the variable and assign it to the given value.
 
@@ -662,7 +662,7 @@ class Demo {
 
 #### Quiz 04.06
 
-**Question**
+**Problem**
 
 What is the output of this code?
 
@@ -710,7 +710,7 @@ public class Program {
 
 #### Quiz 04.06
 
-**Question**
+**Problem**
 
 Drag & drop to create a valid Java program that declares a variable, assigns it to a value and outputs it.
 
@@ -741,7 +741,7 @@ class Demo {
 
 #### Quiz 05.01
 
-**Question**
+**Problem**
 
 Fill in the blanks to declare a variable that holds the value 14.
 
@@ -764,7 +764,7 @@ class Demo {
 
 #### Quiz 05.02
 
-**Question**
+**Problem**
 
 Drag and drop from the options below to have a valid Java program.
 
@@ -793,7 +793,7 @@ This tells Java to use the value as a float, instead of double.
 
 #### Quiz 05.03
 
-**Question**
+**Problem**
 
 Fill in the missing symbol to correctly declare a float.
 
@@ -828,7 +828,7 @@ class Demo {
 
 #### Quiz 05.04
 
-**Question**
+**Problem**
 
 A char value must be enclosed in:
 
@@ -857,7 +857,7 @@ For example, the boolean above can show whether a shop is open or closed.
 
 #### Quiz 05.05
 
-**Question**
+**Problem**
 
 Select the two values that a boolean can hold.
 
@@ -911,7 +911,7 @@ public class Program {
 
 #### Quiz 05.06
 
-**Question**
+**Problem**
 
 Drag & drop to fill in the correct data types for the given variables.
 
@@ -960,7 +960,7 @@ class Demo {
 
 #### Quiz 06.01
 
-**Question**
+**Problem**
 
 What is the output of this code?
 
@@ -1011,7 +1011,7 @@ class Demo {
 
 #### Quiz 06.02
 
-**Question**
+**Problem**
 
 Fill in the blanks to calculate and output the height of a 9-story building. Each floor has a height of 3 meters.
 
@@ -1041,7 +1041,7 @@ class Demo {
 
 #### Quiz 06.03
 
-**Question**
+**Problem**
 
 What is the result of the following code?
 
@@ -1073,7 +1073,7 @@ class Demo {
 
 #### Quiz 06.04
 
-**Question**
+**Problem**
 
 The result of dividing two doubles is:
 
@@ -1100,7 +1100,7 @@ class Demo {
 
 #### Quiz 06.05
 
-**Question**
+**Problem**
 
 What value is stored in the result variable?
 
@@ -1150,7 +1150,7 @@ class Demo {
 
 #### Quiz 06.06
 
-**Question**
+**Problem**
 
 Which of the following statements concatenates the Strings a and b?
 
@@ -1197,7 +1197,7 @@ public class Program {
 
 #### Quiz 06.06
 
-**Question**
+**Problem**
 
 You are packing eggs in baskets, each holding 8 eggs. All packed baskets need to be full.
 
@@ -1236,7 +1236,7 @@ class Demo {
 
 #### Quiz 07.01
 
-**Question**
+**Problem**
 
 Fill in the required symbols to make a comment.
 
@@ -1263,7 +1263,7 @@ class Demo {
 
 #### Quiz 07.02
 
-**Question**
+**Problem**
 
 What is the output of this code?
 
@@ -1301,7 +1301,7 @@ Anything between the `/*` and `*/` symbols becomes a comment.
 
 #### Quiz 07.03
 
-**Question**
+**Problem**
 
 Make this text a multi-line comment.
 
@@ -1347,7 +1347,7 @@ public class Program {
 
 ### Quiz: Module 1 Quiz
 
-**Question M01.Q01**
+**Problem M01.Q01**
 
 Fill in the blanks to create a valid program that declares two variables and outputs their sum.
 
@@ -1361,11 +1361,11 @@ _____ Program {
 }
 ```
 
-**Question M01.Q02**
+**Problem M01.Q02**
 
 Which of the following is a valid comment?
 
-**Question M01.Q03**
+**Problem M01.Q03**
 
 Fill in the blanks to output "Hello, " followed by the value stored in the name variable.
 
@@ -1375,7 +1375,7 @@ String msg = "_____"+_____;
 System.out.println(_____);
 ```
 
-**Question M01.Q04**
+**Problem M01.Q04**
 
 What is the output of this code?
 
@@ -1386,7 +1386,7 @@ int z = x%y;
 System.out.println(x-z);
 ```
 
-**Question M01.Q05**
+**Problem M01.Q05**
 
 You need to find how many minutes there are in a day. A day has 24 hours, each hour has 60 minutes. These values are stored in variables.
 
@@ -1443,7 +1443,7 @@ Confused about the new terminology? Classes, objects, import... Don't worry, you
 
 #### Quiz 08.01
 
-**Question**
+**Problem**
 
 Fill in the blanks to create a valid Scanner object.
 
@@ -1473,7 +1473,7 @@ class Demo {
 
 #### Quiz 08.02
 
-**Question**
+**Problem**
 
 Fill in the blanks to create a valid program that takes a String input.
 
@@ -1503,7 +1503,7 @@ This will accept an integer input from the user and assign it to the age variabl
 
 #### Quiz 08.03
 
-**Question**
+**Problem**
 
 Rearrange to create a valid program that takes an integer input and outputs its double.
 
@@ -1590,7 +1590,7 @@ public class Program {
 
 #### Quiz 08.04
 
-**Question**
+**Problem**
 
 Fill in the blanks to create a valid program that takes a String and an integer as input, then outputs a welcome message.
 
@@ -1650,7 +1650,7 @@ class Demo {
 
 #### Quiz 09.01
 
-**Question**
+**Problem**
 
 Drag & drop to output "Open" if the time value is less than 20.
 
@@ -1683,7 +1683,7 @@ class Demo {
 
 #### Quiz 09.02
 
-**Question**
+**Problem**
 
 Which of the following operators is used to test for equality?
 
@@ -1720,7 +1720,7 @@ class Demo {
 
 #### Quiz 09.03
 
-**Question**
+**Problem**
 
 Fill in the blanks to output the greater of the two variables.
 
@@ -1766,7 +1766,7 @@ class Demo {
 
 #### Quiz 09.04
 
-**Question**
+**Problem**
 
 What is the value of x after this code is run?
 
@@ -1815,7 +1815,7 @@ class Demo {
 
 #### Quiz 09.05
 
-**Question**
+**Problem**
 
 Fill in the blanks to output the letter from the English alphabet that corresponds to the number.
 
@@ -1895,7 +1895,7 @@ public class Program {
 
 #### Quiz 09.06
 
-**Question**
+**Problem**
 
 Fill in the blanks to create a program that checks the `temp` value and outputs "Alert", in case it's over 38. Also, output "Error" in case the value is lower than 34.
 
@@ -1999,7 +1999,7 @@ When the variable being switched on is equal to a case, the statements following
 
 #### Quiz 10.01
 
-**Question**
+**Problem**
 
 Fill in the missing characters to create a valid switch statement.
 
@@ -2049,7 +2049,7 @@ class Demo {
 
 #### Quiz 10.02
 
-**Question**
+**Problem**
 
 What is the value of x after this code?
 
@@ -2097,7 +2097,7 @@ class Demo {
 
 #### Quiz 10.03
 
-**Question**
+**Problem**
 
 What is the output of the following code?
 
@@ -2173,7 +2173,7 @@ public class Program {
 
 #### Quiz 10.04
 
-**Question**
+**Problem**
 
 You are making a menu for a vending machine. The choice is stored in a variable called item.
 
