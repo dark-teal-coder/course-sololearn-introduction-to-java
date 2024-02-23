@@ -19,11 +19,11 @@ _____ Program {
 `class`, `main`, `out` and `+`
 
 ```java
-`class` Program {
-	public static void `main` (String[] args) {
+class Program {
+	public static void main (String[] args) {
         int a = 8;
 		int b = 4;
-		System.`out`.println(a `+` b);    
+		System.out.println(a + b);    
 	}
 }
 ```
@@ -31,6 +31,10 @@ _____ Program {
 **Problem M01.P02**
 
 Which of the following is a valid comment?
+- [ ] `## some text`
+- [ ] `** some text **`
+- [ ] `/* some text */`
+- [ ] `*/ some text /*`
 
 **Solution M01.S02**
 
@@ -49,6 +53,12 @@ System.out.println(_____);
 **Solution M01.S03**
 
 `Hello, `, `name` and `msg`
+
+```java
+String name = "James";
+String msg = "Hello, "+name;
+System.out.println(msg);
+```
 
 **Problem M01.P04**
 
@@ -81,3 +91,10 @@ System.out.println(_____);
 **Solution M01.S05**
 
 `*` and `result`
+
+```java
+int hours = 24;
+int minutes = 60;
+int result = hours * minutes;
+System.out.println(result);
+```
