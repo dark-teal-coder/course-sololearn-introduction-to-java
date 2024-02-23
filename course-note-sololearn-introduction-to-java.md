@@ -37,7 +37,7 @@ This simple, beginner-friendly Java course requires no previous coding knowledge
 
 &nbsp;
 
-## 01 Basic Concepts
+## Module 01: Basic Concepts
 
 &nbsp;
 
@@ -1411,7 +1411,7 @@ ystem.out.println(_____);
 
 &nbsp;
 
-## 02 Control Flow
+## Module 02: Control Flow
 
 ### Lesson 08: Taking User Input
 
@@ -2218,7 +2218,7 @@ xxx
 
 &nbsp;
 
-## 03 Arrays
+## Module 03: Arrays
 
 ### Lesson 14: Arrays
 
@@ -2238,7 +2238,7 @@ xxx
 
 &nbsp;
 
-## 04 Methods
+## Module 04: Methods
 
 ### Lesson 17: Methods
 
