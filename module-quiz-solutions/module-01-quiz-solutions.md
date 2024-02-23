@@ -18,6 +18,16 @@ _____ Program {
 
 `class`, `main`, `out` and `+`
 
+```java
+`class` Program {
+	public static void `main` (String[] args) {
+        int a = 8;
+		int b = 4;
+		System.`out`.println(a `+` b);    
+	}
+}
+```
+
 **Problem M01.P02**
 
 Which of the following is a valid comment?
