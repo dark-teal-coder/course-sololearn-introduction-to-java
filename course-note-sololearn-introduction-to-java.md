@@ -65,7 +65,7 @@ Learning some coding can help you innovate and create different solutions to pro
 
 What's a programming language?
 
-**Answer**
+**Solution**
 
 A language used by humans to communicate with machines
 
@@ -85,7 +85,7 @@ The simplest output consists of displaying a message on the screen.
 
 Notifications and text displayed on a screen are examples of outputs from computer programs
 
-**Answer**
+**Solution**
 
 True
 
@@ -105,7 +105,7 @@ System.out.println("Write once, run anywhere!");
 
 Drag and drop to write a line of code that outputs "New message".
 
-**Answer**
+**Solution**
 
 "New message"
 
@@ -132,7 +132,7 @@ You'll see other lines of code when you open the Code Playground. They are neede
 
 Drag and drop to complete a line of code that outputs "Game Over".
 
-**Answer**
+**Solution**
 
 `println`
 
@@ -142,7 +142,7 @@ Drag and drop to complete a line of code that outputs "Game Over".
 
 The `println` instruction needs to be followed by parentheses. Drag and drop to create a line of code that runs without errors.
 
-**Answer**
+**Solution**
 
 `(` and `)`
 
@@ -152,7 +152,7 @@ The `println` instruction needs to be followed by parentheses. Drag and drop to 
 
 Drag and drop to create a line of code that runs without errors.
 
-**Answer**
+**Solution**
 
 `out` and `println`
 
@@ -195,7 +195,7 @@ System.out.println("Write once, run anywhere!");
 
 Each statement needs to end with a
 
-**Answer**
+**Solution**
 
 Semicolon `;`
 
@@ -223,7 +223,7 @@ public class Program
 
 Drag and drop to complete code that runs without errors
 
-**Answer**
+**Solution**
 
 `(`, `;` and `)`
 
@@ -239,7 +239,7 @@ Drag and drop to reorder the statements and output the following lines in the co
 *Turn left*
 *Cross the road*
 
-**Answer**
+**Solution**
 
 `System.out.println("Head east");`, `System.out.println("Turn left");` and `System.out.println("Cross the road");` 
 
@@ -265,7 +265,7 @@ public class Program
 
 Drag and drop to write code that runs without errors
 
-**Answer**
+**Solution**
 
 `"` and `(`
 
@@ -275,7 +275,7 @@ Drag and drop to write code that runs without errors
 
 Drag and drop to write code that runs without errors
 
-**Answer**
+**Solution**
 
 `println`, `;` and `out`
 
@@ -287,7 +287,7 @@ Java is a case-sensitive language. This means that you need to pay attention to 
 
 Drag and drop to write code that runs without errors:
 
-**Answer**
+**Solution**
 
 `System`
 
@@ -297,7 +297,7 @@ Drag and drop to write code that runs without errors:
 
 Java is a
 
-**Answer**
+**Solution**
 
 case-sensitive language
 
@@ -392,7 +392,7 @@ Any code that we want to include in the class needs to go inside the brackets.
 
 Fill in the blanks to create an empty class called Bot.
 
-**Answer**
+**Solution**
 
 `class` and `Bot`
 
@@ -424,7 +424,7 @@ In Java, each application has an entry point, or a starting point, which is a me
 
 The starting point of every Java program is:
 
-**Answer**
+**Solution**
 
 the main method
 
@@ -446,7 +446,7 @@ The main method contains the code that executes when we run our program. In this
 
 Fill in the blanks to create a valid main method that outputs a text.
 
-**Answer**
+**Solution**
 
 `main`
 
@@ -472,7 +472,7 @@ class Demo {
 
 Fill in the blanks to create a valid Java program.
 
-**Answer**
+**Solution**
 
 `class`, `main` and `out`
 
@@ -541,7 +541,7 @@ Text in quotes is called a String.
 
 Which of the following is a String?
 
-**Answer**
+**Solution**
 
 `welcome`
 
@@ -565,7 +565,7 @@ Now, our variable name can hold String values.
 
 Drag & drop to declare a String variable called "message".
 
-**Answer**
+**Solution**
 
 `String` and `message`
 
@@ -588,7 +588,7 @@ Now, name holds the value "James".
 
 Fill in the blanks to declare a variable called 'city' and assign the value "New York" to it.
 
-**Answer**
+**Solution**
 
 `city`, `=` and `;`
 
@@ -614,7 +614,7 @@ class Demo {
 
 Rearrange the code to create a program that declares a variable called "country", assign the value "UK" to it and output it to the screen.
 
-**Answer**
+**Solution**
 
 `String country;`, `country = "UK";` and `System.out.println(country);`
 
@@ -639,7 +639,7 @@ This is handy when we already know the value for our variable and makes the code
 
 Drag & drop to declare the variable and assign it to the given value.
 
-**Answer**
+**Solution**
 
 `String` and `=`
 
@@ -672,7 +672,7 @@ x = "hoy";
 System.out.println(x);
 ```
 
-**Answer**
+**Solution**
 
 `hoy`
 
@@ -714,7 +714,7 @@ public class Program {
 
 Drag & drop to create a valid Java program that declares a variable, assigns it to a value and outputs it.
 
-**Answer**
+**Solution**
 
 `class`, `main`, `String`, `println` and `color`
 
@@ -745,7 +745,7 @@ class Demo {
 
 Fill in the blanks to declare a variable that holds the value 14.
 
-**Answer**
+**Solution**
 
 `int` and `=`
 
@@ -768,7 +768,7 @@ class Demo {
 
 Drag and drop from the options below to have a valid Java program.
 
-**Answer**
+**Solution**
 
 `String`, `int` and `double`
 
@@ -797,7 +797,7 @@ This tells Java to use the value as a float, instead of double.
 
 Fill in the missing symbol to correctly declare a float.
 
-**Answer**
+**Solution**
 
 `f`
 
@@ -832,7 +832,7 @@ class Demo {
 
 A char value must be enclosed in:
 
-**Answer**
+**Solution**
 
 single quotes 
 
@@ -863,7 +863,7 @@ Select the two values that a boolean can hold.
 
 Select all correct answers.
 
-**Answer**
+**Solution**
 
 - [x] `true`
 - [x] `false`
@@ -915,7 +915,7 @@ public class Program {
 
 Drag & drop to fill in the correct data types for the given variables.
 
-**Answer**
+**Solution**
 
 `int`, `boolean`, `double` and `String`
 
@@ -971,7 +971,7 @@ int z = a+b;
 System.out.println(z+a);
 ```
 
-**Answer**
+**Solution**
 
 `8`
 
@@ -1015,7 +1015,7 @@ class Demo {
 
 Fill in the blanks to calculate and output the height of a 9-story building. Each floor has a height of 3 meters.
 
-**Answer**
+**Solution**
 
 `*`, `out` and `total`
 
@@ -1051,7 +1051,7 @@ int result = x / y;
 System.out.println(result);
 ```
 
-**Answer**
+**Solution**
 
 `3`
 
@@ -1077,7 +1077,7 @@ class Demo {
 
 The result of dividing two doubles is:
 
-**Answer**
+**Solution**
 
 a double
 
@@ -1110,7 +1110,7 @@ int y = 3;
 int result = x % y;
 ```
 
-**Answer**
+**Solution**
 
 `2`
 
@@ -1154,7 +1154,7 @@ class Demo {
 
 Which of the following statements concatenates the Strings a and b?
 
-**Answer**
+**Solution**
 
 `a + b;`
 
@@ -1203,7 +1203,7 @@ You are packing eggs in baskets, each holding 8 eggs. All packed baskets need to
 
 Fill in the blanks to create a program that calculates how many of the given eggs will be leftover.
 
-**Answer**
+**Solution**
 
 `eggs`, `%` and `result`
 
@@ -1240,7 +1240,7 @@ class Demo {
 
 Fill in the required symbols to make a comment.
 
-**Answer**
+**Solution**
 
 `//`
 
@@ -1274,7 +1274,7 @@ x = 3;
 System.out.println(x+1);
 ```
 
-**Answer**
+**Solution**
 
 `4`
 
@@ -1305,7 +1305,7 @@ Anything between the `/*` and `*/` symbols becomes a comment.
 
 Make this text a multi-line comment.
 
-**Answer**
+**Solution**
 
 `/*` and `*/`
 
@@ -1447,7 +1447,7 @@ Confused about the new terminology? Classes, objects, import... Don't worry, you
 
 Fill in the blanks to create a valid Scanner object.
 
-**Answer**
+**Solution**
 
 `Scanner`, `new` and `System`
 
@@ -1477,7 +1477,7 @@ class Demo {
 
 Fill in the blanks to create a valid program that takes a String input.
 
-**Answer**
+**Solution**
 
 `import`, `Scanner`, `String` and `nextLine`
 
@@ -1507,7 +1507,7 @@ This will accept an integer input from the user and assign it to the age variabl
 
 Rearrange to create a valid program that takes an integer input and outputs its double.
 
-**Answer**
+**Solution**
 
 `Scanner sc = new Scanner(System.in);`, `int x = sc.nextInt();` and `System.out.println(x*2);`
 
@@ -1594,7 +1594,7 @@ public class Program {
 
 Fill in the blanks to create a valid program that takes a String and an integer as input, then outputs a welcome message.
 
-**Answer**
+**Solution**
 
 `import`, `main`, `new`, `sc`, `.` and `out`
 
@@ -1660,7 +1660,7 @@ System.out._____("Open");
 }
 ```
 
-**Answer**
+**Solution**
 
 `if`, `time` and `println`
 
@@ -1692,7 +1692,7 @@ Which of the following operators is used to test for equality?
 - [] `==`
 - [] `--`
 
-**Answer**
+**Solution**
 
 `==`
 
@@ -1735,7 +1735,7 @@ _____ {
 }
 ```
 
-**Answer**
+**Solution**
 
 `if`, `x` and `else`
 
@@ -1783,7 +1783,7 @@ if(x > 2) {
 }
 ```
 
-**Answer**
+**Solution**
 
 `6`
 
@@ -1832,7 +1832,7 @@ else {
 }
 ```
 
-**Answer**
+**Solution**
 
 `if`, `else` and `num`
 
@@ -1899,7 +1899,7 @@ public class Program {
 
 Fill in the blanks to create a program that checks the `temp` value and outputs "Alert", in case it's over 38. Also, output "Error" in case the value is lower than 34.
 
-**Answer**
+**Solution**
 
 ```java
 double temp = 36.6;
@@ -2018,7 +2018,7 @@ case 3:
 }
 ```
 
-**Answer**
+**Solution**
 
 `:`, `case` and `;`
 
@@ -2062,7 +2062,7 @@ switch(x) {
 }
 ```
 
-**Answer**
+**Solution**
 
 `4`
 
@@ -2112,7 +2112,7 @@ switch (a) {
 }
 ```
 
-**Answer**
+**Solution**
 
 `40`
 
@@ -2192,7 +2192,7 @@ default_____
 }
 ```
 
-**Answer**
+**Solution**
 
 `:`, `break`, `case` and `:`
 
