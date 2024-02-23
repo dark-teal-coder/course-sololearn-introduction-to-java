@@ -116,9 +116,8 @@ Ready to write, run and test real code?
 Open the Code Playground below. Then hit "run" to see the output on the screen.
 
 ```java
-public class Program
-{
-    public static void main(String[] args) {
+public class Program {
+	public static void main(String[] args) {
 		System.out.println("Welcome to the Code Playground");
 	}
 }
@@ -206,11 +205,10 @@ You can add as many statements (or lines of code) as you need.
 The following piece of code consists of 2 statements. It outputs two messages in different lines.
 
 ```java
-public class Program
-{
-    public static void main(String[] args) {
-        System.out.println("Name:");
-        System.out.println("Surname:");
+public class Program {
+	public static void main(String[] args) {
+		System.out.println("Name:");
+		System.out.println("Surname:");
 	}
 }
 ```
@@ -248,11 +246,10 @@ Drag and drop to reorder the statements and output the following lines in the co
 Computers treat text and numbers differently. When printing text outputs, you need to enclose the text in double quotes. You don't need quotes when outputting numbers.
 
 ```java
-public class Program
-{
-    public static void main(String[] args) {
-        System.out.println("Points:");
-        System.out.println(500);
+public class Program {
+	public static void main(String[] args) {
+		System.out.println("Points:");
+		System.out.println(500);
 	}
 }
 ```
@@ -332,10 +329,9 @@ Complete the code to generate the required output.
 ###### Answer
 
 ```java
-public class Program
-{
-    public static void main(String[] args) {
-        System.out.println("My first Java Code Coach!");
+public class Program {
+	public static void main(String[] args) {
+		System.out.println("My first Java Code Coach!");
 	}
 }
 ```
@@ -352,9 +348,9 @@ The whole code to create a valid Java program that outputs a simple text is the 
 
 ```java
 class Demo {
-  public static void main(String[] args) {
-    System.out.println("Hi there");
-  }
+	public static void main(String[] args) {
+		System.out.println("Hi there");
+	}
 }
 ```
 
@@ -402,9 +398,9 @@ Our program includes one more thing that we need to cover:
 
 ```java
 class Demo {
-  public static void main(String[] args) {
-    System.out.println("Hi there");
-  }
+	public static void main(String[] args) {
+		System.out.println("Hi there");
+	}
 }
 ```
 
@@ -434,7 +430,7 @@ Notice that the main method, similar to the class, opens and closes with curly b
 
 ```java
 public static void main(String[] args) {
-  System.out.println("Hi there");
+	System.out.println("Hi there");
 }
 ```
 
@@ -456,11 +452,11 @@ The main method can contain multiple statements, for example:
 
 ```java
 class Demo {
-  public static void main(String[] args) {
-    System.out.println("Welcome");
-    System.out.println("This is a demo"); 
-    System.out.println("Bye");
-  }
+	public static void main(String[] args) {
+		System.out.println("Welcome");
+		System.out.println("This is a demo"); 
+		System.out.println("Bye");
+	}
 } 
 ```
 
@@ -504,10 +500,10 @@ Modify the code to output "Coding is fun" to the screen.
 ###### Answer
 
 ```java
-class Demo{
-    public static void main(String[] args) {
-        System.out.println("Coding is fun");
-    }
+class Demo {
+	public static void main(String[] args) {
+		System.out.println("Coding is fun");
+	}
 }
 ```
 
@@ -600,11 +596,11 @@ For example, let's output its value using `println()`:
 
 ```java
 class Demo {
-    public static void main(String[] args) {
-        String name;
-        name = "James";
-        System.out.println(name); 
-    }
+	public static void main(String[] args) {
+		String name;
+		name = "James";
+		System.out.println(name); 
+	}
 }
 ```
 
@@ -624,10 +620,10 @@ We can combine the declaration and assignment into one statement, like this:
 
 ```java
 class Demo {
-    public static void main(String[] args) {
-        String name = "James";
-        System.out.println(name);
-    }
+	public static void main(String[] args) {
+		String name = "James";
+		System.out.println(name);
+	}
 }
 ```
 
@@ -651,12 +647,12 @@ For example, the player of a game can change his name:
 
 ```java
 class Demo {
-    public static void main(String[] args) {
-        String name = "James";
-        name = "David";
+	public static void main(String[] args) {
+		String name = "James";
+		name = "David";
 
-        System.out.println(name);
-    }
+		System.out.println(name);
+	}
 }
 ```
 
@@ -701,10 +697,10 @@ Complete the program to output the value of the variable.
 
 ```java
 public class Program {
-    public static void main(String[] args) {
-        String alphabet = "abcdefghijklmnopqrstuvwxyz";
-        System.out.println(alphabet);
-    }
+	public static void main(String[] args) {
+		String alphabet = "abcdefghijklmnopqrstuvwxyz";
+		System.out.println(alphabet);
+	}
 }
 ```
 
@@ -730,10 +726,10 @@ The int type is used to store whole numbers (or integers, as we call them in pro
 
 ```java
 class Demo {
-    public static void main(String[] args) {
-        int age = 42; 
-        System.out.println(age);
-    }
+	public static void main(String[] args) {
+		int age = 42; 
+		System.out.println(age);
+	}
 }
 ```
 
@@ -755,10 +751,10 @@ To work with decimal numbers, use the type double:
 
 ```java
 class Demo {
-    public static void main(String[] args) {
-        double weight = 12.5; 
-        System.out.println(weight);
-    }
+	public static void main(String[] args) {
+		double weight = 12.5; 
+		System.out.println(weight);
+	}
 }
 ```
 
@@ -780,10 +776,10 @@ When using the float type, you need to use an f postfix after the value:
 
 ```java
 class Demo {
-    public static void main(String[] args) {
-        float height = 1.94f; 
-        System.out.println(height);
-    }
+	public static void main(String[] args) {
+		float height = 1.94f; 
+		System.out.println(height);
+	}
 }
 ```
 
@@ -819,10 +815,10 @@ It is created similar to Strings, however it uses single quotes for the value:
 
 ```java
 class Demo {
-    public static void main(String[] args) {
-        char letter = 'B'; 
-        System.out.println(letter);
-    }
+	public static void main(String[] args) {
+		char letter = 'B'; 
+		System.out.println(letter);
+	}
 }
 ```
 
@@ -846,10 +842,10 @@ This is handy when we work with states or conditions, for example:
 
 ```java
 class Demo {
-    public static void main(String[] args) {
-        boolean isOpen = false; 
-        System.out.println(isOpen);
-    }
+	public static void main(String[] args) {
+		boolean isOpen = false; 
+		System.out.println(isOpen);
+	}
 }
 ```
 
@@ -899,13 +895,13 @@ Add the required types to make the program work as expected.
 
 ```java
 public class Program {
-    public static void main(String[] args) {
-        String label = "Balance";
-        double balance = 599.84;
+	public static void main(String[] args) {
+		String label = "Balance";
+		double balance = 599.84;
 
-        System.out.println(label);
-        System.out.println(balance);
-    }
+		System.out.println(label);
+		System.out.println(balance);
+	}
 }
 ```
 
@@ -931,12 +927,12 @@ For example:
 
 ```java
 class Demo {
-    public static void main(String[] args) {
-        int x = 6;
-        int y = 3;
+	public static void main(String[] args) {
+		int x = 6;
+		int y = 3;
 
-        System.out.println(x+y);
-    }
+		System.out.println(x+y);
+	}
 }
 ```
 
@@ -948,13 +944,13 @@ The result can be assigned to another variable, like this:
 
 ```java
 class Demo {
-    public static void main(String[] args) {
-        double price1 = 24.99;
-        double price2 = 19.45;
-        double sum = price1 + price2;
+	public static void main(String[] args) {
+		double price1 = 24.99;
+		double price2 = 19.45;
+		double sum = price1 + price2;
 
-        System.out.println(sum);
-    }
+		System.out.println(sum);
+	}
 }
 ```
 
@@ -981,13 +977,13 @@ Similarly, you can use - for subtraction:
 
 ```java
 class Demo {
-    public static void main(String[] args) {
-        int salary = 90000;
-        int tax = 15000;
-        int result = salary - tax;  
+	public static void main(String[] args) {
+		int salary = 90000;
+		int tax = 15000;
+		int result = salary - tax;  
 
-        System.out.println(result);
-    }
+		System.out.println(result);
+	}
 }
 ```
 
@@ -999,11 +995,11 @@ Let's use it to find how much is 20% of the given value:
 
 ```java
 class Demo {
-    public static void main(String[] args) {
-        int price = 1200;
+	public static void main(String[] args) {
+		int price = 1200;
 
-        System.out.println(price*0.2);
-    }
+		System.out.println(price*0.2);
+	}
 }
 ```
 
@@ -1027,13 +1023,13 @@ The following program calculates how many products with the given price you can 
 
 ```java
 class Demo {
-    public static void main(String[] args) {
-        int amount = 9000;
-        int price = 49;
-        int result = amount/price;
+	public static void main(String[] args) {
+		int amount = 9000;
+		int price = 49;
+		int result = amount/price;
 
-        System.out.print(result);
-    }
+		System.out.print(result);
+	}
 }
 ```
 
@@ -1061,13 +1057,13 @@ You can use double to get the result of the division with a decimal point.
 
 ```java
 class Demo {
-    public static void main(String[] args) {
-        double amount = 9000;
-        double price = 49;
-        double result = amount/price;
+	public static void main(String[] args) {
+		double amount = 9000;
+		double price = 49;
+		double result = amount/price;
 
-        System.out.print(result);
-    }
+		System.out.print(result);
+	}
 }
 ```
 
@@ -1089,12 +1085,12 @@ For example, let's use it to find how many of the given items will be left over 
 
 ```java
 class Demo {
-    public static void main(String[] args) {
-        int items = 23;
-        int res = items % 5; 
+	public static void main(String[] args) {
+		int items = 23;
+		int res = items % 5; 
 
-        System.out.print(res);
-    }
+		System.out.print(res);
+	}
 }
 ```
 
@@ -1122,13 +1118,13 @@ For example, let's combine the first and last names to result in the full name o
 
 ```java
 class Demo {
-    public static void main(String[] args) {
-        String firstname = "James";
-        String lastname = "Smith";
-        String fullname = firstname+lastname;
+	public static void main(String[] args) {
+		String firstname = "James";
+		String lastname = "Smith";
+		String fullname = firstname+lastname;
 
-        System.out.print(fullname);
-    }
+		System.out.print(fullname);
+	}
 }
 ```
 
@@ -1136,13 +1132,13 @@ Note, that the result will combine the given strings without any separator. We c
 
 ```java
 class Demo {
-    public static void main(String[] args) {
-        String firstname = "James";
-        String lastname = "Smith";
-        String fullname = firstname+" "+lastname; 
+	public static void main(String[] args) {
+		String firstname = "James";
+		String lastname = "Smith";
+		String fullname = firstname+" "+lastname; 
 
-        System.out.print(fullname);
-    }
+		System.out.print(fullname);
+	}
 }
 ```
 
@@ -1187,11 +1183,12 @@ Create a program to calculate and output the points earned by the player.
 
 ```java
 public class Program {
-    public static void main(String[] args) {
-        int wins = 54;
-        int ties = 31;
-        System.out.println(wins + ties*0.5); 
-    }
+	public static void main(String[] args) {
+		int wins = 54;
+		int ties = 31;
+
+		System.out.println(wins + ties*0.5); 
+	}
 }
 ```
 
@@ -1223,12 +1220,12 @@ For example:
 
 ```java
 class Demo {
-    public static void main(String[] args) {
-        // storing the age of the user
-        int age = 23; // this is just a demo value
+	public static void main(String[] args) {
+		// storing the age of the user
+		int age = 23; // this is just a demo value
 
-        System.out.print(age);
-    }
+		System.out.print(age);
+	}
 }
 ```
 
@@ -1250,12 +1247,12 @@ You can also comment out lines of code, in case they are work-in-progress or you
 
 ```java
 class Demo {
-    public static void main(String[] args) {
-        int age = 23;
-        //int height = 122;
-        System.out.println(age);
-        //System.out.println(height);
-    }
+	public static void main(String[] args) {
+		int age = 23;
+		// int height = 122;
+		System.out.println(age);
+		// System.out.println(height);
+	}
 }
 ```
 
@@ -1269,7 +1266,7 @@ What is the output of this code?
 
 ```java
 int x = 8;
-//x = 2;
+// x = 2;
 x = 3;
 System.out.println(x+1);
 ```
@@ -1284,14 +1281,14 @@ If you need to comment out multiple lines, or write a multi-line comment, you ca
 
 ```java
 class Demo {
-    public static void main(String[] args) {
-        /*  This is just a
-        demo program
-        that outputs a number */
-        int age = 23;
-        
-        System.out.println(age);
-    }
+	public static void main(String[] args) {
+		/* This is just a
+		demo program
+		that outputs a number */
+		int age = 23;
+
+		System.out.println(age);
+	}
 }
 ```
 
@@ -1334,14 +1331,14 @@ Fix the code to make the program run correctly.
 
 ```java
 public class Program {
-    public static void main(String[] args) {
-        // declare variables
-        String name = "Howard";
-        // declare the age
-        int age = 42;
-        // output values
-        System.out.println(name+" is "+age+" years old.");
-    }
+	public static void main(String[] args) {
+		// declare variables
+		String name = "Howard";
+		// declare the age
+		int age = 42;
+		// output values
+		System.out.println(name+" is "+age+" years old.");
+	}
 }
 ```
 
@@ -1374,9 +1371,9 @@ Which of the following is a valid comment?
 Fill in the blanks to output "Hello, " followed by the value stored in the name variable.
 
 ```java
-tring name = "James";
-tring msg = "_____"+_____;
-ystem.out.println(_____);
+String name = "James";
+String msg = "_____"+_____;
+System.out.println(_____);
 ```
 
 **Question M01.04**
@@ -1387,7 +1384,7 @@ What is the output of this code?
 int x = 5;
 int y = 3;
 int z = x%y;
-ystem.out.println(x-z);
+System.out.println(x-z);
 ```
 
 **Question M01.05**
@@ -1400,7 +1397,7 @@ Fill in the blanks to calculate and output the required value.
 int hours = 24;
 int minutes = 60;
 int result = hours _____ minutes;
-ystem.out.println(_____);
+System.out.println(_____);
 ```
 
 [Check Module 01 Quiz Answers](./module-quiz-solutions/module-01-quiz-solutions.md)
@@ -1465,11 +1462,11 @@ For example, to take a String input, we need to use the following:
 import java.util.Scanner;
 
 class Demo {
-    public static void main(String[ ] args) {
-        Scanner sc = new Scanner(System.in);
-        String name = sc.nextLine(); 
-        System.out.println("Name: "+name);        
-    }
+	public static void main(String[ ] args) {
+		Scanner sc = new Scanner(System.in);
+		String name = sc.nextLine(); 
+		System.out.println("Name: "+name);        
+	}
 }
 ```
 
@@ -1493,11 +1490,11 @@ Similarly, we can take an integer as input using `nextInt()`:
 import java.util.Scanner;
 
 class Demo {
-    public static void main(String[ ] args) {
-        Scanner sc = new Scanner(System.in);
-        int age = sc.nextInt();
-        System.out.println("Age: "+age);        
-    }
+	public static void main(String[ ] args) {
+		Scanner sc = new Scanner(System.in);
+		int age = sc.nextInt();
+		System.out.println("Age: "+age);        
+	}
 }
 ```
 
@@ -1525,12 +1522,12 @@ For example, let's take the name and age as input and output them.
 import java.util.Scanner;
 
 public class Program {
-    public static void main(String[] args) {
-	Scanner sc = new Scanner(System.in);
-        String name = sc.nextLine();
-        int age = sc.nextInt();
-        System.out.println(name+": "+age);
-    }
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String name = sc.nextLine();
+		int age = sc.nextInt();
+		System.out.println(name+": "+age);
+	}
 }
 ```
 
@@ -1556,11 +1553,11 @@ Scanner sc = new Scanner(System.in);
 import java.util.Scanner;
 
 class Demo {
-    public static void main(String[ ] args) {
-        Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
-        System.out.println(num);        
-    }
+	public static void main(String[ ] args) {
+		Scanner sc = new Scanner(System.in);
+		int num = sc.nextInt();
+		System.out.println(num);        
+	}
 }
 ```
 
@@ -1584,11 +1581,11 @@ To calculate 15% of a number, multiply it by 15, then divide by 100.
 import  java.util.Scanner;
 
 public class Program {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        double amount = sc.nextDouble(); 
-        System.out.println(amount * 0.15); 
-    }
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		double amount = sc.nextDouble(); 
+		System.out.println(amount * 0.15); 
+	}
 }
 ```
 
@@ -1622,7 +1619,7 @@ Syntax:
 
 ```java
 if (condition) {
-  //some code 
+	// some code 
 }
 ```
 
@@ -1641,12 +1638,12 @@ For example:
 
 ```java
 class Demo {
-    public static void main(String[ ] args) {
-        int age = 24;
-        if(age >= 18) {
-            System.out.println("Welcome");
-        }     
-    }
+	public static void main(String[ ] args) {
+		int age = 24;
+		if(age >= 18) {
+			System.out.println("Welcome");
+		}
+	}
 }
 ```
 
@@ -1660,7 +1657,7 @@ Drag & drop to output "Open" if the time value is less than 20.
 
 ```java
 _____ ( _____ < 20) {
-System.out._____("Open");
+	System.out._____("Open");
 }
 ```
 
@@ -1676,12 +1673,12 @@ For example:
 
 ```java
 class Demo {
-    public static void main(String[ ] args) {
-        int number = 8;
-        if(number == 8) {
-            System.out.println("Bingo");
-        }
-    }
+	public static void main(String[ ] args) {
+		int number = 8;
+		if(number == 8) {
+			System.out.println("Bingo");
+		}
+	}
 }
 ```
 
@@ -1708,15 +1705,16 @@ For example:
 
 ```java
 class Demo {
-    public static void main(String[ ] args) {
-        int age = 30;
+	public static void main(String[ ] args) {
+		int age = 30;
 
-        if (age < 16) {
-            System.out.println("Too Young");
-        } else { 
-           System.out.println("Welcome!");
-        }
-    }
+		if (age < 16) {
+			System.out.println("Too Young");
+		}
+		else { 
+			System.out.println("Welcome!");
+		}
+	}
 }
 ```
 
@@ -1732,10 +1730,10 @@ Fill in the blanks to output the greater of the two variables.
 int x = 10;  
 int y = 5;
 _____ (x > y) {
-  System.out.println(_____);
+	System.out.println(_____);
 }
 _____ {
-  System.out.println(y);
+	System.out.println(y);
 }
 ```
 
@@ -1756,10 +1754,12 @@ class Demo {
 		if(age > 0) {
 			if(age > 16) {
 				System.out.println("Welcome!");
-			} else {
+			}
+			else {
 				System.out.println("Too Young");
 			}
-		} else {
+		}
+		else {
 			System.out.println("Error");
 		}
 	}
@@ -1777,13 +1777,15 @@ What is the value of x after this code is run?
 ```java
 int x = 3;
 if(x > 2) {
-    if(x >= 5) {
-        x = 4;
-    }else{
-        x = 6;
-    }
-} else {
-    x = 8;
+	if(x >= 5) {
+		x = 4;
+	}
+	else {
+		x = 6;
+	}
+}
+else {
+	x = 8;
 }
 ```
 
@@ -1799,19 +1801,22 @@ For example:
 
 ```java
 class Demo {
-    public static void main(String[ ] args) {
-        int age = 25;
+	public static void main(String[ ] args) {
+		int age = 25;
 
-        if(age <= 0) {
-           System.out.println("Error");
-        } else if(age <= 16) {
-           System.out.println("Too Young");
-        } else if(age < 100) {
-           System.out.println("Welcome!");
-        } else {
-           System.out.println("Really?");
-        }
-    }
+		if(age <= 0) {
+			System.out.println("Error");
+		}
+		else if (age <= 16) {
+			System.out.println("Too Young");
+		}
+		else if(age < 100) {
+			System.out.println("Welcome!");
+		}
+		else {
+			System.out.println("Really?");
+		}
+	}
 }
 ```
 
@@ -1852,11 +1857,13 @@ Here is a generic structure of if-else statements:
 
 ```java
 if(condition) {
-  //some code
-} else if(condition) {
-//some other code
-} else {
-  //some other code
+	// some code
+}
+else if (condition) {
+	// some other code
+}
+else {
+	// some other code
 }
 ```
 
@@ -1884,16 +1891,16 @@ Boiling
 import java.util.Scanner;
 
 public class Program {
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        int celsius = input.nextInt(); 
-        if (celsius >= 100){
-            System.out.println("Boiling"); 
-        }
-        else {
-            System.out.println("Not boiling"); 
-        }
-    }
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int celsius = input.nextInt(); 
+		if (celsius >= 100){
+			System.out.println("Boiling"); 
+		}
+		else {
+			System.out.println("Not boiling"); 
+		}
+	}
 }
 ```
 
@@ -1908,13 +1915,13 @@ Fill in the blanks to create a program that checks the `temp` value and outputs 
 ```java
 double temp = 36.6;
 _____ (temp > 38) _____
-   System.out.println("Alert");
+	System.out.println("Alert");
 }  
 _____ (temp < 34) {
-  System.out.println("Error");
+	System.out.println("Error");
 }
 _____ {
-  System.out.println("OK").
+	System.out.println("OK").
 }
 ```
 
@@ -2060,9 +2067,9 @@ What is the value of x after this code?
 ```java
 int x = 2;
 switch(x) {
-   case 1: x = 2;
-   case 2: x = 3;
-   case 3: x = 4;
+	case 1: x = 2;
+	case 2: x = 3;
+	case 3: x = 4;
 }
 ```
 
@@ -2080,20 +2087,20 @@ For example:
 
 ```java
 class Demo {
-    public static void main(String[ ] args) {
-        int day = 5;
+	public static void main(String[ ] args) {
+		int day = 5;
 
-        switch(day) {
-        case 1:
-            System.out.println("Monday");
-        case 2:
-            System.out.println("Tuesday");
-        case 3:
-            System.out.println("Wednesday");
-        default: 
-            System.out.println("Another day");
-        }
-    }
+		switch(day) {
+			case 1:
+				System.out.println("Monday");
+			case 2:
+				System.out.println("Tuesday");
+			case 3:
+				System.out.println("Wednesday");
+			default: 
+				System.out.println("Another day");
+		}
+	}
 }
 ```
 
@@ -2108,11 +2115,11 @@ What is the output of the following code?
 ```java
 int a = 11; int b = 12; int c = 40;
 switch (a) {
- case 40:
-   System.out.println(b);
-   break;
- default:
-   System.out.println(c);
+	case 40:
+		System.out.println(b);
+		break;
+	default:
+		System.out.println(c);
 }
 ```
 
@@ -2154,24 +2161,25 @@ Sample Output
 ###### Answer
 
 ```java
-import  java.util.Scanner;
+import java.util.Scanner;
 
 public class Program {
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in); 
-        String color = input.nextLine(); 
-        switch (color){
-            case "red":
-                System.out.println(1); 
-                break; 
-            case "green": 
-                System.out.println(2); 
-                break; 
-            case "black": 
-                System.out.println(3); 
-                break; 
-        }        
-    }
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in); 
+		String color = input.nextLine(); 
+
+		switch (color){
+			case "red":
+				System.out.println(1); 
+				break; 
+			case "green": 
+				System.out.println(2); 
+				break; 
+			case "black": 
+				System.out.println(3); 
+				break;
+		}
+	}
 }
 ```
 
