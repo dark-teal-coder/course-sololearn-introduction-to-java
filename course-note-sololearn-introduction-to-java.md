@@ -1347,35 +1347,39 @@ public class Program {
 
 ### Quiz: Module 1 Quiz
 
-**Question M01.Q01**
+**Question M01.01**
 
 Fill in the blanks to create a valid program that declares two variables and outputs their sum.
 
 ```java
-_____ Program {
-	public static void _____ (String[] args) {
-		int a = 8;
+_____ rogram {
+	public static void _____ (tring[] args) {
+        int a = 8;
 		int b = 4;
-		System._____.println(a _____ b);    
+		ystem._____.println(a _____ b);    
 	}
 }
 ```
 
-**Question M01.Q02**
+**Question M01.02**
 
 Which of the following is a valid comment?
+- [ ] `## some text`
+- [ ] `** some text **`
+- [ ] `/* some text */`
+- [ ] `*/ some text /*`
 
-**Question M01.Q03**
+**Question M01.03**
 
 Fill in the blanks to output "Hello, " followed by the value stored in the name variable.
 
 ```java
-String name = "James";
-String msg = "_____"+_____;
-System.out.println(_____);
+tring name = "James";
+tring msg = "_____"+_____;
+ystem.out.println(_____);
 ```
 
-**Question M01.Q04**
+**Question M01.04**
 
 What is the output of this code?
 
@@ -1383,10 +1387,10 @@ What is the output of this code?
 int x = 5;
 int y = 3;
 int z = x%y;
-System.out.println(x-z);
+ystem.out.println(x-z);
 ```
 
-**Question M01.Q05**
+**Question M01.05**
 
 You need to find how many minutes there are in a day. A day has 24 hours, each hour has 60 minutes. These values are stored in variables.
 
@@ -1396,7 +1400,7 @@ Fill in the blanks to calculate and output the required value.
 int hours = 24;
 int minutes = 60;
 int result = hours _____ minutes;
-System.out.println(_____);
+ystem.out.println(_____);
 ```
 
 [Check Module 01 Quiz Answers](./module-quiz-solutions/module-01-quiz-solutions.md)
