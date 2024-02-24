@@ -59,7 +59,7 @@ Humans use computer programs to communicate with machines. Without computer prog
 
 Learning some coding can help you innovate and create different solutions to problems, giving you a competitive edge in this technology-driven world. 
 
-#### Quiz 01.01
+#### Quiz 01.01.01
 
 **Question**
 
@@ -79,7 +79,7 @@ Most computer programs are designed to produce outputs. Here are some examples:
 
 The simplest output consists of displaying a message on the screen.
 
-#### Quiz 01.02
+#### Quiz 01.01.02
 
 **Question**
 
@@ -99,7 +99,7 @@ The following line of code displays Java's slogan on the screen as an output:
 System.out.println("Write once, run anywhere!");
 ```
 
-#### Quiz 01.03
+#### Quiz 01.01.03
 
 **Question**
 
@@ -125,7 +125,7 @@ public class Program {
 
 You'll see other lines of code when you open the Code Playground. They are needed for the code to run without errors. You will learn everything about these lines in the upcoming lessons.
 
-#### Quiz 01.04
+#### Quiz 01.01.04
 
 **Question**
 
@@ -135,7 +135,7 @@ Drag and drop to complete a line of code that outputs "Game Over".
 
 `println`
 
-#### Quiz 01.05
+#### Quiz 01.01.05
 
 **Question**
 
@@ -145,7 +145,7 @@ The `println` instruction needs to be followed by parentheses. Drag and drop to 
 
 `(` and `)`
 
-#### Quiz 01.06
+#### Quiz 01.01.06
 
 **Question**
 
@@ -188,7 +188,7 @@ System.out.println("Write once, run anywhere!");
 
 > :warning: Each statement needs to end with a semicolon `;`.
 
-#### Quiz 02.01
+#### Quiz 01.02.01
 
 **Question**
 
@@ -215,7 +215,7 @@ public class Program {
 
 > :warning: Remember your code will result in an error if you forget the semicolons `;` at the end of the statements.
 
-#### Quiz 02.02
+#### Quiz 01.02.02
 
 **Question**
 
@@ -225,7 +225,7 @@ Drag and drop to complete code that runs without errors
 
 `(`, `;` and `)`
 
-#### Quiz 02.03
+#### Quiz 01.02.03
 
 **Question**
 
@@ -256,7 +256,7 @@ public class Program {
 
 > :warning: Your code will result in an error if you forget the quotes around the text.
 
-#### Quiz 02.04
+#### Quiz 01.02.04
 
 **Question**
 
@@ -266,7 +266,7 @@ Drag and drop to write code that runs without errors
 
 `"` and `(`
 
-#### Quiz 02.05
+#### Quiz 01.02.05
 
 **Question**
 
@@ -276,7 +276,7 @@ Drag and drop to write code that runs without errors
 
 `println`, `;` and `out`
 
-#### Quiz 02.06
+#### Quiz 01.02.06
 
 **Question**
 
@@ -288,7 +288,7 @@ Drag and drop to write code that runs without errors:
 
 `System`
 
-#### Quiz 02.07
+#### Quiz 01.02.07
 
 **Question**
 
@@ -382,7 +382,7 @@ Any code that we want to include in the class needs to go inside the brackets.
 
 > :warning: The opening bracket can also be written below the class name, but it's generally common to write it on the same line to save space.
 
-#### Quiz 03.01
+#### Quiz 01.03.01
 
 **Question**
 
@@ -414,7 +414,7 @@ In Java, each application has an entry point, or a starting point, which is a me
 
 > :warning: We will cover public, static and void keywords definition in later lessons, when learning about methods. For now, remember that the main method needs to be declared identically to the code above.
 
-#### Quiz 03.02
+#### Quiz 01.03.02
 
 **Question**
 
@@ -436,7 +436,7 @@ public static void main(String[] args) {
 
 The main method contains the code that executes when we run our program. In this case, the `println` method will be executed, when we run our program.
 
-#### Quiz 03.03
+#### Quiz 01.03.03
 
 **Question**
 
@@ -462,7 +462,7 @@ class Demo {
 
 > :warning: This is now a fully functioning Java program.
 
-#### Quiz 03.04
+#### Quiz 01.03.04
 
 **Question**
 
@@ -531,7 +531,7 @@ We are already familiar with text values - they are created using quotes:
 
 Text in quotes is called a String.
 
-#### Quiz 04.01
+#### Quiz 01.04.01
 
 **Question**
 
@@ -555,7 +555,7 @@ Now, our variable name can hold String values.
 
 > :warning: In programming terms, the process of creating a variable is called declaration.
 
-#### Quiz 04.02
+#### Quiz 01.04.02
 
 **Question**
 
@@ -578,7 +578,7 @@ Now, name holds the value "James".
 
 > :warning: Note, that the type String should start with a capital letter S. A lowercase version will cause an error.
 
-#### Quiz 04.03
+#### Quiz 01.04.03
 
 **Question**
 
@@ -604,7 +604,7 @@ class Demo {
 }
 ```
 
-#### Quiz 04.04
+#### Quiz 01.04.04
 
 **Question**
 
@@ -629,7 +629,7 @@ class Demo {
 
 This is handy when we already know the value for our variable and makes the code shorter and more readable.
 
-#### Quiz 04.05
+#### Quiz 01.04.05
 
 **Question**
 
@@ -656,7 +656,7 @@ class Demo {
 }
 ```
 
-#### Quiz 04.06
+#### Quiz 01.04.06
 
 **Question**
 
@@ -704,7 +704,7 @@ public class Program {
 }
 ```
 
-#### Quiz 04.06
+#### Quiz 01.04.07
 
 **Question**
 
@@ -735,7 +735,7 @@ class Demo {
 
 > :warning: Now, the `age` variable of type `int` holds the value `42`.
 
-#### Quiz 05.01
+#### Quiz 01.05.01
 
 **Question**
 
@@ -758,7 +758,7 @@ class Demo {
 }
 ```
 
-#### Quiz 05.02
+#### Quiz 01.05.02
 
 **Question**
 
@@ -787,7 +787,7 @@ This tells Java to use the value as a float, instead of double.
 
 > :warning: Wondering what's the difference between float and double? Tap Continue to learn more!
 
-#### Quiz 05.03
+#### Quiz 01.05.03
 
 **Question**
 
@@ -822,7 +822,7 @@ class Demo {
 }
 ```
 
-#### Quiz 05.04
+#### Quiz 01.05.04
 
 **Question**
 
@@ -851,7 +851,7 @@ class Demo {
 
 For example, the boolean above can show whether a shop is open or closed.
 
-#### Quiz 05.05
+#### Quiz 01.05.05
 
 **Question**
 
@@ -905,7 +905,7 @@ public class Program {
 }
 ```
 
-#### Quiz 05.06
+#### Quiz 01.05.06
 
 **Question**
 
@@ -954,7 +954,7 @@ class Demo {
 }
 ```
 
-#### Quiz 06.01
+#### Quiz 01.06.01
 
 **Question**
 
@@ -1005,7 +1005,7 @@ class Demo {
 
 > :warning: 0.2 represents 20%
 
-#### Quiz 06.02
+#### Quiz 01.06.02
 
 **Question**
 
@@ -1035,7 +1035,7 @@ class Demo {
 
 > :warning: In the example above, the result of the division equation will be a whole number, as int is used as the data type. 
 
-#### Quiz 06.03
+#### Quiz 01.06.03
 
 **Question**
 
@@ -1067,7 +1067,7 @@ class Demo {
 }
 ```
 
-#### Quiz 06.04
+#### Quiz 01.06.04
 
 **Question**
 
@@ -1094,7 +1094,7 @@ class Demo {
 }
 ```
 
-#### Quiz 06.05
+#### Quiz 01.06.05
 
 **Question**
 
@@ -1144,7 +1144,7 @@ class Demo {
 
 > :warning: The process of adding strings together is called concatenation. You can also concatenate strings with other types, such as integers and doubles.
 
-#### Quiz 06.06
+#### Quiz 01.06.06
 
 **Question**
 
@@ -1192,7 +1192,7 @@ public class Program {
 }
 ```
 
-#### Quiz 06.06
+#### Quiz 01.06.07
 
 **Question**
 
@@ -1231,7 +1231,7 @@ class Demo {
 
 > :warning: Adding comments as you write code is a good practice, because they provide clarification and understanding when you need to refer back to it, as well as for others who might need to read it.
 
-#### Quiz 07.01
+#### Quiz 01.07.01
 
 **Question**
 
@@ -1258,7 +1258,7 @@ class Demo {
 
 > :warning: The commented lines of code will get ignored when you run the program.
 
-#### Quiz 07.02
+#### Quiz 01.07.02
 
 **Question**
 
@@ -1296,7 +1296,7 @@ Anything between the `/*` and `*/` symbols becomes a comment.
 
 > :warning: You can also use multi-line comments to comment out multiple lines of code.
 
-#### Quiz 07.03
+#### Quiz 01.07.03
 
 **Question**
 
@@ -1442,7 +1442,7 @@ Scanner sc = new Scanner(System.in);
 
 Confused about the new terminology? Classes, objects, import... Don't worry, you will learn about these in more advanced lessons. For now, just remember the syntax for creating the Scanner object.
 
-#### Quiz 08.01
+#### Quiz 02.01.01
 
 **Question**
 
@@ -1472,7 +1472,7 @@ class Demo {
 
 > :warning: Run the code to see how it works.
 
-#### Quiz 08.02
+#### Quiz 02.01.02
 
 **Question**
 
@@ -1502,7 +1502,7 @@ This will accept an integer input from the user and assign it to the age variabl
 
 > :warning: There are similar methods available to take other types as input: `nextDouble()`, `nextFloat()`, `nextBoolean()`.
 
-#### Quiz 08.03
+#### Quiz 02.01.03
 
 **Question**
 
@@ -1589,7 +1589,7 @@ public class Program {
 }
 ```
 
-#### Quiz 08.04
+#### Quiz 02.01.04
 
 **Question**
 
@@ -1649,7 +1649,7 @@ class Demo {
 
 > :warning: This code will output the message only if the age value is greater or equal to 18.
 
-#### Quiz 09.01
+#### Quiz 02.02.01
 
 **Question**
 
@@ -1682,7 +1682,7 @@ class Demo {
 }
 ```
 
-#### Quiz 09.02
+#### Quiz 02.02.02
 
 **Question**
 
@@ -1720,7 +1720,7 @@ class Demo {
 
 > :warning: As age equals 30, the condition in the if statement evaluates to false and the else statement is executed.
 
-#### Quiz 09.03
+#### Quiz 02.02.03
 
 **Question**
 
@@ -1768,7 +1768,7 @@ class Demo {
 
 > :warning: You can nest as many if-else statements as you want, however the code will become harder to read and understand.
 
-#### Quiz 09.04
+#### Quiz 02.02.04
 
 **Question**
 
@@ -1822,7 +1822,7 @@ class Demo {
 
 > :warning: You can include as many else-if statements as you need.
 
-#### Quiz 09.05
+#### Quiz 02.02.05
 
 **Question**
 
@@ -1904,7 +1904,7 @@ public class Program {
 }
 ```
 
-#### Quiz 09.06
+#### Quiz 02.02.06
 
 **Question**
 
@@ -2008,7 +2008,7 @@ When the variable being switched on is equal to a case, the statements following
 
 > :warning: You can have any number of case statements within a switch. Each case is followed by the comparison value and a colon.
 
-#### Quiz 10.01
+#### Quiz 02.03.01
 
 **Question**
 
@@ -2058,7 +2058,7 @@ class Demo {
 }
 ```
 
-#### Quiz 10.02
+#### Quiz 02.03.02
 
 **Question**
 
@@ -2106,7 +2106,7 @@ class Demo {
 
 > :warning: No break is needed in the default case, as it is always the last statement in the switch.
 
-#### Quiz 10.03
+#### Quiz 02.03.03
 
 **Question**
 
@@ -2183,7 +2183,7 @@ public class Program {
 }
 ```
 
-#### Quiz 10.04
+#### Quiz 02.03.04
 
 **Question**
 
