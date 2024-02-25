@@ -2210,6 +2210,228 @@ default_____
 
 ### Lesson 02.04: Multiple Conditions
 
+#### Multiple Conditions
+
+In some cases we need to combine multiple conditions, for example, let's say we want to check if the age value is greater than 18 and less than 50.
+
+This can be done using the && operator.
+
+```java
+class Demo {
+	public static void main(String[ ] args) {
+		int age = 42;
+		if (age > 18 && age < 50) {
+		    System.out.println("Welcome!");
+		}
+	}
+}
+```
+
+> :warning: The `&&` operator is also referred to as the logical AND operator.
+
+#### Quiz 02.04.01
+
+**Question**
+
+Fill in the blank to test both conditions in the following if statement.
+
+```java
+int age = 23;
+int money = 4000;
+if (age > 21 _____ money > 500) {
+	System.out.println("Welcome");
+}
+```
+
+**Answer**
+
+`&&`
+
+#### The OR Operator
+
+The OR operator (||) checks if any one of the conditions is true.
+
+For example:
+
+```java
+class Demo {
+	public static void main(String[ ] args) {
+		int age = 25;
+		int height = 100;
+
+		if (age > 18 || height > 150) {
+			System.out.println("Welcome!");
+		}
+	}
+}
+```
+
+> :warning: The code above will print Welcome! if age is greater than 18 or if height is greater than 150.
+
+#### Quiz 02.04.02
+
+**Question**
+
+What is the output of the following code?
+
+```java
+int a = 11; int b = 12;
+int c = 40;
+if (a > 100 || b > 3) {
+	System.out.println(a); 
+}
+else {
+	System.out.println(c);
+}
+```
+
+**Answer**
+
+`11`
+
+#### NOT
+
+The NOT (`!`) logical operator is used to reverse the condition.
+
+If a condition is true, the NOT logical operator will make it false, and vice versa.
+
+Example:
+
+```java
+class Demo {
+	public static void main(String[ ] args) {
+		int age = 25;
+		if(!(age > 18)) {
+			System.out.println("Too Young");
+		}
+		else {
+			System.out.println("Welcome");
+		}
+	}
+}
+```
+
+> :warning: `!(age > 18)` reads as "if age is NOT greater than 18".
+
+#### Quiz 02.04.03
+
+**Question**
+
+If x = 3, what is the result of the following:
+
+```java
+!(x < 3)
+```
+
+**Answer**
+
+`true`
+
+#### Multiple Conditions
+
+You can chain multiple conditions using parentheses and the logical operators.
+
+For example:
+
+```java
+class Demo {
+	public static void main(String[ ] args) {
+		String country = "US";
+		int age = 42;
+		
+		if((country == "US" || country == "GB") && (age > 0 && age < 100)) {
+		    System.out.println("Allowed");
+		}
+	}
+}
+```
+
+#### Quiz 02.04.03
+
+**Question**
+
+Fill in the blanks to output OK if the temp variables value is between 36 and 38. Output Alert if its not.
+
+```java
+if(temp>=36 _____ temp <=38) {
+	System.out.println("_____");
+}
+_____ {
+System.out.println("_____");
+}
+```
+
+**Answer**
+
+`&&`, `OK`, `else` and `Alert`
+
+#### Lesson Takeaways  
+
+Logical operators allow to combine multiple conditions.
+
+- [ ] The AND operator && combines two conditions and checks if both of them are true.
+- [ ] The OR operator || check if any of the conditions if true.
+- [ ] The NOT operator ! reverses the condition.
+
+Next lesson will be fun! We will cover loops, which allow to repeat a block of code multiple times. 
+
+##### Age Group
+
+###### Age Group
+
+Given the age of a person as an input, output their age group.
+
+Here are the age groups you need to handle:
+
+Child: 0 to 11
+Teen: 12 to 17
+Adult: 18 to 64
+
+Sample Input
+42
+
+Sample Output
+Adult
+
+> :warning: Remember, you can use the AND operator to combine conditions, like x>0 && x<20.
+
+###### Solution
+
+```java
+import  java.util.Scanner;
+
+public class Program {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int age = input.nextInt();
+		
+		if (age >= 0 && age < 12){
+			System.out.println("Child"); 
+		}
+		else if (age >= 12 && age < 17){
+			System.out.println("Teen");
+		}
+		else if (age >= 18 && age < 65){
+			System.out.println("Adult"); 
+		}
+	}
+}
+```
+
+#### Quiz 02.04.04
+
+**Question**
+
+What is the result of this condition, when hour = 9, day = 23?
+
+```java
+(hour > 12 && day <= 15) || (hour < 8)﻿
+```
+
+**Answer**
+
+`false`
+
 ### Lesson 02.05: While Loops
 
 ### Lesson 02.06: For Loops
