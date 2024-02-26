@@ -2434,6 +2434,345 @@ What is the result of this condition, when hour = 9, day = 23?
 
 ### Lesson 02.05: While Loops
 
+#### Loops
+
+Loops allow you to repeat a block of code multiple times.
+
+> :warning: For example, a banking app can loop over all bank transactions and check for some conditions.
+
+#### while Loops
+
+A while loop statement repeatedly executes a target statement as long as a given condition is true.
+
+Example:
+
+```java
+class Demo {
+	public static void main(String[ ] args) {
+		int x = 3;
+		
+		while(x > 0) {
+			System.out.println(x);
+			x = x-1;
+		}
+	}
+}
+```
+
+The while loops check for the condition x > 0. If it evaluates to true, it executes the statements within its body. Then it checks for the statement again and repeats.
+
+> :warning: The code above will output the numbers 3 to 1, and then stop, as the condition will become false, after x reaches 0.
+
+#### Quiz 02.05.01
+
+**Question**
+
+Fill in the required symbols to create a valid while loop.
+
+```java
+while _____x > 0) _____
+	System.out.println(x);
+	x = x-2;
+_____
+```
+
+**Answer**
+
+`(`, `{` and `}`
+
+#### while Loops
+
+Let's look at the code again:
+
+```java
+class Demo {
+	public static void main(String[ ] args) {
+		int x = 3;
+		
+		while(x > 0) {
+			System.out.println(x);
+			x = x-1;
+		}
+	}
+}
+```
+
+The line x = x-1; is important, as without it the condition would never become false and the loop would run forever. 
+
+Each time the loop runs, 1 is subtracted from x.
+
+#### Quiz 02.05.02
+
+**Question**
+
+Rearrange the code to output the numbers 1 to 5 using a while loop.
+
+**Answer**
+
+`int num = 1;`, `while (num <= 5) {`, `System.out.println(num);`, `num = num + 1;` and `}` 
+
+#### while Loops
+
+As it is common to decrease or increase a variable by 1 during loops, Java provides increment and decrement operators.
+
+These are a shorter way to increase or decrease the value of a variable by one.
+
+For example, the statement x=x-1; can be simplified to x--;
+
+```java
+class Demo {
+	public static void main(String[ ] args) {
+		int x = 3;
+		
+		while(x > 0) {
+			System.out.println(x);
+			x--;
+		}
+	}
+}
+```
+
+#### Quiz 02.05.03
+
+**Question**
+
+What is the output of this code?
+
+```java
+int x = 8;
+x--;
+x--;
+System.out.println(x);
+```
+
+**Answer**
+
+`6`
+
+#### while Loops
+
+Similarly, the increment operator ++ is used to increase the value of a variable by one.
+
+Here is a loop that outputs the numbers 1 to 10:
+
+```java
+class Demo {
+	public static void main(String[ ] args) {
+		int x = 1;
+
+		while(x <= 10) {
+			System.out.println(x);
+			x++;
+		}
+	}
+}
+```
+
+#### Quiz 02.05.04
+
+**Question**
+
+x++ is equivalent to:
+
+**Answer**
+
+`x = x + 1;`
+
+#### while Loops
+
+Some loops require to increase or decrease the value of a variable by a different number.
+
+For example, lets output only the even numbers from 0 to 10.
+
+```java
+class Demo {
+	public static void main(String[ ] args) {
+		int x = 0;
+		
+		while(x <= 10) {
+			System.out.println(x);
+			x=x+2;
+		}
+	}
+}
+```
+
+Surprise! There is also a shorter way for x = x+2; It can be written as x+=2;
+
+> :warning: Similarly, there are shorthand operators for other mathematical operations, such as -= for subtraction, *= for multiplication, etc.
+
+#### Quiz 02.05.05
+
+**Question**
+
+What is the value of x after this code?
+
+```java
+int x = 2;
+x += 1;
+x *= 2;
+x -= 2;
+```
+
+**Answer**
+
+`4`
+
+#### while Loops
+
+You can perform calculations and other operations in loops.
+
+For example, let's calculate the sum of the numbers from 1 to 100 and output it:
+
+```java
+class Demo {
+	public static void main(String[ ] args) {
+		int sum = 0;
+		int num = 0;
+		
+		while(num <= 100) {
+			sum += num;
+			num++;
+		}
+		System.out.println(sum);
+	}
+}
+```
+
+We add the value of num to sum each time the loop runs, and then increase the num value by 1.
+
+At the end of the loop, sum holds the result of our calculation.
+
+> :warning: Notice that the last print statement is out of the while scope.
+
+#### Quiz 02.05.06
+
+**Question**
+
+How many times will the following loop work?
+
+```java
+int x = 0;
+int y = 5;
+while (x < y) {
+	System.out.println("Hello");
+	x++; 
+}
+```
+
+**Answer**
+
+`5`
+
+#### do-while Loops
+
+Another variation of the while loop is do-while.
+
+For example:
+
+```java
+class Demo {
+	public static void main(String[ ] args) {
+		int x = 1;
+		do {
+			System.out.println(x);
+			x++;
+		} while(x < 5);
+	}
+}
+```
+
+Notice that the condition appears at the end of the loop, so the statements in the loop execute once before it is tested.
+
+Even with a false condition, the code will run once.
+
+Also, note the semicolon after the while condition.
+
+> :warning: The difference between while and do-while is that do-while is guaranteed to run at least once, even with a false condition. Try changing the condition in the code above and see the result.
+
+#### Quiz 02.05.07
+
+**Question**
+
+What is the output of this code?
+
+```java
+int x = 3;
+do {
+	x *= x; 
+} while(x<5);
+System.out.println(x);
+```
+
+**Answer**
+
+`9`
+
+#### Lesson Takeaways
+
+Here is a summary about the while loop:
+
+- The code in the while loop runs as long as the condition is true.
+- The ++ and -- operators are used to increase and decrease the value of a variable by one.
+- Java provides shorthand operators to perform mathematical operations on a variable, for example x = x * 9; can be written as x * = 9.
+- The do-while loop is similar to a while loop, but it is guaranteed to run at least once.
+
+We will learn about another loop type in the next lesson!
+
+##### Sum
+
+###### Sum
+
+Your math teacher asked you to calculate the sum of the numbers 1 to N, where N is a given number.
+
+Task: Take an integer N from input and output the sum of the numbers 1 to N, inclusive.
+
+Sample Input:
+10
+
+Sample Output:
+55
+
+> :warning: The sum of the numbers 1 to 10 is 55.
+
+###### Solution
+
+```java
+import  java.util.Scanner;
+
+public class Program {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in); 
+		int n = input.nextInt(); 
+		int sum = 0;
+		int i = 1;  
+		while (i <= n){
+			sum += i;
+			i++;
+		}
+		System.out.println(sum);
+	}	
+}
+```
+
+#### Quiz 02.05.08
+
+**Question**
+
+Fill in the blanks to create a countdown that outputs the numbers 10 to 0.
+
+```java
+int x = 10;
+_____ (x >= 0) {
+	System._____.println(x);
+	_____--;
+}
+```
+
+**Answer**
+
+`while`, `out` and `x`
+
 ### Lesson 02.06: For Loops
 
 ### Quiz: Module 2 Quiz
