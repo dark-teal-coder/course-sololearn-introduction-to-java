@@ -2955,8 +2955,7 @@ class Demo {
 
 The above code skips the value of 30, as directed by the `continue` statement.
 
-> :warning: An example use case of continue:
-> An airline ticketing system needs to calculate the total cost for all tickets purchased. Tickets for children under the age of 3 are free. We can use a while loop to iterate through the list of passengers and calculate the total cost of their tickets. Here, the continue statement can be used to skip the children.
+> :warning: An example use case of continue: <br/> An airline ticketing system needs to calculate the total cost for all tickets purchased. Tickets for children under the age of 3 are free. We can use a while loop to iterate through the list of passengers and calculate the total cost of their tickets. Here, the continue statement can be used to skip the children.
 
 #### Quiz 02.06.04
 
