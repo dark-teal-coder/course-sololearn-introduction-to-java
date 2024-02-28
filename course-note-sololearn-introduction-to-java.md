@@ -2775,6 +2775,266 @@ _____ (x >= 0) {
 
 ### Lesson 02.06: For Loops
 
+#### for Loops
+
+Another kind of loop is the for loop.
+
+It looks like this:
+
+```java
+class Demo {
+	public static void main(String[ ] args) {
+		for(int x=1; x<5; x++) {
+			System.out.println(x);
+		}
+	}
+}
+```
+
+This will output the numbers 1 through 4.
+
+#### for Loop
+
+The for loop has 3 components:
+
+```java
+class Demo {
+	public static void main(String[ ] args) {
+		for(int x=1; x<5; x++) {
+			System.out.println(x);
+		}
+	}
+}
+```
+
+The first part runs once when we enter the loop and initializes the variable.
+
+The second part is the condition of the loop.
+
+The third part runs every time the loop runs.
+
+> :warning: Notice the semicolons (;) after the parts of the loop.
+
+#### Quiz 02.06.01
+
+**Question**
+
+Fill in the missing symbols to create a valid for loop.
+
+```java
+for(int x=10 _____ x>0 _____ x--) 
+	System.out.println(x);
+}
+```
+
+**Answer**
+
+`;`, `;` and `{`
+
+#### for Loops
+
+You can have any type of condition and any type of increment statements in the for loop.
+
+The example below prints only the even values between 0 and 10:
+
+```java
+class Demo {
+	public static void main(String[ ] args) {
+		for(int x=0; x<=10; x+=2) {
+			System.out.println(x);
+		}
+	}
+}
+```
+
+> :warning: The for loop is best when we know the number of times we need to run the loop.
+
+#### Quiz 02.06.02
+
+**Question**
+
+How many numbers will the following loop output?
+
+```java
+for (int i = 2; i < 10; i = i*i) {
+	System.out.println(i);
+}
+```
+
+**Answer**
+
+2
+
+#### Loop Control
+
+Remember the break statement from the switch?
+
+It can also be used to terminate loops.
+
+Example:
+
+```java
+class Demo {
+	public static void main(String[ ] args) {
+		int x = 1;
+		
+		while(x < 10) {
+			System.out.println(x);
+			if(x == 4) {
+				break;
+		    	}
+		    	x++;
+		}
+	}
+}
+```
+
+> :warning: This will end the loop when x reaches the value 4.
+
+#### break
+
+It also works in the for loop:
+
+```java
+class Demo {
+	public static void main(String[ ] args) {
+		for(int x=1; x<10; x++) {
+			System.out.println(x);
+			if(x == 4) {
+				break;
+			}
+		}
+	}
+}
+```
+
+Here is one example use case of break:
+
+For example, you are making a calculator and need to take numbers from the user to add together and stop when the user enters "stop".
+
+In this case, the break statement can be used to end the loop when the user input equals "stop".
+
+#### Quiz 02.06.03
+
+**Question**
+
+Fill in the blanks to stop the loop when the num variable reaches the value 55.
+
+```java
+for(int num=0; num<1000; num++) { 
+	_____ (num == 55) {
+		_____;
+	}
+}
+```
+
+**Answer**
+
+`if` and `break`
+
+#### continue
+
+Another control statement is continue.
+
+It makes the loop skip the current iteration and go to the next one.
+
+Example:
+
+```java
+class Demo {
+	public static void main(String[ ] args) {
+		for(int x=10; x<=40; x+=10) {
+			if(x == 30) {
+				continue;
+			}
+			System.out.println(x);
+		}
+	}
+}
+```
+
+The above code skips the value of 30, as directed by the `continue` statement.
+
+> :warning: An example use case of continue: <br/>An airline ticketing system needs to calculate the total cost for all tickets purchased. Tickets for children under the age of 3 are free. We can use a while loop to iterate through the list of passengers and calculate the total cost of their tickets. Here, the continue statement can be used to skip the children.
+
+#### Quiz 02.06.04
+
+**Question**
+
+Fill in the blanks to output the numbers 10 to 20, skipping the number 13.
+
+```java
+for(int x=10; x<=20; x++) _____
+	if(x _____ 13) {	
+		_____;  
+	}
+	System.out.println(_____);
+}
+```
+
+**Answer**
+
+`{`, `==`, `continue` and `x`
+
+#### Lesson Takeaways
+
+Great progress! Here is a summary:
+
+- The for loop has the following syntax:
+```java
+for(init; condition; increment) {
+	// code
+}
+```
+- The break statement can be used to stop a loop.
+- The continue statement can be used to skip the current iteration of the loop and jump to the next one.
+
+##### Factorial
+
+###### Factorial
+
+The factorial of a number N is equal to 1 * 2 * 3 * ... * N. For example, the factorial of 5 is 1* 2 * 3 * 4 * 5  = 120.
+
+Create a program that takes a number from input and outputs the factorial of that number.
+
+> :warning: Use a for loop to make the calculation, and start the loop from the number 1.
+
+###### Solution
+
+```java
+import java.util.Scanner;
+
+class Demo{
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in); 
+		int n = input.nextInt(); 
+		long factorial = 1; 
+		for (int i=1; i<=n; i++){
+			factorial *= i;
+		}
+		System.out.println(factorial); 
+	}
+}
+```
+
+#### Quiz 02.06.05
+
+**Question**
+
+Fill in the blanks to calculate and output the sum of the numbers 1 to 1000 using a for loop.
+
+```java
+int sum = 0;
+_____ (int x=1; x<=1000; _____) {
+	sum+=_____;
+}
+_____.out.println(_____);
+```
+
+**Answer**
+
+`for`, `x++`, `x`, `System` and `sum`
+
 ### Quiz: Module 2 Quiz
 
 &nbsp;
