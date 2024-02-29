@@ -3037,6 +3037,84 @@ _____.out.println(_____);
 
 ### Quiz: Module 2 Quiz
 
+**Question M02.01**
+
+Fill in the blanks to output Passed if the grade value is greater than 70, and Failed, if it's not.
+
+```java
+_____ (grade>70) {
+	System.out.println("_____");
+}
+_____ {
+	System.out.println("_____");
+}
+```
+
+**Question M01.02**
+
+Drag & drop to create a program that takes a number as input, and checks if it's in the range of 1 to 5. 
+
+In case it is, output Correct.
+
+```java
+Scanner sc = new _____(System.in);
+int num = _____.nextInt();
+_____ (num>=1 _____ num<=5) {
+	System.out.println("Correct");
+}
+```
+
+- [ ] `++`
+- [ ] `for`
+- [ ] `&&`
+- [ ] `||`
+- [ ] `if`
+- [ ] `sc`
+- [ ] `and`
+
+**Question M01.03**
+
+Fill in the blanks to create a loop that outputs all the numbers from 1 to 100, except the number 42.
+
+```java
+_____ (int x=1; x<=100 _____ x++) {
+	_____ (x==42) {
+		continue;
+	}
+	System.out.println(_____);
+}
+```
+
+**Question M01.04**
+
+How many numbers will the following while loop output?
+
+```java
+int x = 8;
+while(x>0) {
+	System.out.println(x);
+	x-=3;
+}
+```
+
+**Question M01.05**
+
+Fill in the blanks to create a valid switch statement that outputs the first 3 letters by their position in the alphabet.
+
+```java
+switch(position) {
+	case 1_____
+		System.out.println("A");
+		break;
+	_____ 2:
+		System.out.println("B");
+		break_____
+	case _____: 
+		System.out.println("C");
+		_____;
+}
+```
+
 &nbsp;
 
 xxx
