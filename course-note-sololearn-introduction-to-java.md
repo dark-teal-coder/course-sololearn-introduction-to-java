@@ -39,8 +39,6 @@ This simple, beginner-friendly Java course requires no previous coding knowledge
 
 ## Module 01: Basic Concepts
 
-&nbsp;
-
 ### Lesson 01.01: Getting Started with Java
 
 #### Welcome to Java!
@@ -3117,10 +3115,6 @@ switch(position) {
 
 &nbsp;
 
-xxx
-
-&nbsp;
-
 ---
 
 &nbsp;
@@ -3137,10 +3131,6 @@ xxx
 
 &nbsp;
 
-xxx
-
-&nbsp;
-
 ---
 
 &nbsp;
@@ -3154,10 +3144,6 @@ xxx
 ### Lesson 04.03: Returning From Methods
 
 ### Quiz: Module 4 Quiz
-
-&nbsp;
-
-xxx
 
 &nbsp;
 
