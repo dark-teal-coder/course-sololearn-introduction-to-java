@@ -3365,6 +3365,28 @@ public class Program {
 }
 ```
 
+#### Quiz 03.01.06
+
+**Question**
+
+Fill in the blanks to create an array, multiply the 2nd and the 4th items and output the result.
+
+```java
+int[] x = {4, 3, 6, 8_____;
+int res = x[_____] _____ x[3];
+System.out.println(_____);
+```
+
+**Answer**
+
+`}`, `1`, `*` and `res`
+
+```java
+int[] x = {4, 3, 6, 8};
+int res = x[1] * x[3];
+System.out.println(res);
+```
+
 ### Lesson 03.02: Looping Over Arrays
 
 ### Lesson 03.03: Multidimensional Arrays
