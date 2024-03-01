@@ -3218,6 +3218,20 @@ Let's set the first items value:
 ages[0] = 18;
 ```
 
+#### Quiz 03.01.03
+
+**Question**
+
+What is the index of the 2nd element of an array? 
+
+- [ ] `2`
+- [ ] `3`
+- [ ] `1`
+
+**Answer**
+
+`1`
+
 
 
 ### Lesson 03.02: Looping Over Arrays
