@@ -3159,6 +3159,23 @@ _____ _____ _____;
 
 `String`, `[]` and `names`
 
+#### Arrays
+
+Now, to create the array, we need to specify the number of items it will hold using the new keyword:
+
+```java
+int[ ] ages;
+ages = new int[5];
+```
+
+The code above creates an array of 5 integers.
+
+We can combine the above code into one line:
+
+```java
+int[] ages = new int[5];
+```
+
 ### Lesson 03.02: Looping Over Arrays
 
 ### Lesson 03.03: Multidimensional Arrays
