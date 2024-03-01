@@ -3271,6 +3271,25 @@ names[0] = "James";
 System.out.println(names[0]);
 ```
 
+#### Arrays
+
+If you already know what values to store in the array, instead of assigning them one by one, you can use the following syntax:
+
+```java
+public class Demo {
+	public static void main(String[] args) {
+		String[ ] names = { "A", "B", "C", "D"};
+		System.out.println(names[2]);
+	}
+}
+```
+
+Place the values in a comma-separated list, enclosed in curly braces.
+
+The code above automatically creates an array containing 4 items, and stores the provided values.
+
+> :warning: Sometimes you might see the square brackets placed after the array name, which also works, but the preferred way is to place the brackets after the array's data type.
+
 
 
 ### Lesson 03.02: Looping Over Arrays
