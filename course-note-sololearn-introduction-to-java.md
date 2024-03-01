@@ -3194,6 +3194,20 @@ String _____ names = _____ String[_____];
 String [] names = new String[8];
 ```
 
+#### Arrays
+
+The items in an array are accessed using their position, also called their index.
+
+Here is an example, setting the item with the index 2 to the value 25:
+
+```java
+ages[2] = 25;
+```
+
+The index is specified in square brackets, next to the array name.
+
+
+
 ### Lesson 03.02: Looping Over Arrays
 
 ### Lesson 03.03: Multidimensional Arrays
