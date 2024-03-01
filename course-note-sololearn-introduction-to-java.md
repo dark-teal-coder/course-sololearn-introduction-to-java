@@ -3249,6 +3249,28 @@ public class Demo {
 
 This will output the value of the 3rd item.
 
+#### Quiz 03.01.04
+
+**Question**
+
+Fill in the blanks to declare an array of 5 Strings, set the first item to the value "James". Then output the first item of the array.
+
+```java
+_____ names = _____ String[5];
+names _____ = "James";
+System.out.println(_____[0]);
+```
+
+**Answer**
+
+`String[]`, `new`, `[0]` and `names`
+
+```java
+String[] names = new String[5];
+names[0] = "James";
+System.out.println(names[0]);
+```
+
 
 
 ### Lesson 03.02: Looping Over Arrays
