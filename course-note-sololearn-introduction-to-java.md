@@ -3123,6 +3123,18 @@ switch(position) {
 
 ### Lesson 03.01: Arrays
 
+#### Arrays
+
+Imagine a program that needs to store the ages of 10 users.
+
+With variables, you would need to create 10 separate variables for each of the users. That would be really not effective and repetitive.
+
+Arrays can help in these situations!
+
+An array stores multiple values in a single variable.
+
+
+
 ### Lesson 03.02: Looping Over Arrays
 
 ### Lesson 03.03: Multidimensional Arrays
