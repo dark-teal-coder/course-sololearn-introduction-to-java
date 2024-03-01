@@ -3290,6 +3290,21 @@ The code above automatically creates an array containing 4 items, and stores the
 
 > :warning: Sometimes you might see the square brackets placed after the array name, which also works, but the preferred way is to place the brackets after the array's data type.
 
+#### Quiz 03.01.05
+
+**Question**
+
+What is the output of this code?
+
+```java
+int tmp[ ] = {5, 8, 9, 3};
+System.out.println(tmp[2]);
+```
+
+**Answer**
+
+`9`
+
 
 
 ### Lesson 03.02: Looping Over Arrays
