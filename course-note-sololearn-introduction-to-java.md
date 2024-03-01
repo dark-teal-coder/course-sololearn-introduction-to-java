@@ -3145,7 +3145,19 @@ int[ ] ages;
 
 > :warning: The name of the array is ages. The type of elements it will hold is int.
 
+#### Quiz 03.01.01
 
+**Question**
+
+Fill in the blanks to declare an array called `names` of type `String`.
+
+```java
+_____ _____ _____;
+```
+
+**Answer**
+
+`String`, `[]` and `names`
 
 ### Lesson 03.02: Looping Over Arrays
 
