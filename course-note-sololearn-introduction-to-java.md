@@ -3133,6 +3133,18 @@ Arrays can help in these situations!
 
 An array stores multiple values in a single variable.
 
+#### Arrays
+
+An array needs to be declared, just like a variable, with the type of the items it will hold.
+
+To declare an array, you need to define the type of the elements with square brackets.
+
+```java
+int[ ] ages;
+```
+
+> :warning: The name of the array is ages. The type of elements it will hold is int.
+
 
 
 ### Lesson 03.02: Looping Over Arrays
