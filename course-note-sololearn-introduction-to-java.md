@@ -3206,6 +3206,18 @@ ages[2] = 25;
 
 The index is specified in square brackets, next to the array name.
 
+#### Arrays
+
+The item with index 2 is actually the 3rd item of the array.
+
+That's because array indexes start from 0, meaning that the first element's index is 0 rather than one. So, the maximum index of the array int[5] is 4.
+
+Let's set the first items value:
+
+```java
+ages[0] = 18;
+```
+
 
 
 ### Lesson 03.02: Looping Over Arrays
