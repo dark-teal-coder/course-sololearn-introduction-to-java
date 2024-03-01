@@ -3176,6 +3176,24 @@ We can combine the above code into one line:
 int[] ages = new int[5];
 ```
 
+#### Quiz 03.01.02
+
+**Question**
+
+Fill in the blanks to create an array of Strings that will hold 8 items.
+
+```java
+String _____ names = _____ String[_____];
+```
+
+**Answer**
+
+`[]`, `new` and `8`
+
+```java
+String [] names = new String[8];
+```
+
 ### Lesson 03.02: Looping Over Arrays
 
 ### Lesson 03.03: Multidimensional Arrays
