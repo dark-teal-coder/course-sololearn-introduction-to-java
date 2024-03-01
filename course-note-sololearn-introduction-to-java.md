@@ -3232,6 +3232,23 @@ What is the index of the 2nd element of an array?
 
 `1`
 
+#### Arrays
+
+Similar to setting values, we can also access values of the array, using square brackets and the index of the item we want to access:
+
+```java
+public class Demo {
+	public static void main(String[] args) {
+		int[] ages = new int[5];
+		ages[0] = 18;
+		ages[2] = 25;
+		System.out.println(ages[2]);
+	}
+}
+```
+
+This will output the value of the 3rd item.
+
 
 
 ### Lesson 03.02: Looping Over Arrays
