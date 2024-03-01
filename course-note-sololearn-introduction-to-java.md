@@ -3305,7 +3305,65 @@ System.out.println(tmp[2]);
 
 `9`
 
+#### Lesson Takeaways
 
+Awesome! Here are some key points about arrays:
+
+Arrays allow you to store multiple values in a variable.
+
+When creating an array, we need to provide the type of the items and the size of the array, like this:
+
+```java
+int[] nums = new int[4];
+```
+
+Array items are accessed using their indexes, placed in square brackets. The first item has the index 0.
+
+You can also create an array with values using the following syntax:
+
+```java
+int[] nums = {4, 6, 2, 1};
+```
+
+In the next lesson we will learn how to loop over the values of an array and make calculations.
+
+##### Vending Machine
+
+###### Vending Machine
+
+You are making a program for a vending machine that provides drinks.
+
+The menu of the drinks is stored in an array called menu:
+
+```java
+String[] menu = {"Tea", "Espresso", "Americano", "Water", "Hot Chocolate"}; 
+```
+
+Take the choice of the customer as an integer from input and output the corresponding menu item.
+
+Also, check for errors: in case the input is out of the range of the array, output "Invalid".
+
+> :warning: The choice defines the index of the array.
+
+###### Solution 
+
+```java
+import  java.util.Scanner;
+
+public class Program {
+	public static void main(String[] args) {
+		String[] menu = {"Tea", "Espresso", "Americano", "Water", "Hot Chocolate"};
+		Scanner input = new Scanner(System.in);
+		int choice = input.nextInt(); 
+		if (choice > 5) {
+			System.out.println("Invalid"); 
+		}
+		else {
+			System.out.println(menu[choice]);
+		} 
+	}
+}
+```
 
 ### Lesson 03.02: Looping Over Arrays
 
