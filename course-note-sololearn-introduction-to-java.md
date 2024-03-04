@@ -3462,6 +3462,30 @@ In the code above, we declared a variable sum to store the result and assigned i
 
 Then we used a for loop to iterate through the array, and added each item's value to the variable.
 
+#### Quiz 03.02.02
+
+**Question**
+
+Fill in the blanks to calculate the sum of the items of the double array called nums using a for loop, then output it to the screen.
+
+```java
+double sum = 0.0;
+_____ (int x=0; x<nums._____; x++) {
+	sum += _____[x];
+}
+System.out.println(_____);
+```
+
+**Answer**
+
+```java
+double sum = 0.0;
+for (int x=0; x<nums.length; x++) {
+	sum += nums[x];
+}
+System.out.println(sum);
+```
+
 
 
 ### Lesson 03.03: Multidimensional Arrays
