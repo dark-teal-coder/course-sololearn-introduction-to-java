@@ -3389,6 +3389,27 @@ System.out.println(res);
 
 ### Lesson 03.02: Looping Over Arrays
 
+#### Arrays
+
+Let's learn how to output the items of an array using a loop.
+
+To use a loop, we first need to find out how many items the array stores. 
+
+For that, the array has a length property, which is accessed like this:
+
+```java
+public class Demo {
+	public static void main(String[] args) {
+		int[] ages = {18, 33, 24, 64, 45};
+		System.out.println(ages.length);
+	}
+}
+```
+
+This will output the number of items stored in the array.
+
+
+
 ### Lesson 03.03: Multidimensional Arrays
 
 ### Quiz: Module 3 Quiz
