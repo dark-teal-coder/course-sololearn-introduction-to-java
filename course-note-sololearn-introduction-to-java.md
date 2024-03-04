@@ -3408,6 +3408,21 @@ public class Demo {
 
 This will output the number of items stored in the array.
 
+#### Quiz 03.02.01
+
+**Question**
+
+What is the output of this code?
+
+```java
+int[] x = {3, 2, 1};
+System.out.println(x.length);
+```
+
+**Answer**
+
+`3`
+
 
 
 ### Lesson 03.03: Multidimensional Arrays
