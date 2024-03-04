@@ -3553,7 +3553,78 @@ public class Demo {
 
 Note, that in this case we do not have the index, we have the value of each item of the array.
 
+#### Quiz 03.02.04
 
+**Questions**
+
+What is the output of this code?
+
+```java
+int[ ] nums = {3, 8, 5, 2};
+int res = 0;
+for(int x: nums) {
+	if(x > res) {
+		res = x;
+	}
+}
+System.out.println(res);
+```
+
+**Answer**
+
+`8`
+
+#### Lesson Takeaways
+
+Looping over arrays is fun!
+
+You can use a for loop to loop over an array.
+
+The length property is used to get the number of items of the array.
+
+```java
+for(int x=0;x<arr.length; x++) {
+	// current item is arr[x]
+}
+```
+
+Another way to loop over arrays is the for-each loop:
+
+```java
+for(int x: arr) {
+	// current item is x
+}
+```
+
+We will learn about multidimensional arrays in the next lesson!
+
+##### Annual Revenue
+
+###### Annual Revenue
+
+The given code declares an array that holds the monthly revenues for a company for a year.
+
+You need to calculate the average monthly revenue for the year.
+
+For that, calculate the sum of the revenue for all the months and divide it by the number of items in the array.
+
+> :warning: You can find the number of items in the array using the length property. As the array is of type double, output the result as a double.
+
+###### Solution
+
+```java
+public class Program {
+	public static void main(String[] args) {
+	double[] revenueMonths = {88750, 125430, 99700, 14500, 158000, 65000, 99000, 189000, 210000, 42000, 165800, 258900};
+	double revenueYear = 0.0; 
+	for (double r: revenueMonths){
+		revenueYear += r; 
+	}
+	int months = revenueMonths.length; 
+	System.out.println(revenueYear/months); 
+	}
+}
+```
 
 ### Lesson 03.03: Multidimensional Arrays
 
