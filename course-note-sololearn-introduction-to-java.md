@@ -3441,6 +3441,27 @@ public class Demo {
 
 We used the x variable of the loop as the index for our array. During each iteration of the loop, the next item of the array is accessed.
 
+#### Arrays
+
+We can also use a for loop to make calculations using array values. For example, let's calculate the sum of all values in an array:
+
+```java
+public class Demo {
+	public static void main(String[] args) {
+		int[] ages = {18, 33, 24, 64, 45};
+		int sum = 0;
+		for(int x=0;x<ages.length;x++) {
+			sum += ages[x];
+		}
+		System.out.println(sum);
+	}
+}
+```
+
+In the code above, we declared a variable sum to store the result and assigned it 0.
+
+Then we used a for loop to iterate through the array, and added each item's value to the variable.
+
 
 
 ### Lesson 03.03: Multidimensional Arrays
