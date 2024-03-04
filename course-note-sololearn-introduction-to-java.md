@@ -3423,6 +3423,24 @@ System.out.println(x.length);
 
 `3`
 
+#### Arrays and Loops
+
+Now, when we know the number of items, we can use a for loop and output all the items of the array:
+
+```java
+public class Demo {
+	public static void main(String[] args) {
+		int[] ages = {18, 33, 24, 64, 45};
+		
+		for(int x=0;x<ages.length;x++) {
+			System.out.println(ages[x]);
+		}
+	}
+}
+```
+
+We used the x variable of the loop as the index for our array. During each iteration of the loop, the next item of the array is accessed.
+
 
 
 ### Lesson 03.03: Multidimensional Arrays
