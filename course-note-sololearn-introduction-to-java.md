@@ -3534,6 +3534,25 @@ for (String n: names) {
 }
 ```
 
+#### for-each Loop
+
+Let's use a for-each loop to calculate the sum of all values of an array:
+
+```java
+public class Demo {
+	public static void main(String[] args) {
+		int[] ages = {18, 33, 24, 64, 45};
+		int sum = 0;
+		for(int x: ages) {
+			sum += x;
+		}
+		System.out.println(sum); 
+	}
+}
+```
+
+Note, that in this case we do not have the index, we have the value of each item of the array.
+
 
 
 ### Lesson 03.03: Multidimensional Arrays
