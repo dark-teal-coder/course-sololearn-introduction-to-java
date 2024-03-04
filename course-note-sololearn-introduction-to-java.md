@@ -3510,6 +3510,28 @@ You can call the variable anything you want: we called it x in our example.
 
 > :warning: Notice the colon after the variable - it reads as "for each x in nums".
 
+#### Quiz 03.02.03
+
+**Questions**
+
+Fill in the blanks to create a valid for-each loop, iterating over an array of Strings called names.
+
+```java
+_____ (String n _____ names) _____ 
+	System.out.println(n);
+}
+```
+
+**Answers**
+
+`for`, `:` and `{`
+
+```java
+for (String n: names) { 
+	System.out.println(n);
+}
+```
+
 
 
 ### Lesson 03.03: Multidimensional Arrays
