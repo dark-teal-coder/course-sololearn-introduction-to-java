@@ -3478,6 +3478,8 @@ System.out.println(_____);
 
 **Answer**
 
+`for`, `length`, `nums` and `sum`
+
 ```java
 double sum = 0.0;
 for (int x=0; x<nums.length; x++) {
