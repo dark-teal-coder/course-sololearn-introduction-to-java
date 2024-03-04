@@ -3626,6 +3626,24 @@ public class Program {
 }
 ```
 
+#### Quiz 03.02.05
+
+**Questions**
+
+Rearrange to create a valid for-each loop, that creates an array called arr and outputs each item of the array.
+
+- `System.out.println(item);`
+- }
+- int[] arr = {1, 2, 3, 4};
+- for(int item: arr){
+
+**Answer**
+
+1. int[] arr = {1, 2, 3, 4};
+2. for(int item: arr){
+3. `System.out.println(item);`
+4. }
+
 ### Lesson 03.03: Multidimensional Arrays
 
 ### Quiz: Module 3 Quiz
