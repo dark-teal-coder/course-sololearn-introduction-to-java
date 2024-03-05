@@ -3740,6 +3740,30 @@ System.out.println(array[0][2]);
 
 `8`
 
+#### Looping
+
+To loop over a 2-dimensional array, we need nested for loops:
+
+```java
+public class Demo {
+	public static void main(String[] args) {
+		int[][] sample = {
+		{1, 2, 3},
+		{4, 5, 6}
+		};
+		for(int x=0; x<sample.length; x++) {
+			for(int y=0; y<sample[x].length; y++) {
+				System.out.println(sample[x][y]);
+			}
+		}  
+	}
+}
+```
+
+The first loop iterates over the rows, and the second one over their items.
+
+
+
 ### Quiz: Module 3 Quiz
 
 &nbsp;
