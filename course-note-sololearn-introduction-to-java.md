@@ -3792,7 +3792,56 @@ for(int x=0; x<arr.length; x++) {
 System.out.println(sum);
 ```
 
+#### Lesson Takeaways 
 
+Arrays with multiple dimensions are simply arrays that contain other arrays.
+
+The number of square brackets match the dimension of the array, for example [][] denotes a 2-dimensional array.
+
+To access the items of the array, specify the row index in the first square brackets, followed by the column index in the second.
+
+##### Movie Theater
+
+###### Movie Theater
+
+You are creating a ticketing program for a small movie theater.
+
+The seats are represented using a 2-dimensional array.
+
+Each item can have the values 1 and 0 - 1 is occupied, and 0 if it's free.
+
+Your program needs to take as input the row and the column of the seat and output Free if it's free, and Sold if it's not.
+
+###### Solution
+
+```java
+import java.util.Scanner;
+
+public class Program {
+	public static void main(String[] args) {
+		int[][] seats = {
+		    {0, 0, 0, 1, 1, 1, 0, 0, 1, 1},
+		    {1, 1, 0, 1, 0, 1, 1, 0, 0, 0},
+		    {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+		    {0, 0, 0, 1, 1, 1, 1, 0, 0, 0},
+		    {0, 1, 1, 1, 0, 0, 0, 1, 1, 1}
+		};
+		// Take inputs
+		Scanner input = new Scanner(System.in);
+		// System.out.println("Row number:"); 
+		int row = input.nextInt();
+		// System.out.println("Column number:");  
+		int col = input.nextInt();
+		// Occupancy
+		if (seats[row][col] == 0){
+			System.out.println("Free");
+		}
+		else if (seats[row][col] == 1) {
+			System.out.println("Sold"); 
+		}
+	}
+}
+```
 
 ### Quiz: Module 3 Quiz
 
