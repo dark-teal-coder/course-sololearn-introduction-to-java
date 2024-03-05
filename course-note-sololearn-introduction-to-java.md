@@ -3666,6 +3666,22 @@ int[ ][ ] sample = { {1, 2, 3}, {4, 5, 6} };
 
 Note that the array is created using two square brackets, specifying the two-dimensionality.
 
+#### Multidimensional Arrays
+
+To access an element in the two-dimensional array, provide two indexes, one for the array, and another for the element inside that array. 
+
+The following example accesses the first element in the second array of sample:
+
+```java
+public class Demo {
+	public static void main(String[] args) {
+		int[][] sample = { {1, 2, 3}, {4, 5, 6} };
+		int x = sample[1][0];
+		System.out.println(x);
+	}
+}
+```
+
 
 
 ### Quiz: Module 3 Quiz
