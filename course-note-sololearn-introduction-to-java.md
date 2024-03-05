@@ -3355,7 +3355,7 @@ public class Program {
 		String[] menu = {"Tea", "Espresso", "Americano", "Water", "Hot Chocolate"};
 		Scanner input = new Scanner(System.in);
 		int choice = input.nextInt(); 
-		if (choice > 5) {
+		if (choice < 0 || choice >= 5) {
 			System.out.println("Invalid"); 
 		}
 		else {
