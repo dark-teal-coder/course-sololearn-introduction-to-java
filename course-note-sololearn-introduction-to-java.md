@@ -3682,6 +3682,28 @@ public class Demo {
 }
 ```
 
+#### Quiz 03.03.01
+
+**Questions**
+
+Fill in the blanks to create a 2-dimensional array, then output the 2nd item of the 3rd row.
+
+```java
+int[][] grid = {{8, 4}, {2, 5}, {9, 6}_____;
+int x = grid[_____][_____];
+System.out.println(x);
+```
+
+**Answer**
+
+`}`, `2` and `1`
+
+```java
+int[][] grid = {{8, 4}, {2, 5}, {9, 6}};
+int x = grid[2][1];
+System.out.println(x);
+```
+
 
 
 ### Quiz: Module 3 Quiz
