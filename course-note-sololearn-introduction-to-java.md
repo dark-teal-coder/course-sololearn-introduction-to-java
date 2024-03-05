@@ -3704,6 +3704,27 @@ int x = grid[2][1];
 System.out.println(x);
 ```
 
+#### Multidimensional Arrays
+
+The array's two indexes are called row index and column index.
+
+Here is how we can visualize it:
+
+```java
+public class Demo {
+	public static void main(String[] args) {
+		int[][] sample = { 
+			{1, 2, 3}, 
+			{4, 5, 6} 
+		}; 
+		int x = sample[1][0];
+		System.out.println(x);
+	}
+}
+```
+
+Each row is an item, which is an array. So, to access a value, we provide the row index, then the column index.
+
 
 
 ### Quiz: Module 3 Quiz
