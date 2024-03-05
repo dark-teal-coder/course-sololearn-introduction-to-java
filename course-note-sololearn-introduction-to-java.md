@@ -3646,6 +3646,18 @@ Rearrange to create a valid for-each loop, that creates an array called arr and 
 
 ### Lesson 03.03: Multidimensional Arrays
 
+#### Multidimensional Arrays
+
+Arrays can have multiple dimensions (or number of indices).
+
+For example, imagine a ticketing program that is storing seat numbers in a stadium, which have a row and column number.
+
+Or a chess board, where each square has 2 coordinates: a letter and a number
+
+> :warning: The arrays in these examples have 2 dimensions.
+
+
+
 ### Quiz: Module 3 Quiz
 
 &nbsp;
