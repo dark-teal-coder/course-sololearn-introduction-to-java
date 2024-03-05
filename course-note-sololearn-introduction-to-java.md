@@ -3725,7 +3725,20 @@ public class Demo {
 
 Each row is an item, which is an array. So, to access a value, we provide the row index, then the column index.
 
+#### Quiz 03.03.02
 
+**Questions**
+
+What is the output of this code?
+
+```java
+int array[ ][ ] =  {{3, 5, 8}, {7, 54, 1, 12, 4}}; 
+System.out.println(array[0][2]);
+```
+
+**Answer**
+
+`8`
 
 ### Quiz: Module 3 Quiz
 
