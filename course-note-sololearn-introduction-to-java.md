@@ -3656,6 +3656,16 @@ Or a chess board, where each square has 2 coordinates: a letter and a number
 
 > :warning: The arrays in these examples have 2 dimensions.
 
+#### Multidimensional Arrays
+
+To create multidimensional arrays, place each array within its own set of square brackets:
+
+```java
+int[ ][ ] sample = { {1, 2, 3}, {4, 5, 6} };
+```
+
+Note that the array is created using two square brackets, specifying the two-dimensionality.
+
 
 
 ### Quiz: Module 3 Quiz
