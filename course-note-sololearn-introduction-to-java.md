@@ -3762,6 +3762,36 @@ public class Demo {
 
 The first loop iterates over the rows, and the second one over their items.
 
+#### Quiz 03.03.03
+
+**Questions**
+
+Fill in the blanks to create nested for loops that iterates over a 2-dimensional array called arr and calculates the sum of all items.
+
+```java
+int sum = 0;
+for(int x=0; x<arr._____; x++) {
+	for(int y=0; y<_____[x].length; y++) {
+		sum += _____[x][_____];
+	}
+}
+System.out.println(sum);
+```
+
+**Answer**
+
+`length`, `arr`, `arr` and `y`
+
+```java
+int sum = 0;
+for(int x=0; x<arr.length; x++) {
+	for(int y=0; y<arr[x].length; y++) {
+		sum += arr[x][y];
+	}
+}
+System.out.println(sum);
+```
+
 
 
 ### Quiz: Module 3 Quiz
