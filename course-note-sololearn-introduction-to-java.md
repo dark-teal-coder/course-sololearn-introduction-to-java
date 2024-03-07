@@ -3907,6 +3907,8 @@ Fill in the blanks to add the last element of the first row with the first eleme
 matrix[0][_____] + matrix[_____][0];
 ```
 
+[Check Module 03 Quiz Answers](./module-quiz-solutions/module-03-quiz-solutions.md)
+
 &nbsp;
 
 ---
