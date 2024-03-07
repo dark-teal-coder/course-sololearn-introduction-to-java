@@ -3113,6 +3113,8 @@ switch(position) {
 }
 ```
 
+[Check Module 02 Quiz Answers](./module-quiz-solutions/module-02-quiz-solutions.md)
+
 &nbsp;
 
 ---
