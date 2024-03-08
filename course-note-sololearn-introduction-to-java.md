@@ -3919,6 +3919,229 @@ matrix[0][_____] + matrix[_____][0];
 
 ### Lesson 04.01: Methods
 
+#### Methods
+
+A method is a block of code designed to perform a particular task.
+
+For example, our app can have methods like login(), logout(), convert(), etc.
+
+The println() that we use for output is also a method.
+
+> :warning: The purpose of a method is to create it once and call it multiple times when needed to perform particular tasks.
+
+#### Methods
+
+You can define your own methods to perform your desired tasks.
+
+Here is an example:
+
+```java
+static void welcome() {
+	System.out.println("Welcome");
+	System.out.println("I am a method");
+	System.out.println("End of method");
+}
+```
+
+The code above declares a method called welcome, which prints 3 lines of text.
+
+> :warning: Note that the name of the method is followed by parentheses (). The statements of the method are inside curly braces.
+
+#### Methods
+
+Let's look at the code again:
+
+```java
+static void welcome() {
+	System.out.println("Welcome");
+	System.out.println("I am a method");
+	System.out.println("End of method");
+}
+```
+
+`static` is needed to be able to use the method in `main`. You will learn about the static keyword in more advanced lessons.
+
+`void` means that this method does not have a return value. You will learn more about return values later in this module.
+
+`welcome` is the name of the method.
+
+#### Quiz 04.01.01
+
+**Questions**
+
+Drag & drop to declare a valid method called login.
+
+```java
+_____ _____ _____() {
+	System.out.println("Login");
+}
+```
+
+**Answer**
+
+`static`, `void` and `login`
+
+```java
+static void login() {
+	System.out.println("Login");
+}
+```
+
+#### Calling a Method
+
+After defining the method, we can use it in our program by "calling" it.
+
+To call a method, type its name followed by a set of parentheses.
+
+For example:
+
+```java
+public class Demo {
+	static void welcome() { 
+		System.out.println("Welcome"); 
+		System.out.println("I am a method"); 
+		System.out.println("End of method"); 
+	}
+	public static void main(String[] args) {
+		welcome();
+	}
+}
+```
+
+> :warning: Run the code to see the result.
+
+#### Quiz 04.01.02
+
+**Questions**
+
+Fill in the blanks to call the login() method in main.
+
+```java
+public static void main(String[] args) {
+	login_____;
+}
+```
+
+**Answer**
+
+`()`
+
+```java
+public static void main(String[] args) {
+	login();
+}
+```
+
+#### Calling a Method
+
+You can call a method as many times as necessary.
+
+Example:
+
+```java
+class Demo {
+	static void welcome() { 
+		System.out.println("Welcome"); 
+		System.out.println("I am a method"); 
+		System.out.println("End of method"); 
+	}
+	public static void main(String[] args) {
+		welcome();
+		//some code
+		welcome();
+		welcome();
+	}
+}
+```
+
+#### Lesson Takeaways
+
+Great job! Here are the main points to remember when defining your own methods:
+
+- Methods are reusable, we define them once and can call them multiple times.
+- To call a method, use its name, followed by parentheses.
+- The void keyword means that the method does not return a value.
+
+We will learn about return values in the next lessons, so stay tuned!
+
+##### Bot
+
+###### Bot
+
+You are making an automated response program for a store.
+
+The bot should take a number from the user as input and reply with an automated message. There are currently 3 responses, that you need to a handle:
+
+- User message: "1", Reply: "Order confirmed"
+- User message: "2", Reply: "info@sololearn.com"
+- For any other number, the reply should be: "Try again".
+
+The given code calls a method called bot(). Define the method, which should take an integer input from the user, and handle the above mentioned cases, by outputting the corresponding reply. Do not change the method call in main().
+
+###### Solution
+
+```java
+import java.util.Scanner;
+
+public class Program {
+	static void bot(){
+		/*
+		User message: "1", Reply: "Order confirmed"
+		User message: "2", Reply: "info@sololearn.com"
+		For any other number, the reply should be: "Try again". 
+		*/
+		Scanner input = new Scanner(System.in); 
+		int choice = input.nextInt(); 
+		if (choice == 1){
+			System.out.println("Order confirmed"); 
+		}
+		else if (choice == 2){
+			System.out.println("info@sololearn.com"); 
+		}
+		else {
+			System.out.println("Try again"); 
+		}
+	}
+	public static void main(String[] args) {
+		bot();
+	}
+}
+```
+
+#### Quiz 04.01.03
+
+**Questions**
+
+Fill in the blanks to define a method called shoot, and call it twice in main.
+
+```java
+class Program {
+	_____ void _____() { 
+		System.out.println("Boom"); 
+	}
+	public static void main(String[] args) {
+		shoot_____;
+		shoot()_____
+	}
+}
+```
+
+**Answer**
+
+`static`, `shoot`, `()` and `;`
+
+```java
+class Program {
+	static void shoot() { 
+		System.out.println("Boom"); 
+	}
+	public static void main(String[] args) {
+		shoot();
+		shoot();
+	}
+}
+```
+
 ### Lesson 04.02: Method Parameters
 
 ### Lesson 04.03: Returning From Methods
