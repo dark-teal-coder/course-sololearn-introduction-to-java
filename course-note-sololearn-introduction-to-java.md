@@ -4144,6 +4144,243 @@ class Program {
 
 ### Lesson 04.02: Method Parameters
 
+#### Method parameters
+
+Methods can have parameters that can be used in their code. Parameters are defined in parentheses and can act as variables in a method.
+
+For example, let's add a String parameter called name to our welcome() function:
+
+```java
+static void welcome(String name) {
+	System.out.println("Welcome, " + name);
+}
+```
+
+> :warning: The above method takes a String called name as its parameter, which is used in the method.
+
+#### Method Parameters
+
+Now, when calling the method, we need to pass it a value for the name parameter inside the parentheses:
+
+```java
+class Demo {
+	static void welcome(String name) { 
+		System.out.println("Welcome, "+name);
+	}
+	public static void main(String[] args) {
+		welcome("James");
+		welcome("Amy");
+	}
+}
+```
+
+This way, we can call our method with different parameters and generate different results based on them.
+
+> :warning: The values passed as parameters are called arguments.
+
+#### Quiz 04.02.01
+
+**Questions**
+
+Fill in the blanks to define a method doubleNum that takes an integer as its parameter and outputs its double.
+
+Then call it in main with the argument 42.
+
+```java
+static void doubleNum(_____ num) {
+	System.out.println(num _____ 2);
+}
+public static void main(String[] args) {
+	_____ (42);
+}
+```
+
+**Answer**
+
+`int`, `*` and `doubleNum`
+
+```java
+static void doubleNum(int num) {
+	System.out.println(num * 2);
+}
+public static void main(String[] args) {
+	doubleNum(42);
+}
+```
+
+#### Multiple Parameters
+
+Methods can take multiple parameters. For that, we simply need to separate them using commas, for example:
+
+```java
+static void welcome(String name, int age) {
+	System.out.println("Welcome, "+name);
+	System.out.println("Your age: "+age);
+}
+```
+
+Now, our welcome() method takes a String and an integer as its parameters.
+
+#### Multiple Parameters
+
+Now, when calling the function, we need to provide all the parameters:
+
+```java
+class Demo {
+	static void welcome(String name, int age) {
+		System.out.println("Welcome, "+name);
+		System.out.println("Your age: "+age);
+	}
+	public static void main(String[] args) {
+		welcome("James", 42);
+		welcome("Amy", 25);
+	}
+}
+```
+
+> :warning: Note that the arguments need to match the parameters and must be passed in the same order.
+
+#### Quiz 04.02.02
+
+**Questions**
+
+Fill in the blanks to define a method that takes two integers and outputs their sum.
+
+Then call it in main for the arguments x and y.
+
+```java
+static void sum(int a, _____ b) {
+	System.out.println(_____+b);
+}
+public static void main(String[] args) {
+	int x = 8;
+	int y = 11;	
+	_____(x _____ y);
+}
+```
+
+**Answer**
+
+`int`, `a`, `sum` and `,`
+
+```java
+static void sum(int a, int b) {
+	System.out.println(a+b);
+}
+public static void main(String[] args) {
+	int x = 8;
+	int y = 11;
+	sum(x, y);
+}
+```
+
+#### Method Parameters
+
+Method parameters are really handy! They allow our method to work with different values and produce results.
+
+For example, we can create a method to calculate a given percentage of a number and output it:
+
+```java
+class Demo {
+	static void perc(double num, int percentage) {
+		double res = num*percentage/100;
+		System.out.println(res);
+	}
+	public static void main(String[] args) {
+		perc(530, 23);
+	}
+}
+```
+
+Open the code to see the method in action!
+
+#### Quiz 04.02.03
+
+**Questions**
+
+What is the result of demo(8, 3)?
+
+```java
+static void demo(int x, int y) {
+	if(x<y) {
+		System.out.println(x+y);
+	}
+	else {
+		System.out.println(x%y);
+	}
+}
+```
+
+**Answer**
+
+`2`
+
+#### Lesson Takeaways
+
+Method parameters are awesome!
+
+Here is a summary:
+- You can define parameters in the parentheses.
+- Multiple parameters need to be separated by commas.
+- The parameters are available in the method, like variables of the given names.
+- When calling a method, you need to provide its parameters in the same order, as defined.
+
+You will learn how to return values in the next lesson.
+
+##### Feet to Inches Converter
+
+###### Feet to Inches Converter
+
+You need to make a method that converts a foot value to inches.
+
+1 foot has 12 inches. 
+
+Define a convert() method, that takes the foot value as its argument and outputs the inches value. The result must be a double.
+
+> :warning: The given code takes the foot value as input and passes it to the convert method. Define the convert method, so that the given code works.
+
+###### Solution
+
+```java
+import java.util.Scanner;
+
+public class Program {
+	static void convert(double foot){
+		System.out.println(foot * 12); 
+	}
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		double num = input.nextDouble(); 
+		// Convert foot to inch
+		convert(num);
+	}
+}
+```
+
+#### Quiz 04.02.04
+
+**Questions**
+
+Fill in the blanks to define a method with 2 parameters called area. It should calculate and output the area of a rectangle based on the width and height.
+
+```java
+_____ void _____ (double w _____ double h) {
+	double res = w*h;
+	System._____.println(_____);
+}
+```
+
+**Answer**
+
+`static`, `area`, `,`, `out` and `res`
+
+```java
+static void area (double w, double h) {
+	double res = w*h;
+	System.out.println(res);
+}
+```
+
 ### Lesson 04.03: Returning From Methods
 
 ### Quiz: Module 4 Quiz
