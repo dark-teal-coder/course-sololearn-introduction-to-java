@@ -4580,6 +4580,38 @@ public class Program {
 }
 ```
 
+#### Quiz 04.03.04
+
+**Question**
+
+Fill in the blanks to create a method called checkAge, which returns true, in case its age parameter is greater than 18.
+
+```java
+static _____ checkAge(int age) {
+	_____ (age >= 18) {
+		return _____;
+	}
+	else {
+		_____ false;
+	}
+}
+```
+
+**Answer**
+
+`boolean`, `if`, `true` and `return`
+
+```java
+static boolean checkAge(int age) {
+	if (age >= 18) {
+		return true;
+	}
+	else {
+		return false;
+	}
+}
+```
+
 ### Quiz: Module 4 Quiz
 
 &nbsp;
