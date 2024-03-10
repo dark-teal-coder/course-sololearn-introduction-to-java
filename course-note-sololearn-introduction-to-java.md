@@ -4533,7 +4533,52 @@ As you can see, we can use the method in an if statement, because it returns a b
 
 > :warning: The method can be used anywhere in our program to check if the grade is passing or not. In case anything changes in the logic of the check, we will need to modify the method only, without touching the rest of the program.
 
+#### Lesson Takeaways
 
+You did it! This was the last lesson of this course.
+
+Here is a quick recap for returning from methods:
+
+- Use the return statement to return a value from your method.
+- The method needs to have its return type specified before its name.
+-  The returned value can be assigned to a variable when calling the method.
+
+##### Celsius to Fahrenheit
+
+###### Celsius to Fahrenheit
+
+You are making a Celsius to Fahrenheit converter. 
+
+Write a method to take the Celsius value as an argument and return the corresponding Fahrenheit value.
+
+Sample Input
+36
+
+Sample Output
+96.8
+
+The given code takes the celsius value as input and passes it to a fahr() method, which you need to create.
+
+> :warning: The following equation is used to calculate the Fahrenheit value: 1.8 * celsius + 32.
+
+###### Solution
+
+```java
+import java.util.Scanner;
+
+public class Program {
+	static double fahr(double celsius){
+		double fahrenheit = 1.8 * celsius + 32;
+		return fahrenheit;
+	}
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		double c = sc.nextDouble(); 
+
+		System.out.println(fahr(c));
+	}
+}
+```
 
 ### Quiz: Module 4 Quiz
 
