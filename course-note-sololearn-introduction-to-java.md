@@ -4470,6 +4470,40 @@ class Demo {
 
 > :warning: Returning is useful when you don't need to print the result of the method, but need to use it in your code. For example, a bank account's withdraw() method could return the remaining balance of the account.
 
+#### Quiz 04.03.03
+
+**Questions**
+
+Fill in the blanks to create a method that takes two integers and returns their sum. Then, call it in main.
+
+```java
+static _____ sum(int x _____ int y) {
+	int res = x+y;  
+	_____ res;
+} 
+public static void main(String[] args) {
+	int n1 = 33;
+	int n2 = 12;
+	int n = _____ (n1, n2);
+}
+```
+
+**Answer**
+
+`int`, `,`, `return` and `sum`
+
+```java
+static int sum(int x, int y) {
+	int res = x+y;  
+	return res;
+} 
+public static void main(String[] args) {
+	int n1 = 33;
+	int n2 = 12;
+	int n = sum(n1, n2);
+}
+```
+
 
 
 ### Quiz: Module 4 Quiz
