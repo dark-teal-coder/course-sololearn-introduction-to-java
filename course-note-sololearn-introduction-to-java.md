@@ -4504,6 +4504,35 @@ public static void main(String[] args) {
 }
 ```
 
+#### Returning a Value
+
+Let's create a method that takes integer parameter, checks if the grade is over 70 and returns a boolean result.
+
+Then, let's use it in main:
+
+```java
+class Demo {
+	static boolean check(int grade) {
+		if(grade >=70) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	public static void main(String[] args) {
+		int x = 89;
+		if(check(x) == true) {
+			System.out.println("Congrats!");
+		} 
+	}
+}
+```
+
+As you can see, we can use the method in an if statement, because it returns a boolean value.
+
+> :warning: The method can be used anywhere in our program to check if the grade is passing or not. In case anything changes in the logic of the check, we will need to modify the method only, without touching the rest of the program.
+
 
 
 ### Quiz: Module 4 Quiz
