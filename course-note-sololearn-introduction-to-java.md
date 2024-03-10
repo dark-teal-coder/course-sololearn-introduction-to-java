@@ -4412,6 +4412,18 @@ Which of the following specifies that a method does not return any value?
 
 `void`
 
+#### The Return Type
+
+Here is the same function definition, specifying the return type to be a double:
+
+```java
+static double perc(double num, int percentage) {
+	...
+}
+```
+
+This means that our perc method will return a value of type double.
+
 
 
 ### Quiz: Module 4 Quiz
