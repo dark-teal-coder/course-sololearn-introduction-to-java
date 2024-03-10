@@ -4389,6 +4389,19 @@ The methods we have seen so far output their result. In some cases we do not nee
 
 In these cases, we need our method to return the result value.
 
+#### The Return Type
+
+Consider a method from our previous lesson, that was used to output a percentage of the given value:
+
+```java
+static void perc(double num, int percentage) {
+	double res = num*percentage/100;
+	System.out.println(res);
+}
+```
+
+The void keyword in the definition specifies that the method does not return any value.
+
 
 
 ### Quiz: Module 4 Quiz
