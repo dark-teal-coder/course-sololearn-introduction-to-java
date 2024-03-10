@@ -4424,6 +4424,20 @@ static double perc(double num, int percentage) {
 
 This means that our perc method will return a value of type double.
 
+#### Quiz 04.03.02
+
+**Questions**
+
+What is the return type of the following method?
+
+```java
+static String msg(int a, double b)
+```
+
+**Answer**
+
+`String`
+
 
 
 ### Quiz: Module 4 Quiz
