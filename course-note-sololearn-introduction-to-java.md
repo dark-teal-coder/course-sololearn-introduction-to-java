@@ -4383,6 +4383,14 @@ static void area (double w, double h) {
 
 ### Lesson 04.03: Returning From Methods
 
+#### Return Values
+
+The methods we have seen so far output their result. In some cases we do not need to output the result, but need to assign it to a variable, to work with it in our program.
+
+In these cases, we need our method to return the result value.
+
+
+
 ### Quiz: Module 4 Quiz
 
 &nbsp;
