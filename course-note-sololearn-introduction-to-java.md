@@ -4402,6 +4402,16 @@ static void perc(double num, int percentage) {
 
 The void keyword in the definition specifies that the method does not return any value.
 
+#### Quiz 04.03.01
+
+**Questions**
+
+Which of the following specifies that a method does not return any value?
+
+**Answer**
+
+`void`
+
 
 
 ### Quiz: Module 4 Quiz
