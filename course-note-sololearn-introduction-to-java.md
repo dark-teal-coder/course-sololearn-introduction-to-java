@@ -4438,6 +4438,19 @@ static String msg(int a, double b)
 
 `String`
 
+#### Returning a Value
+
+Now, we can return our result using the return keyword:
+
+```java
+static double perc(double num, int percentage) {
+	double res = num*percentage/100;
+	return res;
+}
+```
+
+The return keyword stops the method from executing. If there are any statements after return, they won't run.
+
 
 
 ### Quiz: Module 4 Quiz
