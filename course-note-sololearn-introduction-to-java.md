@@ -4451,6 +4451,25 @@ static double perc(double num, int percentage) {
 
 The return keyword stops the method from executing. If there are any statements after return, they won't run.
 
+#### Returning a Value
+
+After we have created our method that returns a value, we can call it in our code and assign the result to a variable:
+
+```java
+class Demo {
+	static double perc(double num, int percentage) {
+		double res = num*percentage/100;
+		return res;
+	}
+	public static void main(String[] args) {
+		double x = perc(530, 23);
+		System.out.println("Result is: "+x);
+	}
+}
+```
+
+> :warning: Returning is useful when you don't need to print the result of the method, but need to use it in your code. For example, a bank account's withdraw() method could return the remaining balance of the account.
+
 
 
 ### Quiz: Module 4 Quiz
