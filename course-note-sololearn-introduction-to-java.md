@@ -27,9 +27,32 @@ This simple, beginner-friendly Java course requires no previous coding knowledge
 ## Table of Contents
 
 - [Module 01: Basic Concepts](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#module-01-basic-concepts)
+  - [Lesson 01.01: Getting Started with Java]
+  - [Lesson 01.02: Multiple Statements]
+  - [Lesson 01.03: Program Structure]
+  - [Lesson 01.04: Variables]
+  - [Lesson 01.05: Variable Types]
+  - [Lesson 01.06: Doing Math]
+  - [Lesson 01.07: Java Comments]
+  - [Quiz 01: Module 1 Quiz]
 - [Module 02: Control Flow](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#module-02-control-flow)
+  - [Lesson 02.01: Taking User Input]
+  - [Lesson 02.02: Conditionals]
+  - [Lesson 02.03: The Switch Statement]
+  - [Lesson 02.04: Multiple Conditions]
+  - [Lesson 02.05: While Loops]
+  - [Lesson 02.06: For Loops]
+  - [Quiz 02: Module 2 Quiz]
 - [Module 03: Arrays](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#module-03-arrays)
+  - [Lesson 03.01: Arrays]
+  - [Lesson 03.02: Looping Over Arrays]
+  - [Lesson 03.03: Multidimensional Arrays]
+  - [Quiz 03: Module 3 Quiz]
 - [Module 04: Methods](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#module-04-methods)
+  - [Lesson 04.01: Methods]
+  - [Lesson 04.02: Method Parameters]
+  - [Lesson 04.03: Returning from Methods]
+  - [Quiz 04: Module 4 Quiz]
 
 &nbsp;
 
