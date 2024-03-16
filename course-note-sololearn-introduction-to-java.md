@@ -416,9 +416,22 @@ Java is a case-sensitive language. This means that you need to pay attention to 
 
 Drag and drop to write code that runs without errors:
 
+```java
+_____.out.println("Score:");
+System.out.println(500);
+```
+
+- `system`
+- `System`
+
 **Answer**
 
-`System`
+1. `System`
+
+```java
+System.out.println("Score:");
+System.out.println(500);
+```
 
 #### Quiz 01.02.07
 
@@ -426,9 +439,13 @@ Drag and drop to write code that runs without errors:
 
 Java is a
 
+- [ ] case-insensitive language
+- [ ] case-sensitive language
+
 **Answer**
 
-case-sensitive language
+- [ ] case-insensitive language
+- [x] case-sensitive language
 
 #### Lesson Takeaways
 
