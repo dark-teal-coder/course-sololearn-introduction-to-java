@@ -374,6 +374,9 @@ System.out.println_____42);
 
 **Answer**
 
+1. `"`
+2. `(`
+
 ```java
 System.out.println("Age:");
 System.out.println(42);
@@ -395,6 +398,10 @@ System._____.println(5000);
 - `println`
 
 **Answer**
+
+1. `println`
+2. `;`
+3. `out`
 
 ```java
 System.out.println("Account Balance:");
