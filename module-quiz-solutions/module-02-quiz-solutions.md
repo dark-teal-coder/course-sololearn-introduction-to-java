@@ -26,7 +26,7 @@ else {
 }
 ```
 
-**Question M01.02**
+**Question M02.02**
 
 Drag & drop to create a program that takes a number as input, and checks if it's in the range of 1 to 5. 
 
@@ -40,17 +40,21 @@ _____ (num>=1 _____ num<=5) {
 }
 ```
 
-- [ ] `++`
-- [ ] `for`
-- [ ] `&&`
-- [ ] `||`
-- [ ] `if`
-- [ ] `sc`
-- [ ] `and`
+- `++`
+- `for`
+- `&&`
+- `||`
+- `if`
+- `sc`
+- `and`
+- `Scanner`
 
-**Answer M01.02**
+**Answer M02.02**
 
-`Scanner`, `sc`, `if` and `&&`
+1. `Scanner`
+2. `sc`
+3. `if`
+4. `&&`
 
 ```java
 Scanner sc = new Scanner(System.in);
@@ -60,7 +64,7 @@ if (num>=1 && num<=5) {
 }
 ```
 
-**Question M01.03**
+**Question M02.03**
 
 Fill in the blanks to create a loop that outputs all the numbers from 1 to 100, except the number 42.
 
@@ -73,7 +77,7 @@ _____ (int x=1; x<=100 _____ x++) {
 }
 ```
 
-**Answer M01.03**
+**Answer M02.03**
 
 `for`, `;`, `if` and `x`
 
@@ -86,7 +90,7 @@ for (int x=1; x<=100; x++) {
 }
 ```
 
-**Question M01.04**
+**Question M02.04**
 
 How many numbers will the following while loop output?
 
@@ -98,11 +102,11 @@ while(x>0) {
 }
 ```
 
-**Answer M01.04**
+**Answer M02.04**
 
 3
 
-**Question M01.05**
+**Question M02.05**
 
 Fill in the blanks to create a valid switch statement that outputs the first 3 letters by their position in the alphabet.
 
@@ -120,7 +124,7 @@ switch(position) {
 }
 ```
 
-**Answer M01.05**
+**Answer M02.05**
 
 `:`, `case`, `;`, `3` and `break`
 
