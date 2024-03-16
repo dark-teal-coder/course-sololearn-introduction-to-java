@@ -144,6 +144,10 @@ System.out.println(_____);
 
 - `"New message"`
 
+```java
+System.out.println("New message");
+```
+
 #### The Code Playground
 
 Ready to write, run and test real code?
