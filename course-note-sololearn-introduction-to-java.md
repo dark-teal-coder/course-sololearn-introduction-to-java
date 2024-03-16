@@ -1371,9 +1371,23 @@ class Demo {
 
 Fill in the blanks to calculate and output the height of a 9-story building. Each floor has a height of 3 meters.
 
+```java
+int stories = 9;
+int height = 3;
+int total = stories _____ height;
+System._____.println(_____);
+```
+
 **Answer**
 
 `*`, `out` and `total`
+
+```java
+int stories = 9;
+int height = 3;
+int total = stories * height;
+System.out.println(total);
+```
 
 #### Division
 
@@ -1407,9 +1421,15 @@ int result = x / y;
 System.out.println(result);
 ```
 
+- [ ] `4`
+- [ ] `0`
+- [ ] `3`
+
 **Answer**
 
-`3`
+- [ ] `4`
+- [ ] `0`
+- [x] `3`
 
 #### Division
 
@@ -1433,9 +1453,15 @@ class Demo {
 
 The result of dividing two doubles is:
 
+- [ ] an int
+- [ ] a double
+- [ ] zero
+
 **Answer**
 
-a double
+- [ ] an int
+- [x] a double
+- [ ] zero
 
 #### Modulo
 
@@ -1508,11 +1534,19 @@ class Demo {
 
 **Question**
 
-Which of the following statements concatenates the Strings a and b?
+Which of the following statements concatenates the Strings `a` and `b`?
+
+- [ ] `a%b;`
+- [ ] `a+b;`
+- [ ] `a/b;`
+- [ ] `a-b;`
 
 **Answer**
 
-`a + b;`
+- [ ] `a%b;`
+- [x] `a+b;`
+- [ ] `a/b;`
+- [ ] `a-b;`
 
 #### Lesson Takeaways
 
@@ -1560,9 +1594,23 @@ You are packing eggs in baskets, each holding 8 eggs. All packed baskets need to
 
 Fill in the blanks to create a program that calculates how many of the given eggs will be leftover.
 
+```java
+int eggs = 52;
+int count = 8;
+int result = _____ _____ count;
+System.out.println(_____);
+```
+
 **Answer**
 
 `eggs`, `%` and `result`
+
+```java
+int eggs = 52;
+int count = 8;
+int result = eggs % count;
+System.out.println(result);
+```
 
 ### Lesson 01.07: Java Comments
 
