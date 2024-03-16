@@ -142,8 +142,6 @@ System.out.println(_____);
 
 **Answer**
 
-- `"New message"`
-
 ```java
 System.out.println("New message");
 ```
@@ -174,12 +172,10 @@ Drag and drop to complete a line of code that outputs "Game Over".
 System.out._____("Game Over");
 ```
 
-- [ ] `write`
-- [ ] `println`
+- `write`
+- `println`
 
 **Answer**
-
-- [ ] `println`
 
 ```java
 System.out.println("Game Over");
@@ -191,9 +187,18 @@ System.out.println("Game Over");
 
 The `println` instruction needs to be followed by parentheses. Drag and drop to create a line of code that runs without errors.
 
+```java
+System.out.println_____"You win!"_____;
+```
+
+- `)`
+- `(`
+
 **Answer**
 
-`(` and `)`
+```java
+System.out.println("You win!");
+```
 
 #### Quiz 01.01.06
 
