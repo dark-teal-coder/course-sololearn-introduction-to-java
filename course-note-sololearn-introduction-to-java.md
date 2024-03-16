@@ -27,32 +27,32 @@ This simple, beginner-friendly Java course requires no previous coding knowledge
 ## Table of Contents
 
 - [Module 01: Basic Concepts](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#module-01-basic-concepts)
-  - [Lesson 01.01: Getting Started with Java]
-  - [Lesson 01.02: Multiple Statements]
-  - [Lesson 01.03: Program Structure]
-  - [Lesson 01.04: Variables]
-  - [Lesson 01.05: Variable Types]
-  - [Lesson 01.06: Doing Math]
-  - [Lesson 01.07: Java Comments]
-  - [Quiz 01: Module 1 Quiz]
+  - [Lesson 01.01: Getting Started with Java](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#lesson-0101-getting-started-with-java)
+  - [Lesson 01.02: Multiple Statements](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#lesson-0102-multiple-statements)
+  - [Lesson 01.03: Program Structure](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#lesson-0103-program-structure)
+  - [Lesson 01.04: Variables](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#lesson-0104-variables)
+  - [Lesson 01.05: Variable Types](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#lesson-0105-variable-types)
+  - [Lesson 01.06: Doing Math](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#lesson-0106-doing-math)
+  - [Lesson 01.07: Java Comments](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#lesson-0107-java-comments)
+  - [Quiz 01: Module 1 Quiz](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#quiz-01-module-1-quiz)
 - [Module 02: Control Flow](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#module-02-control-flow)
-  - [Lesson 02.01: Taking User Input]
-  - [Lesson 02.02: Conditionals]
-  - [Lesson 02.03: The Switch Statement]
-  - [Lesson 02.04: Multiple Conditions]
-  - [Lesson 02.05: While Loops]
-  - [Lesson 02.06: For Loops]
-  - [Quiz 02: Module 2 Quiz]
+  - [Lesson 02.01: Taking User Input](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#lesson-0201-taking-user-input)
+  - [Lesson 02.02: Conditionals](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#lesson-0202-conditionals)
+  - [Lesson 02.03: The Switch Statement](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#lesson-0203-the-switch-statement)
+  - [Lesson 02.04: Multiple Conditions](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#lesson-0204-multiple-conditions)
+  - [Lesson 02.05: While Loops](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#lesson-0205-while-loops)
+  - [Lesson 02.06: For Loops](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#lesson-0206-for-loops)
+  - [Quiz 02: Module 2 Quiz](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#quiz-02-module-2-quiz)
 - [Module 03: Arrays](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#module-03-arrays)
-  - [Lesson 03.01: Arrays]
-  - [Lesson 03.02: Looping Over Arrays]
-  - [Lesson 03.03: Multidimensional Arrays]
-  - [Quiz 03: Module 3 Quiz]
+  - [Lesson 03.01: Arrays](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#lesson-0301-arrays)
+  - [Lesson 03.02: Looping Over Arrays](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#lesson-0302-looping-over-arrays)
+  - [Lesson 03.03: Multidimensional Arrays](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#lesson-0303-multidimensional-arrays)
+  - [Quiz 03: Module 3 Quiz](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#quiz-03-module-3-quiz)
 - [Module 04: Methods](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#module-04-methods)
-  - [Lesson 04.01: Methods]
-  - [Lesson 04.02: Method Parameters]
-  - [Lesson 04.03: Returning from Methods]
-  - [Quiz 04: Module 4 Quiz]
+  - [Lesson 04.01: Methods](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#lesson-0401-methods)
+  - [Lesson 04.02: Method Parameters](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#lesson-0402-method-parameters)
+  - [Lesson 04.03: Returning from Methods](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#lesson-0403-returning-from-methods)
+  - [Quiz 04: Module 4 Quiz](https://github.com/dark-teal-coder/course-sololearn-introduction-to-java/blob/main/course-note-sololearn-introduction-to-java.md#quiz-04-module-4-quiz)
 
 &nbsp;
 
