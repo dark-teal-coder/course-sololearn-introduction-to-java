@@ -1,4 +1,4 @@
-### Quiz: Module 2 Quiz
+### Quiz 02: Module 2 Quiz
 
 **Question M02.01**
 
