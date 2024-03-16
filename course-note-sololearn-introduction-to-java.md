@@ -1645,9 +1645,17 @@ class Demo {
 
 Fill in the required symbols to make a comment.
 
+```java
+_____ my awesome program
+```
+
 **Answer**
 
 `//`
+
+```java
+// my awesome program
+```
 
 #### Comments
 
@@ -1679,9 +1687,17 @@ x = 3;
 System.out.println(x+1);
 ```
 
+- [ ] `9`
+- [ ] `4`
+- [ ] `3`
+- [ ] `2`
+
 **Answer**
 
-`4`
+- [ ] `9`
+- [x] `4`
+- [ ] `3`
+- [ ] `2`
 
 #### Multi-Line Comments
 
@@ -1710,9 +1726,21 @@ Anything between the `/*` and `*/` symbols becomes a comment.
 
 Make this text a multi-line comment.
 
+```java
+_____ some
+	comment text
+_____
+```
+
 **Answer**
 
 `/*` and `*/`
+
+```java
+/* some
+	comment text
+*/
+```
 
 #### Lesson Takeaways
 
