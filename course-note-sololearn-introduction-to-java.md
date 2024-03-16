@@ -371,9 +371,21 @@ System.out.println(42);
 
 Drag and drop to write code that runs without errors
 
+```java
+System.out._____("Account Balance:")_____
+System._____.println(5000);
+```
+
+- `out`
+- `;`
+- `println`
+
 **Answer**
 
-`println`, `;` and `out`
+```java
+System.out.println("Account Balance:");
+System.out.println(5000);
+```
 
 #### Quiz 01.02.06
 
