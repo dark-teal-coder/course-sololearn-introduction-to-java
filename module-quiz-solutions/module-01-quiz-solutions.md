@@ -1,4 +1,4 @@
-### Quiz: Module 1 Quiz
+### Quiz 01: Module 1 Quiz
 
 **Question M01.01**
 
