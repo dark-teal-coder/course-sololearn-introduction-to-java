@@ -313,13 +313,21 @@ When you give the computer many statements, the instructions will be executed li
 
 Drag and drop to reorder the statements and output the following lines in the correct order:
 
-*Head east*
-*Turn left*
-*Cross the road*
+```
+Head east
+Turn left
+Cross the road
+```
+
+- `System.out.println("Turn left");` 
+- `System.out.println("Cross the road");` 
+- `System.out.println("Head east");`
 
 **Answer**
 
-`System.out.println("Head east");`, `System.out.println("Turn left");` and `System.out.println("Cross the road");` 
+1. `System.out.println("Head east");`
+2. `System.out.println("Turn left");` 
+3. `System.out.println("Cross the road");` 
 
 #### Text vs Numbers
 
