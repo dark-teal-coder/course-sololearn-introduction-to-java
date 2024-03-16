@@ -206,9 +206,18 @@ System.out.println("You win!");
 
 Drag and drop to create a line of code that runs without errors.
 
+```java
+System._____._____("Great progress!");
+```
+
+- `println`
+- `out`
+
 **Answer**
 
-`out` and `println`
+```java
+System.out.println("Great progress!");
+```
 
 #### Lesson Takeaways
 
