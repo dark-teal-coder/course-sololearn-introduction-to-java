@@ -289,9 +289,21 @@ public class Program {
 
 Drag and drop to complete code that runs without errors
 
+```java
+System.out.println_____"Address:")
+System.out.println("Phone number:"_____;
+```
+
+- `(`
+- `;`
+- `)`
+
 **Answer**
 
-`(`, `;` and `)`
+```java
+System.out.println("Address:");
+System.out.println("Phone number:");
+```
 
 #### Quiz 01.02.03
 
