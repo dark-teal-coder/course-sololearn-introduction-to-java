@@ -166,9 +166,20 @@ You'll see other lines of code when you open the Code Playground. They are neede
 
 Drag and drop to complete a line of code that outputs "Game Over".
 
+```java
+System.out._____("Game Over");
+```
+
+- [ ] `write`
+- [ ] `println`
+
 **Answer**
 
-`println`
+- [ ] `println`
+
+```java
+System.out.println("Game Over");
+```
 
 #### Quiz 01.01.05
 
