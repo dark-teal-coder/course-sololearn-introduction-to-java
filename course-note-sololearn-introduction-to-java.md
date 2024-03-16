@@ -724,9 +724,17 @@ Text in quotes is called a String.
 
 Which of the following is a String?
 
+- [ ] `hello`
+- [ ] `1`
+- [ ] `"welcome"`
+- [ ] `42`
+
 **Answer**
 
-`welcome`
+- [ ] `hello`
+- [ ] `1`
+- [x] `"welcome"`
+- [ ] `42`
 
 #### Variables
 
@@ -748,9 +756,25 @@ Now, our variable name can hold String values.
 
 Drag & drop to declare a String variable called "message".
 
+```java
+_____ _____;
+```
+
+- `message`
+- `declare`
+- `var`
+- `variable`
+- `name`
+- `String`
+
 **Answer**
 
-`String` and `message`
+1. `String`
+2. `message`
+
+```java
+String message;
+```
 
 #### Variables
 
@@ -771,9 +795,19 @@ Now, name holds the value "James".
 
 Fill in the blanks to declare a variable called 'city' and assign the value "New York" to it.
 
+```java
+String _____;
+city _____ "New York"_____
+```
+
 **Answer**
 
 `city`, `=` and `;`
+
+```java
+String city;
+city = "New York";
+```
 
 #### Variables
 
@@ -797,9 +831,15 @@ class Demo {
 
 Rearrange the code to create a program that declares a variable called "country", assign the value "UK" to it and output it to the screen.
 
+- `country = "UK";`
+- `String country;`
+- `System.out.println(country);`
+
 **Answer**
 
-`String country;`, `country = "UK";` and `System.out.println(country);`
+1. `String country;`
+2. `country = "UK";`
+3. `System.out.println(country);`
 
 #### Variables
 
@@ -822,9 +862,27 @@ This is handy when we already know the value for our variable and makes the code
 
 Drag & drop to declare the variable and assign it to the given value.
 
+```java
+_____ city _____ "London";
+```
+
+- `-->`
+- `name`
+- `variable`
+- `String`
+- `=`
+- `{`
+- `string`
+- `value`
+
 **Answer**
 
-`String` and `=`
+1. `String`
+2. `=`
+
+```java
+String city = "London";
+```
 
 #### Variables
 
@@ -855,9 +913,17 @@ x = "hoy";
 System.out.println(x);
 ```
 
+- [ ] `hey`
+- [ ] `heyhoy`
+- [ ] `x`
+- [ ] `hoy`
+
 **Answer**
 
-`hoy`
+- [ ] `hey`
+- [ ] `heyhoy`
+- [ ] `x`
+- [x] `hoy`
 
 #### Lesson Takeaways 
 
@@ -897,9 +963,37 @@ public class Program {
 
 Drag & drop to create a valid Java program that declares a variable, assigns it to a value and outputs it.
 
+```java
+_____ Demo {
+	public static void _____(String[] args) {
+		_____ color = "green";
+		System.out._____(_____);
+	}
+}
+```
+
+- `println`
+- `color`
+- `class`
+- `main`
+- `String`
+
 **Answer**
 
-`class`, `main`, `String`, `println` and `color`
+1. `class`
+2. `main`
+3. `String`
+4. `println`
+5. `color`
+
+```java
+class Demo {
+	public static void main(String[] args) {
+		String color = "green";
+		System.out.println(color);
+	}
+}
+```
 
 &nbsp;
 
