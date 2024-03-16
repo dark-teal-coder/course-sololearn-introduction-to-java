@@ -467,15 +467,13 @@ Put your knowledge into practice and write real code to solve the exercise below
 
 Let's code for real!
 
-The given program should output the text: "My first Java Code Coach!".
-
-But something is wrong.
+The given program should output the text: "My first Java Code Coach!". But something is wrong.
 
 **Task**
 
 Complete the code to generate the required output.
 
-###### Answer
+###### Solution
 
 ```java
 public class Program {
@@ -646,7 +644,7 @@ Modify the code to output "Coding is fun" to the screen.
 
 > :warning: After fixing the code, tap the RUN button to see the result.
 
-###### Answer
+###### Solution
 
 ```java
 class Demo {
@@ -842,7 +840,7 @@ The given program declares a variable that holds all the letters of the English 
 
 Complete the program to output the value of the variable.
 
-###### Answer 
+###### Solution 
 
 ```java
 public class Program {
@@ -1040,7 +1038,7 @@ However, the code is missing the required types of the variables
 
 Add the required types to make the program work as expected.
 
-###### Answer 
+###### Solution 
 
 ```java
 public class Program {
@@ -1328,7 +1326,7 @@ Create a program to calculate and output the points earned by the player.
 
 > :warning: Multiply the `ties` value by 0.5, to get the points earned for ties.
 
-###### Answer
+###### Solution
 
 ```java
 public class Program {
@@ -1476,7 +1474,7 @@ You are given a code for a contact management system. It should declare name and
 
 Fix the code to make the program run correctly.
 
-###### Answer
+###### Solution
 
 ```java
 public class Program {
@@ -1724,7 +1722,7 @@ To calculate 15% of a number, multiply it by 15, then divide by 100.
 
 > :warning: The input amount can be a decimal, so take a double from the input.
 
-###### Answer
+###### Solution
 
 ```java
 import  java.util.Scanner;
@@ -2034,7 +2032,7 @@ Boiling
 
 > :warning: Make sure to output the text exactly as defined in the text.
 
-###### Answer
+###### Solution
 
 ```java
 import java.util.Scanner;
@@ -2307,7 +2305,7 @@ Sample Output
 
 > :warning: Remember, you can use the switch statement to check for different conditions.
 
-###### Answer
+###### Solution
 
 ```java
 import java.util.Scanner;
