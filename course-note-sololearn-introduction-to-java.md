@@ -1340,7 +1340,7 @@ public class Program {
 }
 ```
 
-### Quiz: Module 1 Quiz
+### Quiz 01: Module 1 Quiz
 
 **Question M01.01**
 
@@ -3033,7 +3033,7 @@ _____.out.println(_____);
 
 `for`, `x++`, `x`, `System` and `sum`
 
-### Quiz: Module 2 Quiz
+### Quiz 02: Module 2 Quiz
 
 **Question M02.01**
 
@@ -3845,7 +3845,7 @@ public class Program {
 }
 ```
 
-### Quiz: Module 3 Quiz
+### Quiz 03: Module 3 Quiz
 
 **Question M03.01**
 
@@ -4612,7 +4612,7 @@ static boolean checkAge(int age) {
 }
 ```
 
-### Quiz: Module 4 Quiz
+### Quiz 04: Module 4 Quiz
 
 **Question M04.01**
 
