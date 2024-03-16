@@ -310,6 +310,10 @@ System.out.println("Phone number:"_____;
 
 **Answer**
 
+1. `(`
+2. `;`
+3. `)`
+
 ```java
 System.out.println("Address:");
 System.out.println("Phone number:");
