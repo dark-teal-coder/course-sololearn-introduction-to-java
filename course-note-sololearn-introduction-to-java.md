@@ -535,9 +535,19 @@ Any code that we want to include in the class needs to go inside the brackets.
 
 Fill in the blanks to create an empty class called Bot.
 
+```java
+_____ _____{
+}
+```
+
 **Answer**
 
 `class` and `Bot`
+
+```java
+class Bot{
+}
+```
 
 #### Java Program
 
@@ -567,9 +577,13 @@ In Java, each application has an entry point, or a starting point, which is a me
 
 The starting point of every Java program is:
 
+- [ ] the main method
+- [ ] the first line of the code
+
 **Answer**
 
-the main method
+- [x] the main method
+- [ ] the first line of the code
 
 #### Java Program
 
@@ -589,9 +603,21 @@ The main method contains the code that executes when we run our program. In this
 
 Fill in the blanks to create a valid main method that outputs a text.
 
+```java
+public static void _____(String[] args) {
+	System.out.println("Welcome");
+}
+```
+
 **Answer**
 
 `main`
+
+```java
+public static void main(String[] args) {
+	System.out.println("Welcome");
+}
+```
 
 #### Java Program
 
@@ -615,9 +641,25 @@ class Demo {
 
 Fill in the blanks to create a valid Java program.
 
+```java
+_____ Bot {
+	public static void _____(String[ ]args) {
+		System._____.println("Hello, World!");
+	}
+}
+```
+
 **Answer**
 
 `class`, `main` and `out`
+
+```java
+class Bot {
+	public static void main(String[ ]args) {
+		System.out.println("Hello, World!");
+	}
+}
+```
 
 #### Lesson Takeaways
 
@@ -634,9 +676,7 @@ Remember the following important points:
 
 ###### Your First Code Coach 
 
-Let's code for real!
-
-The given program outputs “Coding is boring”. But that's not true, is it? Let’s change the message.
+Let's code for real! The given program outputs “Coding is boring”. But that's not true, is it? Let’s change the message.
 
 **Task**
 
