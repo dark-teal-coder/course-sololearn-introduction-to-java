@@ -1022,9 +1022,17 @@ class Demo {
 
 Fill in the blanks to declare a variable that holds the value 14.
 
+```java
+_____ price _____ 14;
+```
+
 **Answer**
 
 `int` and `=`
+
+```java
+int price = 14;
+```
 
 #### Decimals
 
@@ -1045,9 +1053,39 @@ class Demo {
 
 Drag and drop from the options below to have a valid Java program.
 
+```java
+class Demo {
+	public static void main(String[ ]args) {
+		_____ name = "John";
+		_____ age = 24;
+		_____ height = 189.87;
+	}
+}
+```
+
+- `double`
+- `false`
+- `int`
+- `class`
+- `true`
+- `String`
+- `void`
+
 **Answer**
 
-`String`, `int` and `double`
+1. `String`
+2. `int`
+3. `double`
+
+```java
+class Demo {
+	public static void main(String[ ]args) {
+		String name = "John";
+		int age = 24;
+		double height = 189.87;
+	}
+}
+```
 
 #### Decimals
 
@@ -1074,15 +1112,21 @@ This tells Java to use the value as a float, instead of double.
 
 Fill in the missing symbol to correctly declare a float.
 
+```java
+float length = 4.8_____;
+```
+
 **Answer**
 
 `f`
 
+```java
+float length = 4.8f;
+```
+
 #### float vs dobule
 
-By default, decimal values are of type double.
-
-float is using less storage in the memory, but is not as precise as the double type.
+By default, decimal values are of type `double`. `float` is using less storage in the memory, but is not as precise as the `double` type.
 
 This means that the calculations that use floats are faster than the ones that use double, however, the result is less accurate in terms of the decimal digits.
 
@@ -1109,9 +1153,17 @@ class Demo {
 
 A char value must be enclosed in:
 
+- [ ] commas
+- [ ] parentheses
+- [ ] double quotes
+- [ ] single quotes 
+
 **Answer**
 
-single quotes 
+- [ ] commas
+- [ ] parentheses
+- [ ] double quotes
+- [x] single quotes 
 
 #### Boolean
 
@@ -1136,14 +1188,21 @@ For example, the boolean above can show whether a shop is open or closed.
 
 **Question**
 
-Select the two values that a boolean can hold.
+Select the two values that a boolean can hold. Select all correct answers.
 
-Select all correct answers.
+- [ ] `String`
+- [ ] `bool`
+- [ ] `false`
+- [ ] `0`
+- [ ] `true`
 
 **Answer**
 
-- [x] `true`
+- [ ] `String`
+- [ ] `bool`
 - [x] `false`
+- [ ] `0`
+- [x] `true`
 
 #### Lesson Takeaways  
 
@@ -1162,9 +1221,7 @@ We will learn how to make calculations in the next lesson.
 
 ###### Displaying Account Balance
 
-The given program declares a label and a balance variable, and assigns it to their values.
-
-Then, it outputs the label and the balance values.
+The given program declares a label and a balance variable, and assigns it to their values. Then, it outputs the label and the balance values.
 
 However, the code is missing the required types of the variables
 
@@ -1192,9 +1249,31 @@ public class Program {
 
 Drag & drop to fill in the correct data types for the given variables.
 
+```java
+_____ num = 8;
+_____ online = true;
+_____ price = 45.99;
+_____ product = "Apple";
+```
+
+- `boolean`
+- `int`
+- `String`
+- `double`
+
 **Answer**
 
-`int`, `boolean`, `double` and `String`
+1. `int`
+2. `boolean`
+3. `double`
+4. `String`
+
+```java
+int num = 8;
+boolean online = true;
+double price = 45.99;
+String product = "Apple";
+```
 
 &nbsp; 
 
