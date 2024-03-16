@@ -86,9 +86,13 @@ Learning some coding can help you innovate and create different solutions to pro
 
 What's a programming language?
 
+- [ ] A language used by machines to communicate with aliens
+- [ ] A language used by humans to communicate with machines
+
 **Answer**
 
-A language used by humans to communicate with machines
+- [ ] A language used by machines to communicate with aliens
+- [x] A language used by humans to communicate with machines
 
 #### Output
 
