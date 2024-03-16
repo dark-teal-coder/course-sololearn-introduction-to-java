@@ -1,4 +1,4 @@
-### Quiz: Module 3 Quiz
+### Quiz 03: Module 3 Quiz
 
 **Question M03.01**
 
