@@ -134,9 +134,15 @@ System.out.println("Write once, run anywhere!");
 
 Drag and drop to write a line of code that outputs "New message".
 
+```java
+System.out.println(_____);
+```
+
+- `"New message"`
+
 **Answer**
 
-"New message"
+- `"New message"`
 
 #### The Code Playground
 
