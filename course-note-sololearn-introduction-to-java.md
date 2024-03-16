@@ -110,9 +110,13 @@ The simplest output consists of displaying a message on the screen.
 
 Notifications and text displayed on a screen are examples of outputs from computer programs
 
+- [ ] False
+- [ ] True
+
 **Answer**
 
-True
+- [ ] False
+- [x] True
 
 #### Output
 
