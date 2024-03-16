@@ -350,9 +350,20 @@ public class Program {
 
 Drag and drop to write code that runs without errors
 
+```java
+System.out.println(_____Age:");
+System.out.println_____42);
+```
+
+- `(`
+- `"`
+
 **Answer**
 
-`"` and `(`
+```java
+System.out.println("Age:");
+System.out.println(42);
+```
 
 #### Quiz 01.02.05
 
