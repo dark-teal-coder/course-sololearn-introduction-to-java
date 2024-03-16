@@ -142,6 +142,8 @@ System.out.println(_____);
 
 **Answer**
 
+1. `"New message"`
+
 ```java
 System.out.println("New message");
 ```
@@ -177,6 +179,8 @@ System.out._____("Game Over");
 
 **Answer**
 
+1. `println`
+
 ```java
 System.out.println("Game Over");
 ```
@@ -196,6 +200,9 @@ System.out.println_____"You win!"_____;
 
 **Answer**
 
+1. `(`
+2. `)`
+
 ```java
 System.out.println("You win!");
 ```
@@ -214,6 +221,9 @@ System._____._____("Great progress!");
 - `out`
 
 **Answer**
+
+1. `out`
+2. `println`
 
 ```java
 System.out.println("Great progress!");
