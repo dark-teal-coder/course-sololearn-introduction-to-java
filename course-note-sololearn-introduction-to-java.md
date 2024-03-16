@@ -258,9 +258,13 @@ System.out.println("Write once, run anywhere!");
 
 Each statement needs to end with a
 
+- [ ] Angle bracket `>`
+- [ ] Semicolon `;`
+
 **Answer**
 
-Semicolon `;`
+- [ ] Angle bracket `>`
+- [x] Semicolon `;`
 
 #### Multiple Statements
 
