@@ -3100,6 +3100,13 @@ _____
 
 `(`, `{` and `}`
 
+```java
+while (x > 0) {
+	System.out.println(x);
+	x = x-2;
+}
+```
+
 #### while Loops
 
 Let's look at the code again:
@@ -3127,9 +3134,19 @@ Each time the loop runs, 1 is subtracted from x.
 
 Rearrange the code to output the numbers 1 to 5 using a while loop.
 
+- `num = num + 1;`
+- `System.out.println(num);`
+- `}`
+- `while (num<=5) {`
+- `int num = 1;`
+
 **Answer**
 
-`int num = 1;`, `while (num <= 5) {`, `System.out.println(num);`, `num = num + 1;` and `}` 
+1. `int num = 1;`
+2. `while (num <= 5) {`
+3. `System.out.println(num);`
+4. `num = num + 1;`
+5. `}` 
 
 #### while Loops
 
@@ -3194,9 +3211,17 @@ class Demo {
 
 x++ is equivalent to:
 
+- [ ] `x=x+2;`
+- [ ] `x=x+1;`
+- [ ] `x=x-1;`
+- [ ] `x*2;`
+
 **Answer**
 
-`x = x + 1;`
+- [ ] `x=x+2;`
+- [x] `x=x+1;`
+- [ ] `x=x-1;`
+- [ ] `x*2;`
 
 #### while Loops
 
@@ -3280,9 +3305,17 @@ while (x < y) {
 }
 ```
 
+- [ ] `0`
+- [ ] `6`
+- [ ] `4`
+- [ ] `5`
+
 **Answer**
 
-`5`
+- [ ] `0`
+- [ ] `6`
+- [ ] `4`
+- [x] `5`
 
 #### do-while Loops
 
@@ -3302,11 +3335,7 @@ class Demo {
 }
 ```
 
-Notice that the condition appears at the end of the loop, so the statements in the loop execute once before it is tested.
-
-Even with a false condition, the code will run once.
-
-Also, note the semicolon after the while condition.
+Notice that the condition appears at the end of the loop, so the statements in the loop execute once before it is tested. Even with a false condition, the code will run once. Also, note the semicolon after the while condition.
 
 > :warning: The difference between while and do-while is that do-while is guaranteed to run at least once, even with a false condition. Try changing the condition in the code above and see the result.
 
@@ -3324,9 +3353,17 @@ do {
 System.out.println(x);
 ```
 
+- [ ] `3`
+- [ ] `9`
+- [ ] `5`
+- [ ] `6`
+
 **Answer**
 
-`9`
+- [ ] `3`
+- [x] `9`
+- [ ] `5`
+- [ ] `6`
 
 #### Lesson Takeaways
 
@@ -3392,6 +3429,14 @@ _____ (x >= 0) {
 **Answer**
 
 `while`, `out` and `x`
+
+```java
+int x = 10;
+while (x >= 0) {
+	System.out.println(x);
+	x--;
+}
+```
 
 ### Lesson 02.06: For Loops
 
