@@ -5022,9 +5022,17 @@ static void demo(int x, int y) {
 }
 ```
 
+- [ ] `11`
+- [ ] `5`
+- [ ] `0`
+- [ ] `2`
+
 **Answer**
 
-`2`
+- [ ] `11`
+- [ ] `5`
+- [ ] `0`
+- [x] `2`
 
 #### Lesson Takeaways
 
