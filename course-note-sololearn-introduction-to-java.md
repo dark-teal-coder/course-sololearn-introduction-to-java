@@ -1884,9 +1884,17 @@ Confused about the new terminology? Classes, objects, import... Don't worry, you
 
 Fill in the blanks to create a valid Scanner object.
 
+```java
+_____ sc = _____ Scanner(_____.in);
+```
+
 **Answer**
 
 `Scanner`, `new` and `System`
+
+```java
+Scanner sc = new Scanner(System.in);
+```
 
 #### Input
 
@@ -1914,9 +1922,29 @@ class Demo {
 
 Fill in the blanks to create a valid program that takes a String input.
 
+```java
+_____ java.util.Scanner;
+class Demo {
+	public static void main(String[ ] args) {
+		Scanner sc = new _____ (System.in);
+		_____ nick = sc._____();        
+	}
+}
+```
+
 **Answer**
 
 `import`, `Scanner`, `String` and `nextLine`
+
+```java
+import java.util.Scanner;
+class Demo {
+	public static void main(String[ ] args) {
+		Scanner sc = new Scanner (System.in);
+		String nick = sc.nextLine();        
+	}
+}
+```
 
 #### Input
 
@@ -1944,9 +1972,15 @@ This will accept an integer input from the user and assign it to the age variabl
 
 Rearrange to create a valid program that takes an integer input and outputs its double.
 
+- `int x = sc.nextInt();`
+- `System.out.println(x*2);`
+- `Scanner sc = new Scanner(System.in);`
+
 **Answer**
 
-`Scanner sc = new Scanner(System.in);`, `int x = sc.nextInt();` and `System.out.println(x*2);`
+1. `Scanner sc = new Scanner(System.in);`
+2. `int x = sc.nextInt();`
+3. `System.out.println(x*2);`
 
 #### Multiple Inputs
 
@@ -1975,26 +2009,14 @@ That's how you take input from the user in Java!
 
 Here are the steps:
 
-1. import the java.util.Scanner class.
-
+1. import the `java.util.Scanner` class.
 2. create a `Scanner` object:
-
 ```java
 Scanner sc = new Scanner(System.in);
 ```
-
 3. Use the corresponding method of the Scanner to take input, for example:
-
 ```java
-import java.util.Scanner;
-
-class Demo {
-	public static void main(String[ ] args) {
-		Scanner sc = new Scanner(System.in);
-		int num = sc.nextInt();
-		System.out.println(num);        
-	}
-}
+int num = sc.nextInt();
 ```
 
 ##### Tip Calculator 
@@ -2031,9 +2053,35 @@ public class Program {
 
 Fill in the blanks to create a valid program that takes a String and an integer as input, then outputs a welcome message.
 
+```java
+_____ java.util.Scanner;
+class Demo {
+	public static void _____ (String[ ] args) {
+		Scanner sc = _____ Scanner(System.in);
+		String name = _____.nextLine();
+		int age = sc_____nextInt();
+		System.out.println("Welcome: "+name);
+		System._____.println("Age: "+age);        
+	}
+}
+```
+
 **Answer**
 
 `import`, `main`, `new`, `sc`, `.` and `out`
+
+```java
+import java.util.Scanner;
+class Demo {
+	public static void main (String[ ] args) {
+		Scanner sc = new Scanner(System.in);
+		String name = sc.nextLine();
+		int age = sc.nextInt();
+		System.out.println("Welcome: "+name);
+		System.out.println("Age: "+age);        
+	}
+}
+```
 
 ### Lesson 02.02: Conditionals
 
