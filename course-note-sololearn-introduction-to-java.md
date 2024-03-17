@@ -2835,6 +2835,14 @@ if (age > 21 _____ money > 500) {
 
 `&&`
 
+```java
+int age = 23;
+int money = 4000;
+if (age > 21 && money > 500) {
+	System.out.println("Welcome");
+}
+```
+
 #### The OR Operator
 
 The OR operator (||) checks if any one of the conditions is true.
@@ -2873,9 +2881,17 @@ else {
 }
 ```
 
+- [ ] `100`
+- [ ] `11`
+- [ ] `12`
+- [ ] `40`
+
 **Answer**
 
-`11`
+- [ ] `100`
+- [x] `11`
+- [ ] `12`
+- [ ] `40`
 
 #### NOT
 
@@ -2911,9 +2927,13 @@ If x = 3, what is the result of the following:
 !(x < 3)
 ```
 
+- [ ] `false`
+- [ ] `true`
+
 **Answer**
 
-`true`
+- [ ] `false`
+- [x] `true`
 
 #### Multiple Conditions
 
@@ -2953,13 +2973,22 @@ System.out.println("_____");
 
 `&&`, `OK`, `else` and `Alert`
 
+```java
+if(temp>=36 && temp <=38) {
+	System.out.println("OK");
+}
+else {
+System.out.println("Alert");
+}
+```
+
 #### Lesson Takeaways  
 
 Logical operators allow to combine multiple conditions.
 
-- [ ] The AND operator && combines two conditions and checks if both of them are true.
-- [ ] The OR operator || check if any of the conditions if true.
-- [ ] The NOT operator ! reverses the condition.
+- The AND operator && combines two conditions and checks if both of them are true.
+- The OR operator || check if any of the conditions if true.
+- The NOT operator ! reverses the condition.
 
 Next lesson will be fun! We will cover loops, which allow to repeat a block of code multiple times. 
 
@@ -2970,10 +2999,9 @@ Next lesson will be fun! We will cover loops, which allow to repeat a block of c
 Given the age of a person as an input, output their age group.
 
 Here are the age groups you need to handle:
-
-Child: 0 to 11
-Teen: 12 to 17
-Adult: 18 to 64
+- Child: 0 to 11
+- Teen: 12 to 17
+- Adult: 18 to 64
 
 Sample Input
 42
@@ -3016,9 +3044,13 @@ What is the result of this condition, when hour = 9, day = 23?
 (hour > 12 && day <= 15) || (hour < 8)﻿
 ```
 
+- [ ] `true`
+- [ ] `false`
+
 **Answer**
 
-`false`
+- [ ] `true`
+- [x] `false`
 
 ### Lesson 02.05: While Loops
 
