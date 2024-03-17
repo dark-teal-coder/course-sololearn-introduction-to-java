@@ -4674,7 +4674,7 @@ static void welcome() {
 
 **Questions**
 
-Drag & drop to declare a valid method called login.
+Drag & drop to declare a valid method called login().
 
 ```java
 _____ _____ _____() {
@@ -4682,9 +4682,18 @@ _____ _____ _____() {
 }
 ```
 
+- `class`
+- `login`
+- `value`
+- `void`
+- `()`
+- `static`
+
 **Answer**
 
-`static`, `void` and `login`
+1. `static`
+2. `void` 
+3. `login`
 
 ```java
 static void login() {
@@ -4694,9 +4703,7 @@ static void login() {
 
 #### Calling a Method
 
-After defining the method, we can use it in our program by "calling" it.
-
-To call a method, type its name followed by a set of parentheses.
+After defining the method, we can use it in our program by "calling" it. To call a method, type its name followed by a set of parentheses.
 
 For example:
 
@@ -4773,10 +4780,9 @@ We will learn about return values in the next lessons, so stay tuned!
 
 ###### Bot
 
-You are making an automated response program for a store.
+You are making an automated response program for a store. The bot should take a number from the user as input and reply with an automated message. 
 
-The bot should take a number from the user as input and reply with an automated message. There are currently 3 responses, that you need to a handle:
-
+There are currently 3 responses, that you need to a handle:
 - User message: "1", Reply: "Order confirmed"
 - User message: "2", Reply: "info@sololearn.com"
 - For any other number, the reply should be: "Try again".
