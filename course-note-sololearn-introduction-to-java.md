@@ -2475,7 +2475,7 @@ System.out.println("OK").
 }
 ```
 
-### Lesson 02.03: The switch Statement
+### Lesson 02.03: The Switch Statement
 
 #### Conditionals
 
