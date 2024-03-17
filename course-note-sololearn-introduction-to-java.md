@@ -4122,9 +4122,15 @@ int[] x = {3, 2, 1};
 System.out.println(x.length);
 ```
 
+- [ ] `2`
+- [ ] `4`
+- [ ] `3`
+
 **Answer**
 
-`3`
+- [ ] `2`
+- [ ] `4`
+- [x] `3`
 
 #### Arrays and Loops
 
@@ -4305,9 +4311,7 @@ We will learn about multidimensional arrays in the next lesson!
 
 ###### Annual Revenue
 
-The given code declares an array that holds the monthly revenues for a company for a year.
-
-You need to calculate the average monthly revenue for the year.
+The given code declares an array that holds the monthly revenues for a company for a year. You need to calculate the average monthly revenue for the year.
 
 For that, calculate the sum of the revenue for all the months and divide it by the number of items in the array.
 
@@ -4336,16 +4340,16 @@ public class Program {
 Rearrange to create a valid for-each loop, that creates an array called arr and outputs each item of the array.
 
 - `System.out.println(item);`
-- }
-- int[] arr = {1, 2, 3, 4};
-- for(int item: arr){
+- `}`
+- `int[] arr = {1, 2, 3, 4};`
+- `for(int item: arr){`
 
 **Answer**
 
-1. int[] arr = {1, 2, 3, 4};
-2. for(int item: arr){
+1. `int[] arr = {1, 2, 3, 4};`
+2. `for(int item: arr){`
 3. `System.out.println(item);`
-4. }
+4. `}`
 
 ### Lesson 03.03: Multidimensional Arrays
 
