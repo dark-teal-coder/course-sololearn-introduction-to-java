@@ -2498,9 +2498,7 @@ class Demo {
 }
 ```
 
-For a shorter code in our demo, we have checked only for the first 3 values.
-
-You can continue the code and check for all 7-day numbers.
+For a shorter code in our demo, we have checked only for the first 3 values. You can continue the code and check for all 7-day numbers.
 
 #### switch
 
@@ -2570,7 +2568,7 @@ switch(num) {
 case 1_____
 	System.out.println("One");
 	break;
- _____ 2:
+_____ 2:
 	System.out.println("Two");
 	break;
 case 3:
@@ -2582,6 +2580,21 @@ case 3:
 **Answer**
 
 `:`, `case` and `;`
+
+```java
+int num = 2;
+switch(num) {
+case 1:
+	System.out.println("One");
+	break;
+case 2:
+	System.out.println("Two");
+	break;
+case 3:
+	System.out.println("Three");
+	break;
+}
+```
 
 #### switch
 
@@ -2623,9 +2636,15 @@ switch(x) {
 }
 ```
 
+- [ ] `4`
+- [ ] `2`
+- [ ] `3`
+
 **Answer**
 
-`4`
+- [x] `4`
+- [ ] `2`
+- [ ] `3`
 
 #### The default Case
 
@@ -2673,9 +2692,15 @@ switch (a) {
 }
 ```
 
+- [ ] `11`
+- [ ] `12`
+- [ ] `40`
+
 **Answer**
 
-`40`
+- [ ] `11`
+- [ ] `12`
+- [x] `40`
 
 #### Lesson Takeaways
 
@@ -2694,9 +2719,9 @@ In the next lesson, we will learn how to check for multiple conditions.
 You are making a robot that should categorize items by their color. Each color corresponds to a box with a specific number.
 
 For simplicity, our program will handle 3 colors:
-red goes to box #1
-green goes to box #2
-black goes to box #3
+- red goes to box #1
+- green goes to box #2
+- black goes to box #3
 
 Your program needs to take a color as input and output the corresponding box number.
 
@@ -2757,6 +2782,19 @@ default_____
 **Answer**
 
 `:`, `break`, `case` and `:`
+
+```java
+switch(item) {
+case 1:
+	System.out.println("Coffee");
+	break;
+case 2:
+	System.out.println("Tea");
+	break;
+default:
+	System.out.println("Try again");
+}
+```
 
 ### Lesson 02.04: Multiple Conditions
 
