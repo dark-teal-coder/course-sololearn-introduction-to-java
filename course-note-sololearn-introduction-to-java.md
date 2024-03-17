@@ -3860,6 +3860,10 @@ _____ _____ _____;
 
 `String`, `[]` and `names`
 
+```java
+String [] names;
+```
+
 #### Arrays
 
 Now, to create the array, we need to specify the number of items it will hold using the new keyword:
@@ -3931,7 +3935,9 @@ What is the index of the 2nd element of an array?
 
 **Answer**
 
-`1`
+- [ ] `2`
+- [ ] `3`
+- [x] `1`
 
 #### Arrays
 
@@ -3958,7 +3964,7 @@ Fill in the blanks to declare an array of 5 Strings, set the first item to the v
 
 ```java
 _____ names = _____ String[5];
-names _____ = "James";
+names_____ = "James";
 System.out.println(_____[0]);
 ```
 
@@ -3985,9 +3991,7 @@ public class Demo {
 }
 ```
 
-Place the values in a comma-separated list, enclosed in curly braces.
-
-The code above automatically creates an array containing 4 items, and stores the provided values.
+Place the values in a comma-separated list, enclosed in curly braces. The code above automatically creates an array containing 4 items, and stores the provided values.
 
 > :warning: Sometimes you might see the square brackets placed after the array name, which also works, but the preferred way is to place the brackets after the array's data type.
 
@@ -4040,9 +4044,7 @@ The menu of the drinks is stored in an array called menu:
 String[] menu = {"Tea", "Espresso", "Americano", "Water", "Hot Chocolate"}; 
 ```
 
-Take the choice of the customer as an integer from input and output the corresponding menu item.
-
-Also, check for errors: in case the input is out of the range of the array, output "Invalid".
+Take the choice of the customer as an integer from input and output the corresponding menu item. Also, check for errors: in case the input is out of the range of the array, output "Invalid".
 
 > :warning: The choice defines the index of the array.
 
