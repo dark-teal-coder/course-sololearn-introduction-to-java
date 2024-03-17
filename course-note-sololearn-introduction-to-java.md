@@ -3487,7 +3487,7 @@ The third part runs every time the loop runs.
 Fill in the missing symbols to create a valid for loop.
 
 ```java
-for(int x=10 _____ x>0 _____ x--) 
+for(int x=10 _____ x>0 _____ x--) _____
 	System.out.println(x);
 }
 ```
@@ -3495,6 +3495,12 @@ for(int x=10 _____ x>0 _____ x--)
 **Answer**
 
 `;`, `;` and `{`
+
+```java
+for(int x=10; x>0; x--) _____
+	System.out.println(x);
+}
+```
 
 #### for Loops
 
@@ -3597,6 +3603,14 @@ for(int num=0; num<1000; num++) {
 
 `if` and `break`
 
+```java
+for(int num=0; num<1000; num++) { 
+	if (num == 55) {
+		break;
+	}
+}
+```
+
 #### continue
 
 Another control statement is continue.
@@ -3640,6 +3654,15 @@ for(int x=10; x<=20; x++) _____
 **Answer**
 
 `{`, `==`, `continue` and `x`
+
+```java
+for(int x=10; x<=20; x++) {
+	if(x == 13) {	
+		continue;  
+	}
+	System.out.println(x);
+}
+```
 
 #### Lesson Takeaways
 
@@ -3699,6 +3722,14 @@ _____.out.println(_____);
 **Answer**
 
 `for`, `x++`, `x`, `System` and `sum`
+
+```java
+int sum = 0;
+for (int x=1; x<=1000; x++) {
+	sum+=x;
+}
+System.out.println(sum);
+```
 
 ### Quiz 02: Module 2 Quiz
 
