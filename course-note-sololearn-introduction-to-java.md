@@ -2140,14 +2140,30 @@ class Demo {
 Drag & drop to output "Open" if the time value is less than 20.
 
 ```java
-_____ ( _____ < 20) {
+_____ (_____ < 20) {
 	System.out._____("Open");
 }
 ```
 
+- `when`
+- `println`
+- `20`
+- `out`
+- `var`
+- `if`
+- `time`
+
 **Answer**
 
-`if`, `time` and `println`
+1. `if`
+2. `time`
+3. `println`
+
+```java
+if (time < 20) {
+	System.out.println("Open");
+}
+```
 
 #### if Statement
 
@@ -2172,14 +2188,17 @@ class Demo {
 
 Which of the following operators is used to test for equality?
 
-- [] `=`
-- [] `!`
-- [] `==`
-- [] `--`
+- [ ] `=`
+- [ ] `!`
+- [ ] `==`
+- [ ] `--`
 
 **Answer**
 
-`==`
+- [ ] `=`
+- [ ] `!`
+- [x] `==`
+- [ ] `--`
 
 #### else Statement
 
@@ -2224,6 +2243,17 @@ _____ {
 **Answer**
 
 `if`, `x` and `else`
+
+```java
+int x = 10;  
+int y = 5;
+if (x > y) {
+	System.out.println(x);
+}
+else {
+	System.out.println(y);
+}
+```
 
 #### Nested if Statements
 
@@ -2273,9 +2303,17 @@ else {
 }
 ```
 
+- [ ] `3`
+- [ ] `4`
+- [ ] `6`
+- [ ] `8`
+
 **Answer**
 
-`6`
+- [ ] `3`
+- [ ] `4`
+- [x] `6`
+- [ ] `8`
 
 #### else if Statements
 
@@ -2328,6 +2366,19 @@ else {
 **Answer**
 
 `if`, `else` and `num`
+
+```java
+int num = 2;
+if (num == 1) {
+	System.out.println("A");
+} 
+else if (num == 2) {
+	System.out.println("B");
+}
+else {
+	System.out.println("something else");
+}
+```
 
 #### Lesson Takeaways
 
@@ -2394,18 +2445,33 @@ public class Program {
 
 Fill in the blanks to create a program that checks the `temp` value and outputs "Alert", in case it's over 38. Also, output "Error" in case the value is lower than 34.
 
+```java
+double temp = 36.6;
+_____ (temp > 38) _____ 
+	System.out.println("Alert");
+} 
+_____ (temp < 34) {
+	System.out.println("Error");
+} 
+_____ {
+System.out.println("OK").
+}
+```
+
 **Answer**
+
+`if`, `{`, `else if` and `else`
 
 ```java
 double temp = 36.6;
-_____ (temp > 38) _____
+if (temp > 38) { 
 	System.out.println("Alert");
-}  
-_____ (temp < 34) {
+} 
+else if (temp < 34) {
 	System.out.println("Error");
-}
-_____ {
-	System.out.println("OK").
+} 
+else {
+System.out.println("OK").
 }
 ```
 
