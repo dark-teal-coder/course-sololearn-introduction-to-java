@@ -5127,9 +5127,17 @@ The void keyword in the definition specifies that the method does not return any
 
 Which of the following specifies that a method does not return any value?
 
+- [ ] `static`
+- [ ] `System`
+- [ ] `void`
+- [ ] `int`
+
 **Answer**
 
-`void`
+- [ ] `static`
+- [ ] `System`
+- [x] `void`
+- [ ] `int`
 
 #### The Return Type
 
@@ -5153,9 +5161,17 @@ What is the return type of the following method?
 static String msg(int a, double b)
 ```
 
+- [ ] `double`
+- [ ] `void`
+- [ ] `String`
+- [ ] `int`
+
 **Answer**
 
-`String`
+- [ ] `double`
+- [ ] `void`
+- [x] `String`
+- [ ] `int`
 
 #### Returning a Value
 
@@ -5260,15 +5276,13 @@ Here is a quick recap for returning from methods:
 
 - Use the return statement to return a value from your method.
 - The method needs to have its return type specified before its name.
--  The returned value can be assigned to a variable when calling the method.
+- The returned value can be assigned to a variable when calling the method.
 
 ##### Celsius to Fahrenheit
 
 ###### Celsius to Fahrenheit
 
-You are making a Celsius to Fahrenheit converter. 
-
-Write a method to take the Celsius value as an argument and return the corresponding Fahrenheit value.
+You are making a Celsius to Fahrenheit converter. Write a method to take the Celsius value as an argument and return the corresponding Fahrenheit value.
 
 Sample Input
 36
