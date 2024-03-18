@@ -15,4 +15,4 @@ This repository contains the code for the online course *"Introduction to Java"*
 
 &nbsp;
 
-*1st Completion Date: Mar 12, 2024*&emsp;
+*1st Completion Date: Mar 18, 2024*&emsp;
